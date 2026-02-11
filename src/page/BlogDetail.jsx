@@ -13,22 +13,22 @@ export default function BlogDetail() {
         window.scrollTo(0, 0);
     }, []);
 
-    useEffect(() => {
-        if (blog) {
-            document.title = blog.metaTitle;
-            document
-                .querySelector("meta[name='keywords']")
-                ?.setAttribute("content", blog.metaKeywords);
+    // useEffect(() => {
+    //     if (blog) {
+    //         document.title = blog.metaTitle;
+    //         document
+    //             .querySelector("meta[name='keywords']")
+    //             ?.setAttribute("content", blog.metaKeywords);
 
-            let canonical = document.querySelector("link[rel='canonical']");
-            if (!canonical) {
-                canonical = document.createElement("link");
-                canonical.setAttribute("rel", "canonical");
-                document.head.appendChild(canonical);
-            }
-            canonical.setAttribute("href", blog.canonical);
-        }
-    }, [blog]);
+    //         let canonical = document.querySelector("link[rel='canonical']");
+    //         if (!canonical) {
+    //             canonical = document.createElement("link");
+    //             canonical.setAttribute("rel", "canonical");
+    //             document.head.appendChild(canonical);
+    //         }
+    //         canonical.setAttribute("href", blog.canonical);
+    //     }
+    // }, [blog]);
 
     if (!blog)
         return (
@@ -45,6 +45,8 @@ export default function BlogDetail() {
             <Helmet>
                 <title>{blog.metaTitle}</title>
                 <meta name="description" content={blog.metaDescription} />
+                <meta name="keywords" content={blog.metaKeywords} />
+                <link rel="canonical" href={blog.canonical} />
             </Helmet>
             <div className="relative">
                 <div className="absolute inset-0 bg-black opacity-20 z-0"></div>
