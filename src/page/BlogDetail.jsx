@@ -16,7 +16,7 @@ export default function BlogDetail() {
     useEffect(() => {
         if (blog) {
             document.title = blog.metaTitle;
-                     document
+            document
                 .querySelector("meta[name='keywords']")
                 ?.setAttribute("content", blog.metaKeywords);
 
@@ -41,9 +41,10 @@ export default function BlogDetail() {
 
     return (
         <> {/* Banner Section */}
+            
             <Helmet>
-                <meta name="description" content={blog.metaDescription}></meta>
-
+                <title>{blog.metaTitle}</title>
+                <meta name="description" content={blog.metaDescription} />
             </Helmet>
             <div className="relative">
                 <div className="absolute inset-0 bg-black opacity-20 z-0"></div>
@@ -62,7 +63,7 @@ export default function BlogDetail() {
                         {blog.title}
                     </h1>
 
-                    <p className="text-gray-500 text-sm mb-8">
+                    <p className="text-gray-500 text-sm mb-7">
                         By{" "}
                         <span className="text-gray-700 font-medium">{blog.author}</span> •{" "}
                         {blog.date} • {blog.category}
