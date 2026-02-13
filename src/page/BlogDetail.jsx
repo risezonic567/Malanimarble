@@ -13,22 +13,22 @@ export default function BlogDetail() {
         window.scrollTo(0, 0);
     }, []);
 
-    useEffect(() => {
-        if (blog) {
-            document.title = blog.metaTitle;
-                     document
-                .querySelector("meta[name='keywords']")
-                ?.setAttribute("content", blog.metaKeywords);
+    // useEffect(() => {
+    //     if (blog) {
+    //         document.title = blog.metaTitle;
+    //         document
+    //             .querySelector("meta[name='keywords']")
+    //             ?.setAttribute("content", blog.metaKeywords);
 
-            let canonical = document.querySelector("link[rel='canonical']");
-            if (!canonical) {
-                canonical = document.createElement("link");
-                canonical.setAttribute("rel", "canonical");
-                document.head.appendChild(canonical);
-            }
-            canonical.setAttribute("href", blog.canonical);
-        }
-    }, [blog]);
+    //         let canonical = document.querySelector("link[rel='canonical']");
+    //         if (!canonical) {
+    //             canonical = document.createElement("link");
+    //             canonical.setAttribute("rel", "canonical");
+    //             document.head.appendChild(canonical);
+    //         }
+    //         canonical.setAttribute("href", blog.canonical);
+    //     }
+    // }, [blog]);
 
     if (!blog)
         return (
@@ -41,9 +41,12 @@ export default function BlogDetail() {
 
     return (
         <> {/* Banner Section */}
+            
             <Helmet>
-                <meta name="description" content={blog.metaDescription}></meta>
-
+                <title>{blog.metaTitle}</title>
+                <meta name="description" content={blog.metaDescription} />
+                <meta name="keywords" content={blog.metaKeywords} />
+                <link rel="canonical" href={blog.canonical} />
             </Helmet>
             <div className="relative">
                 <div className="absolute inset-0 bg-black opacity-20 z-0"></div>
@@ -62,7 +65,7 @@ export default function BlogDetail() {
                         {blog.title}
                     </h1>
 
-                    <p className="text-gray-500 text-sm mb-8">
+                    <p className="text-gray-500 text-sm mb-7">
                         By{" "}
                         <span className="text-gray-700 font-medium">{blog.author}</span> •{" "}
                         {blog.date} • {blog.category}
