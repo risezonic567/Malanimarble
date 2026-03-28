@@ -13,23 +13,6 @@ export default function BlogDetail() {
         window.scrollTo(0, 0);
     }, []);
 
-    // useEffect(() => {
-    //     if (blog) {
-    //         document.title = blog.metaTitle;
-    //         document
-    //             .querySelector("meta[name='keywords']")
-    //             ?.setAttribute("content", blog.metaKeywords);
-
-    //         let canonical = document.querySelector("link[rel='canonical']");
-    //         if (!canonical) {
-    //             canonical = document.createElement("link");
-    //             canonical.setAttribute("rel", "canonical");
-    //             document.head.appendChild(canonical);
-    //         }
-    //         canonical.setAttribute("href", blog.canonical);
-    //     }
-    // }, [blog]);
-
     if (!blog)
         return (
             <div className="p-20 text-center text-gray-500 text-lg">
