@@ -5549,15 +5549,15 @@ const blogs = [
   },
   {
     id: 21,
-    title: "Italian White Marble for Elegant Luxury Flooring Solutions",
-    slug: "italian-white-marble-for-elegant-luxury-flooring-solutions",
+    title: "Lasa White Marble: Italian White Marble for Elegant Luxury Flooring Solutions",
+    slug: "lasa-white-marble-italian-white-marble-for-elegant-luxury-flooring-solutions",
     author: "Malani Marbles Pvt. Ltd.",
     date: "March 2025",
     category: "Lasa White Marble",
     thumbnail:
       "/img/BlogImage/Michelangelo White Marble A Signature Choice for Luxury Interior Design.jpg.jpeg",
     canonical:
-      "https://www.malanimarbles.com/blog/italian-white-marble-for-elegant-luxury-flooring-solutions",
+      "https://www.malanimarbles.com/blog/lasa-white-marble-italian-white-marble-for-elegant-luxury-flooring-solutions",
     metaTitle: "Lasa White Marble | Italian Marble for Luxury Flooring",
     metaDescription:
       "Explore Lasa White Marble, a premium Italian marble with subtle veining. Perfect for luxury flooring, wall cladding, and elegant modern interiors.",
@@ -5568,7 +5568,7 @@ const blogs = [
             to={
               "https://www.malanimarbles.com/marble-collection/white-marble/lasa-white"
             }
-            className={"bg-blue-600 hover:underline hover:decoration-1"}
+            className={"text-blue-600 hover:underline hover:decoration-1"}
           >
             Imported Lasa white marble
           </NavLink>{" "}
