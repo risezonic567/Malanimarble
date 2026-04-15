@@ -5057,7 +5057,7 @@ const blogs = [
     date: "March 2026",
     category: "Vietnam Marble",
     thumbnail:
-      "/img/BlogImage/Michelangelo-Marble-Features-Applications-&-Why-It’s-a-Premium-Choice-for-Luxury-Interiors.jpg.jpeg",
+      "/img/BlogImage/Michelangelo-Marble-Features-Applications-&-Why-Its-a-Premium-Choice-for-Luxury-Interiors.jpg.jpeg",
     canonical:
       "https://www.malanimarbles.com/blog/michelangelo-marble-features-applications-and-why-it's-a-premium-choice-for-luxury-interiors",
     metaTitle:
