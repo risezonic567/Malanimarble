@@ -6120,7 +6120,6 @@ Dover white slabs are one of the most adaptable types of slabs available on the 
         <p>
         If you are building your home's interior to create an elegant, timeless, and effortlessly luxurious environment, there may be no better option than <Link to="https://www.malanimarbles.com/marble-collection/white-marble">Dover White Marble</Link>. This material provides soft aesthetics, strength in its structure, and versatility in design, giving it an edge over all other materials for individuals looking to create an atmosphere of subtlety and luxury. If you are designing your home and want to achieve a refined look without being ostentatious, then using a white marble slab such as Dover White as a base could be a good start for you. 
         </p>
-
         <p>
          Malani Marble Pvt. Ltd. experience assures you that each slab that you select adds up to an overall cohesive and beautiful-looking home.
         </p>
