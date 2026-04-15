@@ -3438,7 +3438,7 @@ const blogs = [
     date: "January 2025",
     category: "Statuario white Marble",
     thumbnail:
-      "/img/BlogImage/Statuario-white-Marble–A-Classic-Choice-for-Premium-Interiors.jpeg",
+      "/img/BlogImage/Statuario-white-Marble–A-Classic-Choice-for-Premium-Interior.jpeg",
     canonical:
       "https://www.malanimarbles.com/blog/statuario-white-marble-a-classic-choice-for-premium-interiors",
     metaTitle:
