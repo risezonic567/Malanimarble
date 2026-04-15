@@ -11,8 +11,9 @@
         "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/CASA%20NOVA.webp",
         "products": [
             {
-                "metatitle": "",
-                "metades": "",
+                "metatitle": "Casa Nova Italian Marble | Malani Marbles Pvt. Ltd.",
+                "description": "Explore Casa Nova Italian marble with soft beige tones and elegant patterns, perfect for luxury flooring and interiors by Malani Marbles Pvt. Ltd.",
+                "metades": "Casa Nova Italian Marble is a beautiful natural stone featuring a soft beige base with light patterns that create warmth and elegance in interior spaces. It has a very fine finish and a polished surface that combines to give a luxurious appearance, which is perfect for use on floors, walls, and areas where an individual wants to make an impact. Casa Nova marble has been carefully chosen for its consistency, durability, and high-class finish, providing a long-lasting product for residential and commercial applications. Casa Nova marble can blend well with both modern and traditional design styles while enhancing the overall feel of any space. Casa Nova is also supplied by Malani Marbles Pvt Ltd and is an ideal material for someone looking for timeless quality with dependable value.",
                 "name": "Casa Nova",
                 "slug": "casa-nova",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/CASA%20NOVA.webp"
@@ -39,6 +40,9 @@
         "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/BARBARI%20BEIGE.webp",
         "products": [
             {
+                "metatitle": "Barbari Beige Marble | Malani Marbles Pvt. Ltd.",
+                "metades": "Buy Barbari Beige Marble in Delhi from a trusted Imported Marble Supplier in Delhi. Perfect for luxury flooring, walls & premium interior design projects. ",
+                "description": "Barbari Beige Marble is an elegant natural stone with a warm beige color and magnificent vein pattern, making it suitable for elegant interior applications. When polished, Barbari Beige Marble highlights the depth and texture of the stone, making it an excellent choice for floors, wall coverings, and accent areas to provide a luxurious finish. Barbari Beige Marble is carefully sourced for uniformity and durability and can be used in either residential or commercial settings. This neutral color scheme will blend effortlessly with both contemporary and classic design styles. Barbari Beige Marble is available through Malani Marbles Pvt. Ltd., providing both beautiful aesthetics while still providing a long-lasting product for upscale interior use.",
                 "name": "Barbari Beige",
                 "slug": "barbari-beige",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/BARBARI%20BEIGE.webp"
@@ -52,6 +56,8 @@
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/BRECIA%20AURORA.webp"
             },
             {
+                "metatitle": "Breccia Onichita Marble | Malani Marbles Pvt. Ltd.",
+                "metades": "Explore Breccia Onichita Marble in Delhi from  Malani Marbles Pvt. Ltd. Elegant beige marble with rich texture, ideal for flooring, walls, and luxury interiors.",
                 "name": "Brecia Onichita",
                 "slug": "brecia-onichita",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/bRECIA%20ONICHITA.webp"
@@ -609,7 +615,7 @@
         "metades": "Discover premium white marble in Delhi, ideal for luxury flooring, wall cladding, and elegant interiors. Explore high-quality natural marble slabs with expert support and trusted sourcing.",
         "name": "White",
         "slug": "white-marble",
-        "banner": "/img/whiteMarble/Statuario-white-Marble–A-Classic-Choice-for-Premium-Interiors.jpeg",
+        "banner": "/img/whiteMarble/Statuario-white-Marble-A-Classic-Choice-for-Premium-Interior.jpeg",
         "text": "Explore a unique collection of white marble slabs that includes famous varieties such as Makrana White, Lasa White, and Statuario. Excellent for luxury flooring, wall cladding, countertops, and architectural facades, our white marble is sourced from only the finest quarries, and offers superior purity, weight, fine grain and finish, making it the choice marble for high-end residential and commercial projects. Architects, builders, and marble retailers can feel confident in using our white marble for both its beauty and top quality performance.",
         "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/white/ARBESCATO.webp",
         "products": [
@@ -640,9 +646,9 @@
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/white/gREEK%20THASSOS.webp"
             },
             {
-                "metatitle":"Brazilian White Marble | Malani Marbles Pvt. Ltd.",
-                "metades":"Brazilian White Marble is a premium white natural stone with subtle grey veining, ideal for luxury floors, walls & countertops. Supplied by Malani Marbles Pvt. Ltd., India.",
-                "description":"The most famous Brazilian white marble is a beautiful natural stone that has a light, soft white background with soft grey lines. This gives Brazilian white marble a very clean and soothing look. Because of its soothing and sophisticated appearance, Brazilian white marble is often used in high-quality homes as well as in commercial buildings to create beautiful lines of light and visual continuity within the home. Brazilian white marble is excellent for floors, walls, countertops, vanities, stairs, and architectural accent walls. The soft elegance of this marble will work beautifully with both contemporary and classical style design. Brazilian White Marble is only supplied by Malani Marbles Pvt. Ltd. and is considered one of the most sought-after marbles by builders, designers, and architects and for premium projects because of its inherent beauty and durability.",
+                "metatitle": "Brazilian White Marble | Malani Marbles Pvt. Ltd.",
+                "metades": "Brazilian White Marble is a premium white natural stone with subtle grey veining, ideal for luxury floors, walls & countertops. Supplied by Malani Marbles Pvt. Ltd., India.",
+                "description": "The most famous Brazilian white marble is a beautiful natural stone that has a light, soft white background with soft grey lines. This gives Brazilian white marble a very clean and soothing look. Because of its soothing and sophisticated appearance, Brazilian white marble is often used in high-quality homes as well as in commercial buildings to create beautiful lines of light and visual continuity within the home. Brazilian white marble is excellent for floors, walls, countertops, vanities, stairs, and architectural accent walls. The soft elegance of this marble will work beautifully with both contemporary and classical style design. Brazilian White Marble is only supplied by Malani Marbles Pvt. Ltd. and is considered one of the most sought-after marbles by builders, designers, and architects and for premium projects because of its inherent beauty and durability.",
                 "name": "Brazillian White",
                 "slug": "brazillian-white",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/white/BRAZILIAN%20WHITE.webp"
