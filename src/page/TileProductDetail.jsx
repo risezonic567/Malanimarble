@@ -84,6 +84,9 @@ export default function TileProductDetail() {
 
                     {/* Right Column: Details & Specs */}
                     <div className="flex flex-col h-full">
+                        <span  className="text-xl md:text-2xl font-serif font-bold text-green-600 mb-4">
+                            &#8377;{product.price}
+                         </span>
                         <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-4">
                             {product.name}
                         </h1>

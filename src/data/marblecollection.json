@@ -70,6 +70,7 @@
                 "metades":"Premium Imported Brecia Blue Marble with unique beige and blue tones, perfect for flooring and interiors. Durable, stylish, and ideal for modern luxury spaces.",
                 "metatitle":"Imported Breccia Blue Marble | Malani Marbles Pvt. Ltd.",
                 "name": "Brecia Blue",
+                
                 "slug": "brecia-blue",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/bLUE%20BRECIA.webp"
             },
@@ -277,6 +278,7 @@
                 "description":"",
                 "metades":"",
                 "metatitle":"",
+                "price":"400 / Square Feet",
                 "name": "Alaska Gray",
                 "slug": "alaska-gray",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/ALASKA%20GREY.webp"
@@ -926,6 +928,7 @@
                 "metatitle": "Michael Angelo Peach Marble | Malani Marbles Pvt. Ltd",
                 "metades": "Explore Michael Angelo Peach marble or premium interiors, flooring, and feature walls. Find elegant white marble slabs with soft peach undertones and refined natural beauty.",
                 "name": "Michael Angelo Peach",
+                "price":"1099 / sq ft",
                 "slug": "michael-angelo-peach",
                 "description": "Michael Angelo Peach Marble is a unique type of high-quality natural stone, characterized by its warm peach shades and soft white background with subtle veining. This color combination gives the marble an elegant and inviting look. Because of the harmonious blending of the colors, it is an ideal marble for both residential and commercial settings, whether traditional or modern. It can be used as flooring, wall cladding, kitchen countertops, bathtub vanities, and any other architectural detailing, and it adds sophistication and personality to each use. In addition, because Michael Angelo Peach Marble has a smooth, polished finish, it reflects natural daylight very effectively, thus providing the illusion of openness and refinement. Michael Angelo Peach Marble is manufactured by Malani Marbles Ltd. and is highly regarded by architects, interior designers, and designers of premium-quality projects.",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/white/michelangelo%20PEACH.webp"
@@ -1050,6 +1053,7 @@
                 "metades":"",
                 "description":"",
                 "name": "Blue Pearl",
+                "price":"280 / sq ft",
                 "slug": "blue-pearl",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/IMPORTED%20GRANITE/blue%20pearl.webp"
             },
@@ -1058,6 +1062,7 @@
                 "metades":"",
                 "description":"",
                 "name": "Blue Roma",
+                "price":"300 / sq ft",
                 "slug": "blue-roma",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/IMPORTED%20GRANITE/Blue%20ROMA.webp"
             },
@@ -1106,6 +1111,7 @@
                 "metades":"",
                 "description":"",
                 "name": "Soda Lite Blue",
+                "price":"280 / sq ft",
                 "slug": "soda-lite-blue",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/IMPORTED%20GRANITE/soda%20lite%20blue.webp"
             },
@@ -1114,6 +1120,7 @@
                 "metades":"",
                 "description":"",
                 "name": "Volga Blue",
+                "price":"251 / sq ft",
                 "slug": "volga-blue",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/IMPORTED%20GRANITE/volga%20blue.webp"
             },
@@ -1130,6 +1137,7 @@
                 "metades":"",
                 "description":"",
                 "name": "Green Quartzite",
+                "price":"301 / sq ft",
                 "slug": "green-quartzite",
                 "img": "/img/imported/BRAZILAIN-BOTNICAL-GREEN-QUARTZITE(Imported).webp"
             },
@@ -1138,6 +1146,7 @@
                 "metades":"",
                 "description":"",
                 "name": "Da Vinci Green Quartzite",
+                "price":"270 / sq ft",
                 "slug": "da-vinci-green-quartzite",
                 "img": "/img/imported/DA-VINCI-GREEN-QUARTZITE.webp"
             },
@@ -1183,6 +1192,7 @@
                 "metades":"",
                 "description":"",
                 "name": "Blue Labourador",
+                "price":"450 / sq ft",
                 "slug": "blue-labourador",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/semipresious/BLUE%20LABOURADOR%20(SEMIPRECIOUS).webp"
             },
@@ -1406,6 +1416,7 @@
             },
             {
                 "name": "Grey Serpay Jayante",
+                "price":"2000 / sq ft",
                 "slug": "grey-serpay-jayante",
                 "img": "/img/exotic/GREY-SERPAY-JAYANTE.webp"
             },
