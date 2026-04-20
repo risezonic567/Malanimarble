@@ -42,6 +42,7 @@
             {
                 "metatitle": "Barbari Beige Marble | Malani Marbles Pvt. Ltd.",
                 "metades": "Buy Barbari Beige Marble in Delhi from a trusted Imported Marble Supplier in Delhi. Perfect for luxury flooring, walls & premium interior design projects. ",
+                "price":"280 / sq ft",
                 "description": "Barbari Beige Marble is an elegant natural stone with a warm beige color and magnificent vein pattern, making it suitable for elegant interior applications. When polished, Barbari Beige Marble highlights the depth and texture of the stone, making it an excellent choice for floors, wall coverings, and accent areas to provide a luxurious finish. Barbari Beige Marble is carefully sourced for uniformity and durability and can be used in either residential or commercial settings. This neutral color scheme will blend effortlessly with both contemporary and classic design styles. Barbari Beige Marble is available through Malani Marbles Pvt. Ltd., providing both beautiful aesthetics while still providing a long-lasting product for upscale interior use.",
                 "name": "Barbari Beige",
                 "slug": "barbari-beige",
@@ -51,6 +52,7 @@
                 "metatitle": "Breccia Aurora Beige Marble | Malani Marbles Pvt. Ltd.",
                 "metades": "Breccia Aurora Marble is a premium beige marble with bold natural patterns, ideal for flooring, wall cladding and luxury interiors. Supplied by Malani Marbles Pvt. Ltd.",
                 "name": "Brecia Aurora",
+                "price":"300 / Square Feet",
                 "description": "The Italian marble, Breccia Aurora Marble, is an exquisite marbled material with beautiful warm beige tones and unique breccia-like patterns created from the combination of cream, gold, brown, and amber colors that create a fantastic look for all items made from it. Each slab of this beautiful stone has its own unique look because of the broken nature of this stone and therefore will work well for high-end residential and commercial projects.The elegance and strength of the stone also allow for use in many areas, such as floors, wall cladding, kitchen countertops, vanities, stairs, and even as feature walls. Breccia Aurora is available in a high-sheen polished finish or in a natural honed stone finish, which provides excellent light reflection and enhances space with its timeless Mediterranean appearance. Breccia Aurora is perfect for all types of refined interior space design requiring both the beauty and strength of the stone.",
                 "slug": "brecia-aurora",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/BRECIA%20AURORA.webp"
@@ -97,6 +99,7 @@
             {
                 "description":"Breccia beige marble is a gorgeous stone containing a variety of rich and warm beige tones along with some amazing veining that gives it plenty of character. Its strong texture means that this marble works great for feature walls, flooring, and countertops where you want to achieve an original look with style. When polished, the surface of Breccia Beige marble is enhanced to reflect its natural beauty, therefore providing you with a luxurious and sophisticated interior. Breccia beige marble is a durable substance that is easy to care for, and therefore, it is very suitable for residential or commercial use. Due to the natural variations in all Breccia Beige marble slabs, each slab is unique, giving your design a one-of-a-kind look. Malani Marbles also supplies high-quality slabs of Breccia Beige marble that have the durability, finish, and aesthetic characteristics that will make your interior a top-quality project.",
                 "metades":"Imported Brecia Beige Marble showcases natural beige tones with distinctive veining, perfect for stylish flooring and wall applications from Malani Marbles ",
+                "price":"280 / Square Feet",
                 "metatitle":"Brecia Beige | Malani Marbles Pvt. Ltd.",
                 "name": "Brecia Beige",
                 "slug": "brecia-beige",
@@ -106,6 +109,7 @@
                 "metades":"Perlato Siciliya Marble by Malani Marbles features creamy beige tones with subtle textures for a refined appearance. Perfect for flooring, countertops, and walls",
                 "metatitle":"Perlato Siciliya Marble | Malani Marbles Pvt. Ltd.",
                 "name": "Perlato Siciliya",
+                "price":"250 / Square Feet",
                 "slug": "perlato-siciliya",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/PERLATO%20SICILIYA.webp"
             },
@@ -122,6 +126,7 @@
                 "metades":"Imported Blugaria Beige Marble by Malani Marbles combines soft beige color with elegant veining. Ideal for premium interiors, flooring, and walls",
                 "metatitle":"Blugaria Beige Marble | Malani Marbles Pvt. Ltd.",
                 "name": "Blugaria Beige",
+                "price":"300 / Square Feet",
                 "slug": "blugaria-beige",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/BULGARIA%20BEIGE.webp"
             },
@@ -129,6 +134,7 @@
                 "metatitle": "De Martino Beige Marble Supplier India | Malani Marbles Pvt. Ltd.",
                 "metades": "De Martino Marble is a premium beige marble with elegant veining, perfect for flooring, walls, and luxury interiors. Available from Malani Marbles Pvt. Ltd., India.",
                 "name": "De Martino",
+                "price":"270 / Square Feet",
                 "description": "De Martino Marble has a warm beige background with a soft cream color. It is well-known for its beautiful irregular patterns and its unique ability to harmoniously blend into both modern and traditional designs in high-end residential and commercial applications. Installations of De Martino Marble can include flooring, wall tile, kitchen countertops, bathroom vanities, stairs, and decorative accents. With its exceptional durability, De Martino Marble evokes an ageless elegance in your project, yet will maintain its beauty over time. Malani Marbles Pvt. Ltd. sources De Martino Marble from Italy to ensure the highest quality of material available today. De Martino Marble has both polished and honed finishes, providing designers with options to create the look and feel that is desired for their project. Designed for use by architects, designers, and builders and on premium projects, De Martino Marble adds visual interest and increases the amount of natural light flowing into the workspace.",
                 "slug": "de-martino",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/DE%20MARTINO.webp"
@@ -174,6 +180,7 @@
                 "description":"",
                 "metades":"",
                 "metatitle":"",
+                "price":"450 / Square Feet",
                 "name": "Belgium Black",
                 "slug": "belgium-black",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/bELGIUM%20BLACK.webp"
@@ -406,6 +413,7 @@
         "products": [
             {
                 "description":"",
+                "price":"",
                 "metades":"",
                 "metatitle":"",
                 "name": "Bianco Ondulatte",
@@ -416,6 +424,7 @@
                 "description":"",
                 "metades":"",
                 "metatitle":"",
+                "price":"2,000 / Square Feet",
                 "name": "Blue Onyx",
                 "slug": "blue-onyx",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/onyx/BLUE%20ONYX.webp"
@@ -424,6 +433,7 @@
                 "description":"",
                 "metades":"",
                 "metatitle":"",
+                 "price":"1,650 / Square Feet",
                 "name": "Mexican Onyx",
                 "slug": "mexican-onyx",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/onyx/MEXICAN%20ONYX.webp"
@@ -432,6 +442,7 @@
                 "description":"",
                 "metades":"",
                 "metatitle":"",
+                "price":" 1,600 / Square Feet",
                 "name": "Cappuccino Onyx",
                 "slug": "cappuccino-onyx",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/onyx/CAPPUCCINO%20ONYX.webp"
@@ -440,6 +451,7 @@
                 "description":"",
                 "metades":"",
                 "metatitle":"",
+                "price":"  2,000 / Square Feet",
                 "name": "Pink Onyx",
                 "slug": "pink-onyx",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/onyx/PINK%20ONYX.webp"
@@ -447,6 +459,7 @@
             {
                 "description":"",
                 "metades":"",
+                "price":"",
                 "metatitle":"",
                 "name": "Crystal Onyx",
                 "slug": "crystal-onyx",
@@ -456,6 +469,7 @@
                 "description":"",
                 "metades":"",
                 "metatitle":"",
+                "price":"",
                 "name": "Green Jade Onyx",
                 "slug": "green-jade-onyx",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/onyx/GREEN%20ONYX.webp"
@@ -463,6 +477,7 @@
             {
                 "description":"",
                 "metades":"",
+                "price":"2,200 / Square Feet",
                 "metatitle":"",
                 "name": "Honey Onyx",
                 "slug": "honey-onyx",
@@ -509,6 +524,7 @@
                 "description":"",
                 "metades":"",
                 "metatitle":"",
+                "price":"350 / Square Feet",
                 "name": "Noche Travertino",
                 "slug": "noche-travertino",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/traventino/NOCHE%20TRAVETINO.webp"
@@ -517,6 +533,7 @@
                 "description":"",
                 "metades":"",
                 "metatitle":"",
+                "price":"380 / Square Feet",
                 "name": "Ebony Travertino",
                 "slug": "ebony-travertino",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/traventino/EBONY%20TRAVETINO.webp"
@@ -524,6 +541,7 @@
             {
                 "description":"",
                 "metades":"",
+                "price":"280 / Square Feet",
                 "metatitle":"",
                 "name": "Red Travertino",
                 "slug": "red-travertino",
@@ -532,6 +550,7 @@
             {
                 "description":"",
                 "metades":"",
+                "price":"350 / Square Feet",
                 "metatitle":"",
                 "name": "Silver Travertino",
                 "slug": "silver-travertino",
@@ -824,6 +843,7 @@
                 "metatitle": "Statuario Calacutta Marble | Malani Marbles Pvt. Ltd",
                 "metades": "Explore Statuario Calacutta marble for luxury interior design. Featuring bold veining and premium white finishes, ideal for floors, feature walls, and high-end spaces.",
                 "name": "Statuario Calacutta",
+                "price":"800 / Square Feet",
                 "description": "Statuario Calacatta Marble is a stylish and luxurious Italian marble recognized for its shining white color and dramatic dark-grey markings; consequently, Statuario Calacatta has become one of the most sought-after Italian white marbles. Statuario Calacatta's timeless beauty and striking contrast make it perfect for upscale interior design and architecture. Statuario Calacatta can be used for flooring, wall cladding, feature walls, kitchen islands, bathroom countertops, etc. Statuario Calacatta has a unique pattern that creates an illusion of depth and enhances design quality and sophistication. Statuario Calacatta has an exceptionally polished surface that reflects light beautifully and makes for an open, elegant feeling in any home or as an upscale architectural design element. Malani Marbles Pvt Ltd sources Statuario Calacatta, an excellent choice for high-end designers, architects, and builders who desire a prestigious and unique marble to meet their design needs.",
                 "slug": "statuario-calacutta",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/white/STATUARIO%20CALACUTTA.webp"
@@ -849,6 +869,7 @@
                 "metades": "Explore Michael Angelo Peach marble or premium interiors, flooring, and feature walls. Find elegant white marble slabs with soft peach undertones and refined natural beauty.",
                 "name": "Michael Angelo",
                 "slug": "michael-angelo",
+                "price":"999 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/white/michelangelo.webp"
             },
             {
@@ -873,6 +894,7 @@
                 "description":" Imported Lasa white marble is a top-grade natural stone featuring a solid white base accentuated with light gray veining, which gives it an ageless and classic appeal. The whitish tone increases light within interior areas while adding luxury to your environment with its immaculate, modern, and classic designs. Lasa white marble is a preferred choice for use on floor coverings, wall coverings, countertop surfaces, and in upscale residential or commercial construction projects. The polished luster of Lasa White Marble not only reflects ambient light well but also creates an illusion of spaciousness and sophistication in any room. Lasa white marble is extremely strong and durable; therefore, it will provide years of satisfaction with minimum maintenance. Malani Marbles Pvt. Ltd.provides every customer with incredibly high-quality marble slabs at an exceptionally high-quality price; thus, they will always have first-class marble products to help create great designs.",
                 "name": "Lasa White",
                 "slug": "lasa-white",
+                "price":"1,200 / Sq ft",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/white/LASA%20WHITE.webp"
             },
             {
@@ -886,6 +908,7 @@
             {
                 "metatitle":" Imported Dior White Marble| Malani Marbles Pvt. Ltd.",
                 "metades":"Explore Imported  Dior White Marble from Malani Marbles  Pvt. Ltd. in Delhi. High-quality white marble slabs with polished finish, perfect for luxury interiors.",
+                "price":"600 / Sq ft",
                 "description":"Dior white marble is a premium-quality natural stone that has an exceptionally white color and smooth-surfaced polished finish. This stone creates elegant elegance within any home and is ideal for modern and stylish, contemporary-style structures. The upper premium design of Dior white marble means that it can be used as flooring, wall cladding, countertops, or for decorative purposes in both the residential and commercial construction industries. Marble has a very low water absorption rate and, therefore, provides a longer life span to the stone than other natural stone materials. The light-reflection characteristics of marble create a feeling of brightness and openness within the space in which it is placed. The slabs provided by Malani Marbles are constructed of high-quality materials, providing a consistent finish and texture with a lasting and reliable performance; therefore, architects and interior designers prefer to use Malani Marbles when creating their projects.",
                 "name": "Dior White",
                 "slug": "dior-white",
@@ -911,6 +934,7 @@
                 "metatitle": "Golden Spider White Marble | Malani Marbles Pvt. Ltd.",
                 "metades": "Golden Spider White Marble is a premium white marble with striking gold veins, ideal for luxury floors, walls and interiors. Supplied by Malani Marbles Pvt. Ltd., India.",
                 "name": "Golden Spider",
+                "price":"400 / sq ft",
                 "description": "Golden Spider Marble is an exceptional quality stone with a clean white base with heavy gold and amber veining, creating a distinctive visual appeal. This designer marble will give both a warm and sophisticated touch to any luxury residential or commercial project. With its stunning vein pattern, this marble provides an elegant touch to many applications, such as floors/walls, kitchens/bathrooms, and custom built-in feature elements. With its polish enhancing both the light and the depth and elegance of space, Golden Spider Marble has a long-lasting, durable beauty. This premium marble is an outstanding choice for architects, interior designers, builders, and clients wanting the ultimate statement in luxury design projects; available exclusively from Malani Marbles Pvt. Ltd.",
                 "slug": "golden-spider",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/white/GOLDEN%20SPIDER.webp"
@@ -1222,6 +1246,7 @@
                 "metatitle":"",
                 "metades":"",
                 "description":"",
+                "price":"700 / Square Feet",
                 "name": "Carnelian Blue",
                 "slug": "carnelian-blue",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/semipresious/carnelian%20blue.webp"
