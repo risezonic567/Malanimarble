@@ -1,5 +1,19 @@
 [
-    {
+   
+   {
+        "title": "",
+        "metakeyword": "",
+        "metatitle": "",
+        "metades": "",
+        "name": "Imported",
+        "slug": "imported-marble",
+        "banner": "/img/sd.png",
+        "text": "",
+        "img": "/img/sd.png",
+        "products": [
+           
+        ]
+    }, {
         "title": "",
         "metakeyword": "",
         "metatitle": "Italian Marble Supplier in Delhi | Marbles Pvt. Ltd",
@@ -175,6 +189,7 @@
                 "metades":"",
                 "metatitle":"",
                 "name": "Marquina Black",
+                "price":"250 / Square Feet",
                 "slug": "marquina-black",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/MARQUINA%20BLACK.webp"
             },

@@ -29,6 +29,7 @@ export default function Navbar() {
       label: "Marble Collection",
       href: "/marble-collection",
       dropdown: [
+         { label: "Imported Marble", href: "/marble-collection/imported-marble" },
         { label: "Italian Marble", href: "/marble-collection/italian-marble" },
         { label: "Beige", href: "/marble-collection/beige-marble" },
         { label: "Coloured", href: "/marble-collection/coloured-marble" },
