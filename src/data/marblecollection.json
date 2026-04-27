@@ -6,27 +6,35 @@
         "metades": "",
         "name": "Imported",
         "slug": "imported-marble",
-        "banner": "/img/sd.png",
+        "banner": "/img/imported-marble/Imported Marble Banner.jpg.jpeg",
         "text": "",
-        "img": "/img/sd.png",
+        "img": "/img/imported-marble/Imported Marble Banner.jpg.jpeg",
         "products": [
-            {
+             {
+                "name": "Panda white Marble",
+                "slug": "panda-white-marble",
+                "metades": "",
                 "metatitle": "",
-                "metades": " ",
-                "price": "250 / sq ft",
                 "description": "",
-                "name": "BLACK Marquino Imported Marble",
-                "slug": "black-marquino-imported-marble",
-                "img": ""
+                "img": "/img/imported-marble/Panda White (Imported).jpg.jpeg",
+                "price": "  300 / Square Feet"
             },
-            {
-                "metatitle": "",
-                "metades": " ",
-                "price": "250 / sq ft",
+             {
                 "description": "",
-                "name": "NSL BLACK Imported Marble",
-                "slug": "nsl-black-imported-marble",
-                "img": ""
+                "metades": "",
+                "metatitle": "",
+                "name": "Marquina Black",
+                "price":"250 / Square Feet",
+                "slug": "marquina-black",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/MARQUINA%20BLACK.webp"
+            },
+             {
+                "description": "",
+                "metades": "",
+                "metatitle": "",
+                "name": "Gray Saint Laurent",
+                "slug": "gray-saint-laurent",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/gREY%20SAINT%20LAURENT.webp"
             },
             {
                 "metatitle": "",
@@ -35,7 +43,7 @@
                 "description": "",
                 "name": "Nimbus White Imported Marble",
                 "slug": "nimbus-white-imported-marble",
-                "img": ""
+                "img": "/img/imported-marble/NIMBUS WHITE.jpg.jpeg"
             },
             {
                 "metatitle": "",
@@ -44,7 +52,7 @@
                 "description": "",
                 "name": "Beige Travertino",
                 "slug": "beige-travertino",
-                "img": ""
+                "img": "/img/imported-marble/Beige travertino.jpg.jpeg"
             },
             {
                 "metatitle": "",
@@ -53,7 +61,7 @@
                 "description": "",
                 "name": "Ferragamoe Limestone",
                 "slug": "ferragamoe-limestone",
-                "img": ""
+                "img": "/img/imported-marble/Ferragamo.jpg.jpeg"
             },
             {
                 "metatitle": "",
@@ -62,7 +70,7 @@
                 "description": "",
                 "name": "Moca cream Limestone",
                 "slug": "moca-cream-limestone",
-                "img": ""
+                "img": "/img/imported-marble/Mocca cream.jpg.jpeg"
             },
             {
                 "metatitle": "",
@@ -71,7 +79,7 @@
                 "description": "",
                 "name": "Ice Berg Grey Marble",
                 "slug": "ice-berg-grey-marble",
-                "img": ""
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/gray/ICE%20BERG.webp"
             },
             {
                 "metatitle": "Statuario Calacutta Marble | Malani Marbles Pvt. Ltd",
@@ -105,11 +113,21 @@
         "products": [
             {
                 "name": "Perlato Sicilia Italian Marbles",
-                "slug": "perlato-sicilia-italian-marbles"
+                "slug": "perlato-sicilia-italian-marbles",
+                "price":"  250 / Square Feet",
+                "img":"/img/imported-marble/Perlato Sicilia.jpg.jpeg",
+                "metades":"",
+                "metatitle":"",
+                "description":""
             },
             {
                 "name": "Dyna Italian Marbles",
-                "slug": "dyna-italian-marbles"
+                "slug": "dyna-italian-marbles",
+                 "price":"  250 / Square Feet",
+                "img":"/img/imported-marble/Dyna.jpg.jpeg",
+                "metades":"",
+                "metatitle":"",
+                "description":""
             },
             {
                 "metatitle": "Casa Nova Italian Marble | Malani Marbles Pvt. Ltd.",
@@ -678,6 +696,14 @@
                 "slug": "white-travertino",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/traventino/WHITE%20TRAVETINO.webp"
             },
+             {
+                "description": "",
+                "metades": "",
+                "metatitle": "",
+                "name": "Mocca Cream Limestone",
+                "slug": "moca-cream-limestone",
+                "img": "/img/imported-marble/Mocca cream.jpg.jpeg"
+            },
             {
                 "description": "",
                 "metades": "",
@@ -925,7 +951,7 @@
         "metades": "Discover premium white marble in Delhi, ideal for luxury flooring, wall cladding, and elegant interiors. Explore high-quality natural marble slabs with expert support and trusted sourcing.",
         "name": "White",
         "slug": "white-marble",
-        "banner": "/img/whiteMarble/Statuario-white-Marble-A-Classic-Choice-for-Premium-Interior.jpeg",
+        "banner": "/img/whiteMarble/Statuario-white-Marble–A-Classic-Choice-for-Premium-Interiors.jpeg",
         "text": "Explore a unique collection of white marble slabs that includes famous varieties such as Makrana White, Lasa White, and Statuario. Excellent for luxury flooring, wall cladding, countertops, and architectural facades, our white marble is sourced from only the finest quarries, and offers superior purity, weight, fine grain and finish, making it the choice marble for high-end residential and commercial projects. Architects, builders, and marble retailers can feel confident in using our white marble for both its beauty and top quality performance.",
         "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/white/ARBESCATO.webp",
         "products": [
@@ -935,8 +961,8 @@
                 "metades": "",
                 "metatitle": "",
                 "description": "",
-                "img": "",
-                "price": "  300 / Square Feet"
+                "img": "/img/imported-marble/Panda White (White).jpg.jpeg",
+                "price": "250 / Square Feet"
             },
             {
                 "name": "- Bianco Vogue white Marbles",
@@ -944,7 +970,7 @@
                 "metades": "",
                 "metatitle": "",
                 "description": "",
-                "img": "",
+                "img": "/img/imported-marble/Bianco Vouge.jpg.jpeg",
                 "price": "  250 / Square Feet"
             },
             {
@@ -953,7 +979,7 @@
                 "metades": "",
                 "metatitle": "",
                 "description": "",
-                "img": "",
+                "img": "/img/imported-marble/NIMBUS WHITE.jpg.jpeg",
                 "price": "  300 / Square Feet"
             },
             {
@@ -1133,24 +1159,8 @@
                 "slug": "avaocado",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/IMPORTED%20GRANITE/Avaocado%20(Imported).webp"
             },
-            {
-                "slug": "tan-brown-granites",
-                "name": "Tan Brown granites",
-                "metades": "",
-                "metatitle": "",
-                "description": "",
-                "img": "",
-                "price": "  300 / Square Feet"
-            },
-            {
-                "name": "Steel grey granites",
-                "slug": "steel-grey-granites",
-                "metades": "",
-                "metatitle": "",
-                "description": "",
-                "img": "",
-                "price": "  250 / Square Feet"
-            },
+          
+            
             {
                 "metatitle": "",
                 "metades": "",
