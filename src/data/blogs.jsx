@@ -6565,4 +6565,4 @@ Choosing a marble is not only based on visual aesthetics, but there are also som
   },
 ];
 
-export default blogs;
+export default blogs
