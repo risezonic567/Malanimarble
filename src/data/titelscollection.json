@@ -12,7 +12,7 @@
         "products": [
             {
                 "name": "White",
-                "price":"1600 / sq ft",
+                "price":"350 / sq ft",
                 "slug": "white",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/tiles-collection/whitetile/12_subway%20white%203x1_4.webp"
             },
