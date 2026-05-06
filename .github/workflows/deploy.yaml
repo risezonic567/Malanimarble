@@ -1,0 +1,36 @@
+name : Auto Deploy Malani Marbles
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs :
+  ftp-deploy:
+    runs-on: ubuntu-latest  
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: NPM INSTALL
+        run: npm install
+
+      - name: BUILD REACT APP
+        run: npm run build
+
+      - name: deploy by ftp on godaddy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.3
+
+        with:
+         server:   132.148.180.212
+         username: deploy@malanimarbles.com
+         password: ${{secrets.FTP_PASSWORD}}
+         protocols: ftps
+         port: 21
+         local-dir: dist/
+         server-dir: /
+         dangerous-clean-slate: true
+
+
+        
+
