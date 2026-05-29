@@ -6728,7 +6728,7 @@ const blogs = [
     content: (
       <div className="space-y-6">
         <p>
-          "Marble is  just stone; it is timeless elegance carved by nature."
+          "Marble is not just stone; it is timeless elegance carved by nature."
         </p>
 
 

@@ -48,10 +48,7 @@ export default function TileProductDetail() {
                     name="description"
                     content={product.description || `Shop ${product.name} tiles from our ${category.name} collection.`}
                 />
-                <link
-                    rel="canonical"
-                    href={category.canonical}
-                />
+               
             </Helmet>
 
             {/* Category Banner */}
