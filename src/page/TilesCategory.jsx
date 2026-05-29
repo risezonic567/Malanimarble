@@ -139,6 +139,7 @@ export default function TilesCategory() {
       <Helmet>
         <title>{category.metatitle}</title>
         <meta name="description" content={category.metades} />
+        <link rel="canonical" href={category.cononical} />
       </Helmet>
 
       <img src={category.banner} className="w-full" alt={category.title} />
