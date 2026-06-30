@@ -35,7 +35,7 @@ export default function Footer() {
               </p>
               <div className="flex space-x-5 mt-4">
                 <NavLink
-                  to="https://www.facebook.com/malanimarbles"
+                  to="https://www.facebook.com/malanimarbles1/"
                   aria-label="Facebook"
                   className="text-gray-400 hover:gradient-text transition-colors duration-300"
                 >
