@@ -9111,15 +9111,15 @@ const blogs = [
   },
   {
     id: 40,
-    title: "Beige Travertino Marble: Complete Buying Guide for Luxury Interiors.",
-    slug: "beige-travertino-marble-complete-buying-guide-for-luxury-interiors.",
+    title: "Beige Travertino Marble: Complete Buying Guide for Luxury Interiors",
+    slug: "beige-travertino-marble-complete-buying-guide-for-luxury-interiors",
     author: "Malani Marbles Pvt. Ltd.",
     date: "July 2026",
     category: "Vietnam White Marble",
     thumbnail:
       "/img/BlogImage/Beige Travertino Marble.png",
     canonical:
-      "https://www.malanimarbles.com/blog/beige-travertino-marble-complete-buying-guide-for-luxury-interiors.",
+      "https://www.malanimarbles.com/blog/beige-travertino-marble-complete-buying-guide-for-luxury-interiors",
     metaTitle: "Beige Travertino Marble: Price, Benefits & Buying Guide",
     metaDescription:
       "Discover Beige Travertino Marble price, features, benefits, finishes, applications, and expert buying tips. Learn why it's a premium choice for luxury interiors.",
@@ -9195,14 +9195,14 @@ const blogs = [
           The popular design applications are:
         </p>
         <p>
-          •Luxury Flooring for Apartment & Villa<br/>
-          •Feature walls and decorative panels<br/>
-          •Bathroom walls and vanity surrounds<br/>
-          •Kitchen backsplashes and countertops<br/>
-          •Staircases and entrance foyers<br/>
-          •Fireplace surrounds<br/>
-          •Hotel lobbies and reception areas<br/>
-          •Luxury commercial interiors<br/>•Its elegant appearance also blends beautifully with natural lighting, creating interiors that feel brighter, larger, and more welcoming.
+          •Luxury Flooring for Apartment & Villa<br />
+          •Feature walls and decorative panels<br />
+          •Bathroom walls and vanity surrounds<br />
+          •Kitchen backsplashes and countertops<br />
+          •Staircases and entrance foyers<br />
+          •Fireplace surrounds<br />
+          •Hotel lobbies and reception areas<br />
+          •Luxury commercial interiors<br />•Its elegant appearance also blends beautifully with natural lighting, creating interiors that feel brighter, larger, and more welcoming.
         </p>
 
         <h2 className="text-2xl font-bold">Picking Quality Slab</h2>
@@ -9233,7 +9233,7 @@ const blogs = [
       </div>
     ),
   },
-   {
+  {
     id: 41,
     title: "Moca cream limestone : Prices in India, Benefits ,Uses & Maintenance",
     slug: "moca-cream-limestone-prices-in-india-benefits-uses-maintenance",
@@ -9249,217 +9249,217 @@ const blogs = [
       "Moca Cream Limestone Price in India and its properties, benefits, usages, finishes, maintenance tips and why it is a premium choice for luxury interiors and exteriors.",
     content: (
       <div className="space-y-6">
-       
+
         <p>
           This Portuguese limestone has warm beige tones and subtle linear veins providing a premium finish making it suitable for both modern or classic spaces.
-Whether you are building a luxury villa, commercial project, hotel or residential renovation, this guide has all you need to know about Moca Cream Limestone Price, applications, benefits, maintenance and how to select the right Moca Cream Limestone Supplier in India.
-         </p>
+          Whether you are building a luxury villa, commercial project, hotel or residential renovation, this guide has all you need to know about Moca Cream Limestone Price, applications, benefits, maintenance and how to select the right Moca Cream Limestone Supplier in India.
+        </p>
 
-         <h2 className="text-2xl font-bold">
-What is Moca Cream Stone?
-         </h2>
-         <p>
+        <h2 className="text-2xl font-bold">
+          What is Moca Cream Stone?
+        </h2>
+        <p>
           Moca Cream Stone is a natural high quality limestone from Portugal. Its legendary uniform cream beige base colour and fine parallel veining and fine grain. Its neutral appearance makes it ideal for mixing with wood, glass, marble and metal finishes. It works well in contemporary and traditional interiors.
-         </p>
-      <h2 className="text-2xl font-bold">
-        
-Moca Cream Limestone Price in India
+        </p>
+        <h2 className="text-2xl font-bold">
 
-      </h2>
-      <p>
-        Moca Cream Limestone Price is one of the most searched questions in India.
-Limestone price in India depends on some factors such as:
+          Moca Cream Limestone Price in India
 
-      </p>
-      <p className="font-bold">
-        Slab thickness<br/>
-        Quality and density of the rock.<br/>
-(Brushed, Honed, Polished) Finish<br/>
-Slab size<br/>
-Order quantity<br/>
-Costs of transportation and importation<br/>
-      </p>
-      <h2 className="text-2xl font-bold">
-        Moca Cream Limestone Price in India-
-      </h2>
-      <p>
-         The price of Moca Cream Limestone in India generally ranges from ₹250 to ₹300 per square foot for standard polished slabs. But the prices can vary depending on the quality, availability and supplier. Always ask for the latest quote before placing an order.
-      </p>
-      <h2 className="text-2xl font-bold">
-        Why Moca Cream Limestone?
-      </h2>
-      <p>
-        Moca Cream Limestone is a natural stone that has a more subtle elegance, lacking the bold patterns of many other natural stones.<br/>
-Among its principal advantages are:
+        </h2>
+        <p>
+          Moca Cream Limestone Price is one of the most searched questions in India.
+          Limestone price in India depends on some factors such as:
 
-      </p>
-<p className="font-bold">
-  Luxurious soft beige look<br/>
-Naturally brightens interiors<br/>
-Consistent Texture - Seamless Floors<br/>
-Premium European natural stone<br/>
-Perfect for residential and commercial spaces.<br/>
+        </p>
+        <p className="font-bold">
+          Slab thickness<br />
+          Quality and density of the rock.<br />
+          (Brushed, Honed, Polished) Finish<br />
+          Slab size<br />
+          Order quantity<br />
+          Costs of transportation and importation<br />
+        </p>
+        <h2 className="text-2xl font-bold">
+          Moca Cream Limestone Price in India-
+        </h2>
+        <p>
+          The price of Moca Cream Limestone in India generally ranges from ₹250 to ₹300 per square foot for standard polished slabs. But the prices can vary depending on the quality, availability and supplier. Always ask for the latest quote before placing an order.
+        </p>
+        <h2 className="text-2xl font-bold">
+          Why Moca Cream Limestone?
+        </h2>
+        <p>
+          Moca Cream Limestone is a natural stone that has a more subtle elegance, lacking the bold patterns of many other natural stones.<br />
+          Among its principal advantages are:
 
-</p>
-<p>
-  Classic design is never out of style
-</p>
-<p>
-  The neutral color scheme also pairs well with modern furniture, accents of wooden flooring and metallic decor.
-</p>
-<h2 className="text-2xl font-bold">
-  Moca Cream Limestone Tiles for Floor
-</h2>
-<p>
-  One of the most popular uses of this natural stone is for Moca Limestone flooring crema.
-It brings warmth to interiors and creates a clean, spacious and luxurious feel.<br/>
-Good places to search:<br/>
-Living room<br/>
-Dormitory<br/>
-Hotel lobbies.<br/>
-Reception areas in offices<br/>
-Corridors<br/>
-luxury home<br/>
-Specialty shops<br/>
-Exhibition rooms<br/>
-Flooring in an honed finish is often preferred by designers for its softer look and better slip resistance, while a polished finish gives a high-end reflective appearance. 
+        </p>
+        <p className="font-bold">
+          Luxurious soft beige look<br />
+          Naturally brightens interiors<br />
+          Consistent Texture - Seamless Floors<br />
+          Premium European natural stone<br />
+          Perfect for residential and commercial spaces.<br />
 
-</p>
-<h2 className="text-2xl font-bold">
-  Moca Cream Limestone Design Ideas
-</h2>
-<p>
-  That’s the beauty of the versatility of the Moca Cream limestone design.
-</p>
-<h2 className="text-2xl font-bold">
-  Typical design applications include:
-</h2>
-<p>
-  Living rooms of luxury<br/>
-Large slabs offer a refined look, creating a seamless floor with few joints.<br/>
-Feature Walls<br/>
-Its natural veining lends itself to a graceful backdrop for TV units, fireplaces and decorative walls.<br/>
-Stairs.<br/>
-Continuous stone steps is a premium architectural statement.<br/>
-Bathroom Interior<br/>
+        </p>
+        <p>
+          Classic design is never out of style
+        </p>
+        <p>
+          The neutral color scheme also pairs well with modern furniture, accents of wooden flooring and metallic decor.
+        </p>
+        <h2 className="text-2xl font-bold">
+          Moca Cream Limestone Tiles for Floor
+        </h2>
+        <p>
+          One of the most popular uses of this natural stone is for Moca Limestone flooring crema.
+          It brings warmth to interiors and creates a clean, spacious and luxurious feel.<br />
+          Good places to search:<br />
+          Living room<br />
+          Dormitory<br />
+          Hotel lobbies.<br />
+          Reception areas in offices<br />
+          Corridors<br />
+          luxury home<br />
+          Specialty shops<br />
+          Exhibition rooms<br />
+          Flooring in an honed finish is often preferred by designers for its softer look and better slip resistance, while a polished finish gives a high-end reflective appearance.
 
-Continuous stone steps is a premium architectural statement.<br/>
-Bathroom Interior
-</p>
-<p>
-  Moca Cream adds a spa-like feel to vanity walls, shower areas and bathroom flooring.<br/>
-Business Areas
+        </p>
+        <h2 className="text-2xl font-bold">
+          Moca Cream Limestone Design Ideas
+        </h2>
+        <p>
+          That’s the beauty of the versatility of the Moca Cream limestone design.
+        </p>
+        <h2 className="text-2xl font-bold">
+          Typical design applications include:
+        </h2>
+        <p>
+          Living rooms of luxury<br />
+          Large slabs offer a refined look, creating a seamless floor with few joints.<br />
+          Feature Walls<br />
+          Its natural veining lends itself to a graceful backdrop for TV units, fireplaces and decorative walls.<br />
+          Stairs.<br />
+          Continuous stone steps is a premium architectural statement.<br />
+          Bathroom Interior<br />
 
-</p>
-<p>
-  Moca Cream is often used to create welcoming interiors in hotels, luxury offices, retail stores and restaurants.
-</p>
+          Continuous stone steps is a premium architectural statement.<br />
+          Bathroom Interior
+        </p>
+        <p>
+          Moca Cream adds a spa-like feel to vanity walls, shower areas and bathroom flooring.<br />
+          Business Areas
 
-<h2 className="text-2xl font-bold">
-  Common Uses of Moca Cream Limestone-
-</h2>
-<p>
-  Limestone is a very versatile material and is used for a wide range of architectural purposes.
+        </p>
+        <p>
+          Moca Cream is often used to create welcoming interiors in hotels, luxury offices, retail stores and restaurants.
+        </p>
 
-</p>
-<h2 className="text-2xl font-bold">
-  Common uses include:
-</h2>
-<p>
-  Flooring indoor<br/>
-Wall cladding<br/>
-Stairs.<br/>
-Bathroom walls<br/>
-Backsplash kitchen<br/>
-Fireplace surrounds<br/>
-Interior of hotel<br/>
-Reception desks ,<br/>
-Business Floors<br/>
-Decorative stone work<br/>
-When finished and sealed properly it can also be used for some exterior cladding applications. 
-</p>
-<h2 className="text-2xl font-bold">
-  Moca Cream Limestone Advantages
-</h2>
-<p>
-  Trendy Styles<br/>
-The warm cream tones make it feel so inviting and luxurious.<br/>
-Timeless style<br/><br/>
+        <h2 className="text-2xl font-bold">
+          Common Uses of Moca Cream Limestone-
+        </h2>
+        <p>
+          Limestone is a very versatile material and is used for a wide range of architectural purposes.
 
-Moca Cream limestone, unlike trendy materials, never goes out of style.
-</p>
-<h2 className="text-2xl font-bold">The Natural Beauty</h2>
-<p>
-  Every slab has its own natural patterns that add character to your interiors.
+        </p>
+        <h2 className="text-2xl font-bold">
+          Common uses include:
+        </h2>
+        <p>
+          Flooring indoor<br />
+          Wall cladding<br />
+          Stairs.<br />
+          Bathroom walls<br />
+          Backsplash kitchen<br />
+          Fireplace surrounds<br />
+          Interior of hotel<br />
+          Reception desks ,<br />
+          Business Floors<br />
+          Decorative stone work<br />
+          When finished and sealed properly it can also be used for some exterior cladding applications.
+        </p>
+        <h2 className="text-2xl font-bold">
+          Moca Cream Limestone Advantages
+        </h2>
+        <p>
+          Trendy Styles<br />
+          The warm cream tones make it feel so inviting and luxurious.<br />
+          Timeless style<br /><br />
 
-</p>
-<h2 className="text-2xl font-bold">Use for multiple purposes</h2>
-<p>
-Perfect for home, hotel, office, retail and hospitality projects.
+          Moca Cream limestone, unlike trendy materials, never goes out of style.
+        </p>
+        <h2 className="text-2xl font-bold">The Natural Beauty</h2>
+        <p>
+          Every slab has its own natural patterns that add character to your interiors.
 
-</p>
+        </p>
+        <h2 className="text-2xl font-bold">Use for multiple purposes</h2>
+        <p>
+          Perfect for home, hotel, office, retail and hospitality projects.
 
-<h2 className="text-2xl font-bold">Excellent Design Compatibility</h2>
-<p>
-Marble, wood, glass, granite and metal finishes look great, too.
+        </p>
+
+        <h2 className="text-2xl font-bold">Excellent Design Compatibility</h2>
+        <p>
+          Marble, wood, glass, granite and metal finishes look great, too.
 
 
-</p>
+        </p>
 
-<h2 className="text-2xl font-bold">Increases Property Value</h2>
-<p>
-Moreover, premium natural stone flooring can also add value to a property and make it more desirable.
-</p>
+        <h2 className="text-2xl font-bold">Increases Property Value</h2>
+        <p>
+          Moreover, premium natural stone flooring can also add value to a property and make it more desirable.
+        </p>
 
-<h2 className="text-2xl font-bold">
-  How to Choose the Best Moca Cream Limestone Supplier
-</h2>
-<p>
-  Opting for an experienced Moca Cream limestone supplier means you get quality and a reliable service.
-</p>
-<h2 className="text-2xl font-bold">
-  Suppliers should be able to:
-</h2>
+        <h2 className="text-2xl font-bold">
+          How to Choose the Best Moca Cream Limestone Supplier
+        </h2>
+        <p>
+          Opting for an experienced Moca Cream limestone supplier means you get quality and a reliable service.
+        </p>
+        <h2 className="text-2xl font-bold">
+          Suppliers should be able to:
+        </h2>
 
-<p>
-Premium imported slabs.<br/>
-Thickness and finish different<br/>
-Big Slab on Hand<br/>
-Quality control<br/>
-Bespoke cutting services<br/>
-On-time delivery Nationwide<br/>
-Installation Tips for Professionals<br/>
-</p>
+        <p>
+          Premium imported slabs.<br />
+          Thickness and finish different<br />
+          Big Slab on Hand<br />
+          Quality control<br />
+          Bespoke cutting services<br />
+          On-time delivery Nationwide<br />
+          Installation Tips for Professionals<br />
+        </p>
 
-<p>
-  Work with a knowledgeable supplier, help you  gai  confidence that the stone will be the one your design expects.
-Guidelines for Selecting a Reliable Moca Cream Limestone Supplier
+        <p>
+          Work with a knowledgeable supplier, help you  gai  confidence that the stone will be the one your design expects.
+          Guidelines for Selecting a Reliable Moca Cream Limestone Supplier
 
-</p>
-<h2 className="text-2xl font-bold">
-What to look for in a good dealer of Moca Cream Limestone:
+        </p>
+        <h2 className="text-2xl font-bold">
+          What to look for in a good dealer of Moca Cream Limestone:
 
-</h2>
-<p>
-  Real imported limestone<br/>
-Cheap prices<br/>
-Experts’ word<br/>
-Slabs of various sizes<br/>
-Good package.<br/>
-Delivery on time<br/>
-Support after Sale<br/>
-Always inspect the slab for consistency, finish and veining before you buy.<br/>
+        </h2>
+        <p>
+          Real imported limestone<br />
+          Cheap prices<br />
+          Experts’ word<br />
+          Slabs of various sizes<br />
+          Good package.<br />
+          Delivery on time<br />
+          Support after Sale<br />
+          Always inspect the slab for consistency, finish and veining before you buy.<br />
 
-</p>
-<h2 className="text-2xl font-bold">
-  Final thoughts 
+        </p>
+        <h2 className="text-2xl font-bold">
+          Final thoughts
 
-</h2>
-<p>
-  If you’re after a natural stone that delivers a sophisticated, durable and enduring appeal, Moca Cream Stone is a smart investment. This Portuguese limestone provides a warm luxurious look to any space whether it be premium Moca Cream Limestone Flooring or refined Moca Cream Limestone Design applications.
-Check Moca Cream Limestone Price and Limestone Price in India before buying. Choose an experienced Moca Cream Limestone Dealer and Moca Cream Limestone Supplier to make sure that you get original, high quality material that will beautify your interiors for years to come.
+        </h2>
+        <p>
+          If you’re after a natural stone that delivers a sophisticated, durable and enduring appeal, Moca Cream Stone is a smart investment. This Portuguese limestone provides a warm luxurious look to any space whether it be premium Moca Cream Limestone Flooring or refined Moca Cream Limestone Design applications.
+          Check Moca Cream Limestone Price and Limestone Price in India before buying. Choose an experienced Moca Cream Limestone Dealer and Moca Cream Limestone Supplier to make sure that you get original, high quality material that will beautify your interiors for years to come.
 
-</p>
+        </p>
 
       </div>
     ),
