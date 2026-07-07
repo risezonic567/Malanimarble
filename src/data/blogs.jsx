@@ -9482,7 +9482,7 @@ const blogs = [
       <div className="space-y-6">
 
         <p>
-         When decorating beautiful interiors, the use of marble plays a significant role and can change the style of a room totally. One of the best and most expensive kinds of imported marble that are used in interior designs nowadays is called Bianco Vogue Marble, which became quite popular among the people who choose marble for their houses.
+          When decorating beautiful interiors, the use of marble plays a significant role and can change the style of a room totally. One of the best and most expensive kinds of imported marble that are used in interior designs nowadays is called Bianco Vogue Marble, which became quite popular among the people who choose marble for their houses.
         </p>
 
         <p>
@@ -9494,26 +9494,26 @@ const blogs = [
         </p>
 
         <h2 className="text-2xl font-bold">
-        Why Select Bianco Vogue Marble?
+          Why Select Bianco Vogue Marble?
         </h2>
         <p>
-        Traditionally marble has always been a symbol of elegance and exclusivity and Bianco Vogue Marble is not the exception. Its light white color provides you with space and warmth along with the feeling of timeless elegance.
+          Traditionally marble has always been a symbol of elegance and exclusivity and Bianco Vogue Marble is not the exception. Its light white color provides you with space and warmth along with the feeling of timeless elegance.
         </p>
-      
+
         <p>
-        Among the benefits of this Premium White Marble that makes it attractive for homeowners and designers are:
+          Among the benefits of this Premium White Marble that makes it attractive for homeowners and designers are:
         </p>
         <p className="font-bold">
-          
-Light elegant white background and natural veins
-<br />
+
+          Light elegant white background and natural veins
+          <br />
           Luxurious polished surface<br />
           Very durable material<br />
           Brings brightness into the interior<br />
           Good for residential and commercial use<br />
           Good match for modern and traditional decoration styles<br />
         </p>
-    
+
         <p>
           This variety of marble has an appealing look and can be used for creation of interiors which will stay stylish for many years.
         </p>
@@ -9521,42 +9521,42 @@ Light elegant white background and natural veins
           Bianco Vogue Marble Features
         </h2>
         <p>
-         Increasing popularity of White Marble is due to the combination of beauty and functionality.
+          Increasing popularity of White Marble is due to the combination of beauty and functionality.
 
-          </p>
+        </p>
         <h3 className="text-xl font-semibold">
-Elegant White Background
+          Elegant White Background
         </h3>
         <p>
-Light white color allows reflection of natural light, making rooms more large, bright, and cozy.
+          Light white color allows reflection of natural light, making rooms more large, bright, and cozy.
 
         </p>
 
-          <h3 className="text-xl font-semibold">
-Natural Unique Veins
+        <h3 className="text-xl font-semibold">
+          Natural Unique Veins
         </h3>
         <p>
           Each sheet of Bianco Vogue Marble is unique and has its own pattern.
 
         </p>
 
-          <h3 className="text-xl font-semibold">
-Luxury Finish
+        <h3 className="text-xl font-semibold">
+          Luxury Finish
         </h3>
         <p>
           It provides a luxury feel with an aesthetically pleasing finish for the whole setting.
         </p>
 
-          <h3 className="text-xl font-semibold">
-Exceptional Durability
+        <h3 className="text-xl font-semibold">
+          Exceptional Durability
         </h3>
         <p>
           It has the ability to provide long lasting durability when properly installed and maintained as it is one of the best Premium White Marbles.
 
         </p>
 
-          <h3 className="text-xl font-semibold">
-Flexible Design
+        <h3 className="text-xl font-semibold">
+          Flexible Design
         </h3>
         <p>
           This white marble can easily blend into the various design styles whether in minimalist designs or luxury interiors.
@@ -9568,57 +9568,57 @@ Flexible Design
         <p>
           The major benefit of this marble is that it is versatile as it beautifies any part of the house or business premises.
         </p>
-          <h3 className="text-xl font-semibold">
-Luxury Floors
+        <h3 className="text-xl font-semibold">
+          Luxury Floors
         </h3>
         <p>
           With white marble floors, you will always have a spacious and elegant look that is modern.
 
         </p>
 
-          <h3 className="text-xl font-semibold">
-Design Accent Walls
+        <h3 className="text-xl font-semibold">
+          Design Accent Walls
         </h3>
         <p>
-          
-Creating designer accent walls using white marble gives a beautiful focal point in your living room, lobby of hotels, offices and reception areas.
+
+          Creating designer accent walls using white marble gives a beautiful focal point in your living room, lobby of hotels, offices and reception areas.
 
         </p>
 
-          <h3 className="text-xl font-semibold">
-White Marble for Kitchens
+        <h3 className="text-xl font-semibold">
+          White Marble for Kitchens
         </h3>
         <p>
           When installing white marble in the kitchen for countertops, back splash and islands, you will have a luxury kitchen that is very elegant and functional with all the cabinet finishes and interior themes.
         </p>
 
-          <h3 className="text-xl font-semibold">
-Premium Bathrooms
+        <h3 className="text-xl font-semibold">
+          Premium Bathrooms
         </h3>
         <p>
           Bathrooms with luxury white marbles provide an elegant spa-like feeling.
         </p>
 
-          <h3 className="text-xl font-semibold">
-Elegant Staircases
+        <h3 className="text-xl font-semibold">
+          Elegant Staircases
         </h3>
         <p>
           Stairs made of marble bring elegance and luxury to any home while adding to the architectural elegance of the building.
         </p>
 
-          <h3 className="text-xl font-semibold">
-Commercial Interiors
+        <h3 className="text-xl font-semibold">
+          Commercial Interiors
         </h3>
         <p>
           Premier hotels, high-end retail spaces, offices, and premium showrooms often use Bianco Vogue Marble to make a great first impression.
         </p>
 
         <h2 className="text-2xl font-bold">
-          Why White Marble Is Best for Your Modern Home? 
+          Why White Marble Is Best for Your Modern Home?
         </h2>
 
         <p>
-          Many people choose White Marble homes because white marble brings a timeless and elegant interior look to your home.
+          Many people choose <Link to="https://www.malanimarbles.com/marble-collection/white-marble" className="text-blue-600 hover:underline">White Marble homes</Link>  because white marble brings a timeless and elegant interior look to your home.
         </p>
         <p>
           Some of its main benefits include:
@@ -9683,13 +9683,13 @@ Commercial Interiors
           As important as the selection of right marble is, selection of the right supplier is equally important.
         </p>
         <p>
-          Malani Marbles is a company that has a rare collection of premium marble that has been sourced from renowned quarries across the globe. From Bianco Vogue Marble to elegant White Marble or Premium White Marble, we provide an array of selected marble that ensures quality and elegance.
+          Malani Marbles is a company that has a rare collection of premium marble that has been sourced from renowned quarries across the globe. From <Link to="https://www.malanimarbles.com/marble-collection/white-marble/bianco-vogue-white-marbles" className="text-blue-600 hover:underline">Bianco Vogue Marble</Link>  to elegant White Marble or Premium White Marble, we provide an array of selected marble that ensures quality and elegance.
         </p>
         <p>
           Several years of experience in the marble business helps us guide our clients which include homeowners, architects, builders, interior designers to select the right marble for their homes or buildings.
         </p>
         <h2 className="text-2xl font-bold">
-          Final Thoughts 
+          Final Thoughts
         </h2>
         <p>
           Choosing the correct marble slab is one of the vital stages in the construction of luxurious interiors. This is because the Bianco Vogue Marble slab symbolizes elegance, natural beauty, and high levels of durability; therefore, it fits perfectly into both contemporary residential and commercial projects.
