@@ -9840,7 +9840,7 @@ const blogs = [
         </p>
         <p>
 
-          In case you want to use Thassos White Marble for your future projects, this purchasing guide will provide all information about Thassos Marble Characteristics, Applications, Advantages, Prices and Choosing Tips for a trustworthy Thassos Marble Supplier and Dealer.
+          In case you want to use Thassos White Marble for your future projects this purchasing guide will provide all information about Thassos Marble Characteristics, Applications, Advantages, Prices and Choosing Tips for a trustworthy Thassos Marble Supplier and Dealer.
         </p>
         <h2 className="text-2xl font-semibold">What Is Thassos White Marble?</h2>
         <p>
