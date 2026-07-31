@@ -6,7 +6,6 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://www.malanimarbles.com/</loc>
   <lastmod>2026-01-27T07:33:22+00:00</lastmod>
@@ -16,26 +15,32 @@
   <loc>https://www.malanimarbles.com/about</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
 </url>
+
 <url>
   <loc>https://www.malanimarbles.com/marble-collection</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
 </url>
+
 <url>
   <loc>https://www.malanimarbles.com/tiles-collections</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
 </url>
+
 <url>
   <loc>https://www.malanimarbles.com/why-us</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
 </url>
+
 <url>
   <loc>https://www.malanimarbles.com/our-vision-and-mission</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
 </url>
+
 <url>
   <loc>https://www.malanimarbles.com/infrastructure</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
 </url>
+
 <url>
   <loc>https://www.malanimarbles.com/clientele</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
@@ -44,14 +49,17 @@
   <loc>https://www.malanimarbles.com/marble-collection/imported-marble</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
 </url>
+
 <url>
   <loc>https://www.malanimarbles.com/marble-collection/italian-marble</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
 </url>
+
 <url>
   <loc>https://www.malanimarbles.com/marble-collection/beige-marble</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
 </url>
+
 <url>
   <loc>https://www.malanimarbles.com/marble-collection/coloured-marble</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
@@ -142,6 +150,7 @@
   <loc>https://www.malanimarbles.com/blog/best-imported-natural-marble-suppliers-delhi-india</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
 </url>
+ 
 <url>
   <loc>https://www.malanimarbles.com/blog/choosing-the-right-kitchen-countertop-expert-tips-for-long-term-performance</loc>
   <lastmod>2026-07-08T07:33:22+00:00</lastmod>
@@ -291,6 +300,11 @@
 <url>
 <loc>https://www.malanimarbles.com/blog/iceberg-grey-marble-a-perfect-fit-for-your-home</loc>
 <lastmod>2026-07-28T07:33:22+00:00</lastmod>
+</url>
+
+<url>
+<loc>https://www.malanimarbles.com/blog/perlato-sicilia-italian-marble-characteristics-applications-and-purchasing-guide</loc>
+<lastmod>2026-07-31T07:33:22+00:00</lastmod>
 </url>
 
 </urlset>
