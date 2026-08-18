@@ -10878,7 +10878,7 @@ const blogs = [
 
         <h2 className="text-2xl font-semibold">2. Tan Brown Granite for Countertops</h2>
         <p>
-          When it comes to the installation of the best granite countertop, you should choose the best one, which is Tan Brown Granite for Countertops due to the following reasons:
+          When it comes to the installation of the <Link to="https://www.malanimarbles.com/" className="text-blue-600 underline"> best granite countertop</Link>, you should choose the best one, which is Tan Brown Granite for Countertops due to the following reasons:
         </p>
         <p>
 
