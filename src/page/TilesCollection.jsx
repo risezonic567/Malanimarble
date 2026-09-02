@@ -6,8 +6,24 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 export default function TilesCollection() {
   useEffect(() => {
-    window.scroll(0, 0)
-  })
+  window.scrollTo({
+    top: 0,
+    behavior: "instant",
+  });
+
+  
+  const timer2 = setTimeout(() => {
+    window.scrollTo({
+      top: 150,
+      behavior: "smooth",
+    });
+  }, 1000);
+
+  return () => {
+  
+    clearTimeout(timer2);
+  };
+}, []);
   return (
     // tilebanner
     <section className="pb-20 bg-gradient-to-b from-white to-gray-100 min-h-screen">

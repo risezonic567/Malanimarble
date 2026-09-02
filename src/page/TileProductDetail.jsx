@@ -40,6 +40,26 @@ export default function TileProductDetail() {
         ? description
         : description.slice(0, DESCRIPTION_CHAR_LIMIT) + (isLongDescription ? "..." : "");
 
+         useEffect(() => {
+  window.scrollTo({
+    top: 0,
+    behavior: "instant",
+  });
+
+  
+  const timer2 = setTimeout(() => {
+    window.scrollTo({
+      top: 150,
+      behavior: "smooth",
+    });
+  }, 1000);
+
+  return () => {
+  
+    clearTimeout(timer2);
+  };
+}, []);
+
     return (
         <section className="min-h-screen bg-white font-sans text-slate-800">
             <Helmet>
