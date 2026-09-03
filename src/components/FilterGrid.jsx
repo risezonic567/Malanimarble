@@ -87,12 +87,12 @@ function FilterGrid() {
     ],
     []
   );
+  
   let navigate = useNavigate()
   const filtered = items.filter((i) => i.type === tab);
 
   return (
     <section className="p-8">
-      {/* Header */}
       <div className="flex flex-wrap max-w-7xl mx-auto items-center justify-between gap-4">
         <h2 className="rounded-full border border-gray-300 px-5 py-2 text-sm  font-semibold uppercase tracking-widest  shadow-lg text-gray-900 backdrop-blur-md">
           Signature Collection

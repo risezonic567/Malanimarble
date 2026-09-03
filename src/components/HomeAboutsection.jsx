@@ -1,5 +1,6 @@
 import React from "react";
 import { Award, Shield, Truck, Users } from "lucide-react";
+import MarblesSection from "./MarbleSections";
 
 export default function HomeAboutsection() {
   return (
@@ -27,7 +28,6 @@ export default function HomeAboutsection() {
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               As a leading marble company, we are proud to offer a full range of rare imported premium slabs such as Statuario, Blue Roma, and world-class Indian granites to choose from. Our in-house finishing & logistics capabilities will provide a seamless process from selection to installation. Select Malani Marbles Pvt. Ltd for the best material, education and value to elevat e any space.
-
             </p>
 
             <div className="grid grid-cols-2 gap-6">
@@ -111,6 +111,8 @@ export default function HomeAboutsection() {
           </div>
         </div>
       </div>
+
+      <MarblesSection/>
     </section>
   );
 }
