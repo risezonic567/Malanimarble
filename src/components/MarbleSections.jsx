@@ -9,7 +9,7 @@ export default function MarblesSection() {
         {/* Text left */}
         <div className="space-y-4">
           <motion.h2
-            className="font-serif-heading text-red-600 text-3xl md:text-4xl"
+            className="text-4xl md:text-3xl font-bold font-display text-red-600 "
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
