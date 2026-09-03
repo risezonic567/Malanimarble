@@ -1,6 +1,6 @@
 import React from "react";
 import { Award, Shield, Truck, Users } from "lucide-react";
-import MarblesSection from "./MarbleSections";
+
 
 export default function HomeAboutsection() {
   return (
@@ -112,7 +112,7 @@ export default function HomeAboutsection() {
         </div>
       </div>
 
-      <MarblesSection/>
+      
     </section>
   );
 }
