@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import PrivacyPolicy from "./page/PrivacyPolicy";
 import TileProductDetail from "./page/TileProductDetail";
 import MarbleProductDetail from "./page/MarbleProductDetail";
+import CTA from "./components/CTA";
 
 
 // Lazy load pages
@@ -69,8 +70,12 @@ export default function App() {
 
 
           {/* You can lazy load more pages here */}
+
+          
         </Routes>
+        
       </Suspense>
+      <CTA/>
       <Footer />
     </Router>
   );
