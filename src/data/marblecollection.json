@@ -35,6 +35,7 @@
                 "metatitle": "",
                 "name": "Nero St. laurent",
                 "slug": "nero-st-laurent",
+                "price": "340 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/nero%20st.%20laurent.webp"
             },
             {
@@ -43,6 +44,7 @@
                 "metatitle": "",
                 "name": "Gray Saint Laurent",
                 "slug": "gray-saint-laurent",
+                "price": "228 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/gREY%20SAINT%20LAURENT.webp"
             },
             {
@@ -147,6 +149,7 @@
                 "metades": "Casa Nova Italian Marble is a beautiful natural stone featuring a soft beige base with light patterns that create warmth and elegance in interior spaces. It has a very fine finish and a polished surface that combines to give a luxurious appearance, which is perfect for use on floors, walls, and areas where an individual wants to make an impact. Casa Nova marble has been carefully chosen for its consistency, durability, and high-class finish, providing a long-lasting product for residential and commercial applications. Casa Nova marble can blend well with both modern and traditional design styles while enhancing the overall feel of any space. Casa Nova is also supplied by Malani Marbles Pvt Ltd and is an ideal material for someone looking for timeless quality with dependable value.",
                 "name": "Casa Nova",
                 "slug": "casa-nova",
+                "price": "248 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/CASA%20NOVA.webp"
             },
             {
@@ -196,6 +199,7 @@
                 "metades": "Explore Breccia Onichita Marble in Delhi from  Malani Marbles Pvt. Ltd. Elegant beige marble with rich texture, ideal for flooring, walls, and luxury interiors.",
                 "name": "Brecia Onichita",
                 "slug": "brecia-onichita",
+                "price": "208 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/bRECIA%20ONICHITA.webp"
             },
             {
@@ -204,6 +208,7 @@
                 "metatitle": "Imported Breccia Blue Marble | Malani Marbles Pvt. Ltd.",
                 "name": "Brecia Blue",
                 "slug": "brecia-blue",
+                "price": "228 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/bLUE%20BRECIA.webp"
             },
             {
@@ -212,6 +217,7 @@
                 "description": "Gray Breccia Marble is a luxurious stone with an artistic mix of beige and gray colors, creating a feeling of cleanliness and sophistication. The neutral tones of this marble allow for endless versatility to be used within any modern interior as well as in many other types of applications, including flooring, wall cladding/backsplashes, and countertops.The polished surface of gray breccia marble enhances its smoothness while providing a refined texture to create a sophisticated look within every room. Both residential and commercial spaces can be designed using Gray Breccia marble products because this natural stone has a long-lasting design appeal. The beauty of gray breccia marble is perfect for any design style from minimalistic to luxurious.Malani Marbles manufactures superior-quality slabs of Gray Breccia marble to ensure that your project receives the consistency and strength you expect from a marble product with a high-quality finish. All of these qualities make Gray Breccia marble one of the most sought-after materials for use in designer homes.",
                 "name": "Gray Brecia",
                 "slug": "gray-brecia",
+                "price": "448 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/gREY%20bRECIA.webp"
             },
             {
@@ -228,6 +234,7 @@
                 "metades": "Classic Beige Marble by Malani Marbles combines soft beige tones with a polished finish for a warm and elegant look. Suitable for flooring, walls, and interiors",
                 "name": "Classic Beige",
                 "slug": "classic-beige",
+                "price": "198 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/CLASSIC%20BEIGE.webp"
             },
             {
@@ -254,6 +261,7 @@
                 "metatitle": "Cafe Imperial Marble | Malani Marbles Pvt. Ltd.",
                 "name": "Cafe Imperial",
                 "slug": "cafeimperial",
+                "price":"210 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/CAFÉ%20IMPERIAL.webp"
             },
             {
@@ -280,6 +288,7 @@
                 "name": "Bottochino Classico",
                 "description": "Bottochino Classico Marble is a premium Italian beige marble that offers an exceptional combination of warm tones and unique veins. Bottochino Classico Marble works with both residential and commercial applications where a premium natural stone adds timeless elegance to an interior environment. Bottochino Classico Marble can be utilized in many different applications, such as flooring, wall coverings, kitchen countertops, bathroom vanities, and architectural elements. Bottochino Classico Marble's neutral coloration complements virtually all design styles, from contemporary to traditional. Minus the distinctive characteristics of Bottochino Classico Marble that enhance the light and space of any project, the finish is extremely durable and adds to the overall beauty of every application. Supplied by Malani Marbles Pvt. Ltd., it is an excellent selection for architects, designers, builders, and consumers who desire premium quality.",
                 "slug": "bottochino-classico",
+                "price": "250 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/BOTTICHINO%20CLASSICO.webp"
             }
         ]
@@ -376,6 +385,7 @@
                 "metatitle": "",
                 "name": "Nero St. laurent",
                 "slug": "nero-st-laurent",
+                "price": "340 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/nero%20st.%20laurent.webp"
             },
             {
@@ -1049,7 +1059,7 @@
                 "metades": "Explore Michael Angelo Peach marble or premium interiors, flooring, and feature walls. Find elegant white marble slabs with soft peach undertones and refined natural beauty.",
                 "name": "Michael Angelo",
                 "slug": "michael-angelo",
-                 "description": "Michelangelo Marble is an exquisite and premium natural stone that has an elegant white background and clear grey vein patterns, which give it a high-class and luxurious look and will be timeless, classic, and sophisticated regardless of whether it is used in a home or business. We provide quality Michelangelo Marble from Malani Marbles with the best possible finishes, ensuring durability and long-lasting performance. Michelangelo Marble can be used in many different ways, including floors, walls, countertops, bathrooms, staircases (including features), and modern style or older style design, as there are multi-dimensional patterns that can add light, airiness, and premium quality to a space. Not only does Michelangelo Marble have an extremely high-quality appearance, but it also has good structural strength and durability, which makes them practical and stylish decor option, and will work well with any type of design theme, thus being ideal in creating both luxury and classic interiors.",
+                "description": "Michelangelo Marble is an exquisite and premium natural stone that has an elegant white background and clear grey vein patterns, which give it a high-class and luxurious look and will be timeless, classic, and sophisticated regardless of whether it is used in a home or business. We provide quality Michelangelo Marble from Malani Marbles with the best possible finishes, ensuring durability and long-lasting performance. Michelangelo Marble can be used in many different ways, including floors, walls, countertops, bathrooms, staircases (including features), and modern style or older style design, as there are multi-dimensional patterns that can add light, airiness, and premium quality to a space. Not only does Michelangelo Marble have an extremely high-quality appearance, but it also has good structural strength and durability, which makes them practical and stylish decor option, and will work well with any type of design theme, thus being ideal in creating both luxury and classic interiors.",
                 "price": "999 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/white/michelangelo.webp"
             },
