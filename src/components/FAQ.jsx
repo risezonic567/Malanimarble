@@ -57,7 +57,7 @@ const FAQItem = ({ question, answer }) => {
     >
       <motion.button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex justify-between items-center w-full text-left font-semibold text-xl text-gray-800 focus:outline-none focus-visible:ring focus-visible:ring-indigo-500 focus-visible:ring-opacity-50 transition-colors duration-200 hover:text-indigo-600"
+        className="flex justify-between items-center w-full text-left font-semibold text-xl text-gray-800 focus:outline-none focus-visible:ring focus-visible:ring-red-500 focus-visible:ring-opacity-50 transition-colors duration-200 hover:text-red-600"
       >
         <span>{question}</span>
         <motion.div
@@ -106,7 +106,7 @@ const FAQ = () => {
         <h2 className="text-5xl font-extrabold text-center text-gray-800 mb-4">
           Frequently Asked Questions
         </h2>
-        <p className="text-center text-lg text-gray-500 mb-16 max-w-2xl mx-auto">
+        <p className="text-center text-lg text-black mb-16 max-w-2xl mx-auto">
           We've compiled a list of common questions to help you find the information you need quickly.
         </p>
         
