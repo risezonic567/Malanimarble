@@ -56,6 +56,7 @@ export default function Navbar() {
       ],
     },
     { label: "Contact", href: "/contact" },
+   
   ];
 
   return (
@@ -124,6 +125,13 @@ export default function Navbar() {
                 </NavLink>
               )
             )}
+
+              <NavLink
+    to="tel:+919810387297"
+    className="rounded-full border bg-black hover:bg-red-600 hover:shadow-2xl hover:translate-x-1 text-white font-normal hover:bg-transparent hover:text-white transition-all duration-300 px-2"
+  >
+    Enquiry Now
+  </NavLink>
           </div>
 
           {/* Mobile Menu Button */}
@@ -177,8 +185,12 @@ export default function Navbar() {
                     {item.label}
                   </NavLink>
                 )}
+                
               </div>
+              
+
             ))}
+
           </div>
         )}
       </nav>

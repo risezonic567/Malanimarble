@@ -3,11 +3,11 @@ import React from 'react'
 export default function CTA() {
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-4">
-      {/* WhatsApp Button */}
+
       <div className="relative group flex items-center justify-center">
-        {/* Animated Background Glow Ring */}
+
         <span className="absolute inset-0 rounded-full bg-[#7de2a2] opacity-25 animate-ping"></span>
-        
+
         <a
           href="https://wa.me/+919810387297"
           target="_blank"
@@ -29,9 +29,8 @@ export default function CTA() {
         </a>
       </div>
 
-      {/* Call Button */}
       <div className="relative group flex items-center justify-center">
-        {/* Animated Background Glow Ring */}
+
         <span className="absolute inset-0 rounded-full bg-[#729abe] opacity-25 animate-ping"></span>
 
         <a
