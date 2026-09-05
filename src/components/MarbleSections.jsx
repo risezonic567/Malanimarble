@@ -23,8 +23,8 @@ export default function MarblesSection() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-          Malani Marbles offers premium marble and natural stone solutions across India for residential and commercial projects. As a trusted Marble Supplier in India, we serve homeowners, architects, interior designers, contractors and businesses with a carefully selected range of natural stone.
-Our collection includes marble sourced from Italy and other international markets, along with a variety of natural stones for contemporary and traditional spaces. Explore our Italian marble and imported marble collection, with elegant materials suitable for flooring, wall cladding, countertops, staircases and other architectural applications.
+            Malani Marbles offers premium marble and natural stone solutions across India for residential and commercial projects. As a trusted Marble Supplier in India, we serve homeowners, architects, interior designers, contractors and businesses with a carefully selected range of natural stone.
+            Our collection includes marble sourced from Italy and other international markets, along with a variety of natural stones for contemporary and traditional spaces. Explore our Italian marble and imported marble collection, with elegant materials suitable for flooring, wall cladding, countertops, staircases and other architectural applications.
           </motion.p>
 
           <motion.p
@@ -33,7 +33,7 @@ Our collection includes marble sourced from Italy and other international market
             whileInView={{ opacity: 1 }}
             viewport={{ once: true, amount: 0.2 }}
           >
-          For clients in Delhi and the surrounding region, Malani Marbles also provides a curated collection of <Link to="https://www.malanimarbles.com/marble-collection/italian-marble" className="text-blue-600 hover:underline"> Italian marble</Link>, imported marble, onyx and Brazilian quartzite for luxury homes, hotels, offices and commercial interiors.
+            For clients in Delhi and the surrounding region, Malani Marbles also provides a curated collection of <Link to="https://www.malanimarbles.com/marble-collection/italian-marble" className="text-blue-600 hover:underline"> Italian marble</Link>, imported marble, onyx and Brazilian quartzite for luxury homes, hotels, offices and commercial interiors.
           </motion.p>
 
           {/* <motion.p

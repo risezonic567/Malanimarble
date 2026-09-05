@@ -57,7 +57,6 @@ export default function VisionMission() {
         </div>
       </section>
 
-      {/* Our Team Section */}
       <section className="py-12 max-w-7xl mx-auto px-6">
         <div className="flex flex-col relative justify-center items-center ">
           <span className="absolute sm:h-[2.544vw] h-[8.544vw] sm:w-[3.646vw] w-[11.646vw] mr-40 top-[-2px] border-t-4 border-l-4 border-[#e02529]"></span>
