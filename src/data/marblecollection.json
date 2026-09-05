@@ -311,6 +311,7 @@
                 "metatitle": "",
                 "name": "Golden Portoro",
                 "slug": "golden-portoro",
+                "price":"268 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/GOLDEN%20PORTORO.webp"
             },
             {
@@ -337,6 +338,7 @@
                 "metatitle": "",
                 "name": "Silver Portoro",
                 "slug": "silver-portoro",
+                "price": "258 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/SILVER%20PORTORO.webp"
             },
             {
@@ -345,6 +347,7 @@
                 "metatitle": "",
                 "name": "Rosso Portoro",
                 "slug": "rosso-portoro",
+                "price": "648 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/ROSSO%20PORTORO.webp"
             },
             {
@@ -353,6 +356,7 @@
                 "metatitle": "",
                 "name": "Grigio Orrobico",
                 "slug": "grigio-orrobico",
+                "price": "258 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/GRIGIO%20ORROBICO.webp"
             },
             {
@@ -361,6 +365,7 @@
                 "metatitle": "",
                 "name": "Golden Galaxy",
                 "slug": "golden-galaxy",
+                "price":"160 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/GOLDEN%20GALAXY.webp"
             },
             {
@@ -369,6 +374,7 @@
                 "metatitle": "",
                 "name": "Magnet Gray",
                 "slug": "magnet-gray",
+                "price": "248 / Square Feet",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/MAGNET%20GREY.webp"
             },
             {
@@ -376,6 +382,7 @@
                 "metades": "",
                 "metatitle": "",
                 "name": "Gray Saint Laurent",
+                "price": "228 / Square Feet",
                 "slug": "gray-saint-laurent",
                 "img": "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/colord/gREY%20SAINT%20LAURENT.webp"
             },
