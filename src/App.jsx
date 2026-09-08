@@ -9,6 +9,7 @@ import PrivacyPolicy from "./page/PrivacyPolicy";
 import TileProductDetail from "./page/TileProductDetail";
 import MarbleProductDetail from "./page/MarbleProductDetail";
 import CTA from "./components/CTA";
+import MarbleSupplierDelhi from "./components/MarbleSupplierDelhi";
 
 
 // Lazy load pages
@@ -61,6 +62,11 @@ export default function App() {
           <Route
             path="/tiles-collections/:categorySlug/:productSlug"
             element={<TileProductDetail />}
+          />
+
+          <Route
+            path="/marble-supplier-in-delhi"
+            element={<MarbleSupplierDelhi />}
           />
 
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />

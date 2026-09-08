@@ -171,6 +171,7 @@ import {
 } from "react-icons/fa";
 
 export default function Footer() {
+  
   return (
     <div>
       <footer className="bg-gradient-to-br from-gray-900 to-black text-white py-16">
@@ -295,6 +296,12 @@ export default function Footer() {
                 <li>
                   <NavLink to="/tiles-collections" className="hover:text-white transition-colors duration-300">
                     Tiles Collection
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink to="/marble-supplier-in-delhi" className="hover:text-white transition-colors duration-300">
+                    Marble Supplier in Delhi
                   </NavLink>
                 </li>
               </ul>
