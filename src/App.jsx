@@ -10,6 +10,7 @@ import TileProductDetail from "./page/TileProductDetail";
 import MarbleProductDetail from "./page/MarbleProductDetail";
 import CTA from "./components/CTA";
 import MarbleSupplierDelhi from "./components/MarbleSupplierDelhi";
+import Downloadcatalogue from "./components/DownloadCatalogue";
 
 
 // Lazy load pages
@@ -67,6 +68,11 @@ export default function App() {
           <Route
             path="/marble-supplier-in-delhi"
             element={<MarbleSupplierDelhi />}
+          />
+
+           <Route
+            path="/download-catalogue"
+            element={<Downloadcatalogue />}
           />
 
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />

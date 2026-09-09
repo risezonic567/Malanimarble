@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import LocationMap from "../components/LocationMap";
 export default function ContactUs() {
   const formRef = useRef();
   const [loading, setLoading] = useState(false);
@@ -126,7 +127,8 @@ export default function ContactUs() {
                 <div>
                   <h4 className="font-semibold text-gray-900">Address</h4>
                   <p className="text-gray-600 sm:max-w-sm mx-auto">
-                    A 11 , Asola Farms. Near Shanidham Mandir Road, Chattarpur,<b> New Delhi</b> - 110074
+                    A 11 , Asola
+                     Farms. Near Shanidham Mandir Road, Chattarpur,<b> New Delhi</b> - 110074
                   </p>
                    <p className="text-gray-600 sm:max-w-sm mx-auto">Malani Marble Pvt. Ltd.
                     Khasra No.231/10,Village Kali Doongri <b className="text-dark-900">Kishangarh</b> 305801</p>
@@ -253,7 +255,9 @@ export default function ContactUs() {
             </form>
           </div>
         </div>
+        <LocationMap/>
       </div>
+      
     </section>
   );
 }

@@ -304,6 +304,12 @@ export default function Footer() {
                     Marble Supplier in Delhi
                   </NavLink>
                 </li>
+
+                 <li>
+                  <NavLink to="/download-catalogue" className="hover:text-white transition-colors duration-300">
+                    Download Catalogue
+                  </NavLink>
+                </li>
               </ul>
             </div>
 

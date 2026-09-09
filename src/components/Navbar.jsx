@@ -56,6 +56,7 @@ export default function Navbar() {
       ],
     },
     { label: "Contact", href: "/contact" },
+    // { label: "Catalogue Pdf", href: "/contact" }
    
   ];
 
@@ -127,10 +128,10 @@ export default function Navbar() {
             )}
 
               <NavLink
-    to="tel:+919810387297"
+    to="/download-catalogue"
     className="rounded-full border bg-red-600 hover:bg-red-600 hover:shadow-2xl hover:translate-x-1 text-white font-normal hover:bg-transparent hover:text-white transition-all duration-300 px-2"
   >
-    Enquiry Now
+   Download Catalogue
   </NavLink>
           </div>
 
