@@ -11300,7 +11300,7 @@ const blogs = [
   {
     id: 52,
     title: "Top 7 imported marbles that instantly elevate your home's interior",
-    slug: "top-imported-marbles-that-instantly-elevate-your-home's-interior",
+    slug: "top-imported-marbles-that-instantly-elevate-your-homes-interior",
     author: "Malani Marbles Pvt. Ltd.",
     date: "September 2026",
     category: "Vietnam White Marble",
@@ -11308,7 +11308,7 @@ const blogs = [
       "/img/BlogImage/Malani Blog Top 7 imported marbles that instantly elevate your home's interior.jpg.jpeg",
 
     canonical:
-      "https://www.malanimarbles.com/blog/top-imported-marbles-that-instantly-elevate-your-home's-interior -",
+      "https://www.malanimarbles.com/blog/top-imported-marbles-that-instantly-elevate-your-homes-interior",
     metaTitle: "7 Imported Marble Types to Elevate Your Home Interior",
     metaDescription:
       "Explore 7 imported marble types for home interiors, including Statuario White, Lasa White, Blue Roma and Bottochino Classico, with uses and selection tips.",
