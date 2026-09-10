@@ -169,9 +169,10 @@ export default function MarbleCategory() {
         <h1 className="text-3xl font-semibold text-center mb-10 uppercase">
           {category.title}
         </h1>
-        <p className="text-md mb-12 text-justify max-w-6xl mx-auto text-center">
-          {category.paragraph}
-        </p>
+       <p
+  className="text-md mb-12 text-justify max-w-6xl mx-auto text-center"
+  dangerouslySetInnerHTML={{ __html: category.paragraph }}
+/>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {category.products.map((p) => (
