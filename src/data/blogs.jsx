@@ -6772,7 +6772,7 @@ const blogs = [
         <h2 className="text-2xl font-bold">What is Statuario Marble?</h2>
 
         <p>
-          <b>Statuario marble</b> is a premium variety of <b>Italian marble,</b> quarried from the famous Carrara region of Italy. It is recognised for its striking white surface and bold grey veining that creates a bold yet sophisticated look. Unlike everyday marble, Statuario marble is rare and exclusive, making it a preferred choice for architects, interior designers, and homeowners who aim for elegance with uniqueness.
+          <Link to="https://www.malanimarbles.com/marble-collection/white-marble/statuario-white"><b>Statuario marble</b></Link>  is a premium variety of <b>Italian marble,</b> quarried from the famous Carrara region of Italy. It is recognised for its striking white surface and bold grey veining that creates a bold yet sophisticated look. Unlike everyday marble, Statuario marble is rare and exclusive, making it a preferred choice for architects, interior designers, and homeowners who aim for elegance with uniqueness.
         </p>
 
         <p>
@@ -6986,7 +6986,7 @@ const blogs = [
         </h2>
 
         <p>
-          Imported marble is loved because of its unique textures, premium shine,
+        <Link to="https://www.malanimarbles.com/marble-collection/imported-marble" className="text-blue-600 hover:underline">Imported marble</Link>   is loved because of its unique textures, premium shine,
           durability, and luxury appeal. Unlike regular marble, imported varieties
           often have richer veins, smoother finishes, and a more sophisticated
           appearance.
@@ -7672,7 +7672,7 @@ const blogs = [
         <h2 className="text-2xl font-bold">Why choose imported marble?</h2>
 
         <p>
-          Imported marble comes from countries such as Italy, Spain, Turkey and Greece, which have centuries of experience in quarrying and processing natural stone compared to imported marble with locally available varieties. These countries have a history of marble making since the age of Michelangelo and his sculptures. Marbles from these countries are very unique and cannot be replicated anywhere else; that is why it adds sophistication wherever it is used. These marbles differ from the others because of:</p>
+         <Link className="text-blue-600 hover:underline" to="https://www.malanimarbles.com/marble-collection/imported-marble">Imported marble</Link>  comes from countries such as Italy, Spain, Turkey and Greece, which have centuries of experience in quarrying and processing natural stone compared to imported marble with locally available varieties. These countries have a history of marble making since the age of Michelangelo and his sculptures. Marbles from these countries are very unique and cannot be replicated anywhere else; that is why it adds sophistication wherever it is used. These marbles differ from the others because of:</p>
 
 
         <ul className="pl-6">
@@ -7955,7 +7955,7 @@ const blogs = [
     content: (
       <div className="space-y-6">
         <p>
-          Imported Italian Marble is a symbol of luxury, elegance, and sophisticated beauty, these marbles are sought for its looks and qualities like its unique veining patterns. In India, the demand for imported marble, especially Italian marble, has grown rapidly over the years. Imported Italian marbles have an elegant quality that people nowadays want for their homes, workplaces, etc. The demand for Italian marble has rapidly increased over the last couple of years and continues to rise. From five-star hotels and luxury households to modern offices and showrooms, marble flooring is seen as a mark of sophistication, luxury and elegance. Imported Italian marbles are seen as a luxury, and nowadays people are demanding them to be installed in their houses and workplaces to build an atmosphere and have sophistication.
+          Imported <Link to="https://www.malanimarbles.com/marble-collection/italian-marble" className="text-blue-600 hover:underline">Italian Marble</Link>  is a symbol of luxury, elegance, and sophisticated beauty, these marbles are sought for its looks and qualities like its unique veining patterns. In India, the demand for imported marble, especially Italian marble, has grown rapidly over the years. Imported Italian marbles have an elegant quality that people nowadays want for their homes, workplaces, etc. The demand for Italian marble has rapidly increased over the last couple of years and continues to rise. From five-star hotels and luxury households to modern offices and showrooms, marble flooring is seen as a mark of sophistication, luxury and elegance. Imported Italian marbles are seen as a luxury, and nowadays people are demanding them to be installed in their houses and workplaces to build an atmosphere and have sophistication.
         </p>
         <p>
           Italian marbles have a reputation for being simple yet elegant, and their unique veining designs further increase the demand. These marbles have a unique pattern that cannot be replicated, and these unique veining patterns, including the colour and quality, add elegance and glamour wherever they are installed. If you are looking for the <b>best imported marble and Italian marble dealers and wholesalers in India,</b> this blog is perfect for you, as it will guide you through the whole process.
@@ -7989,7 +7989,7 @@ const blogs = [
             <b>Dealers often provide:</b> customised cutting, polishing, and finishing services. Dealers provide us with the option to customise the marbles, as per our needs. This service is very helpful and transparent as it allows customers to have control over their purchase.
           </li>
           <li>
-            <b>Many showrooms:</b> in Delhi, Mumbai, Bangalore, and Jaipur showcase exclusive Italian marble collections. You will be able to find good showrooms in developed cities like the ones mentioned above, and these showrooms will provide experts to work with you throughout your purchase, from selecting to installing. Showrooms for Italian marbles will showcase exclusive collections with a variety of options and also the capability of customisation.
+            <b>Many showrooms:</b> in Delhi, Mumbai, Bangalore, and Jaipur showcase exclusive <Link to="https://www.malanimarbles.com/marble-collection/italian-marble" className="text-blue-600 hover:underline">Italian marble collections</Link>. You will be able to find good showrooms in developed cities like the ones mentioned above, and these showrooms will provide experts to work with you throughout your purchase, from selecting to installing. Showrooms for Italian marbles will showcase exclusive collections with a variety of options and also the capability of customisation.
 
           </li>
         </ul>
@@ -10722,7 +10722,7 @@ const blogs = [
         </p>
         <h2 className="text-2xl font-semibold">What is Adhunik Brown Granite?</h2>
         <p>
-          Adhunik Brown Granite is the premium-quality natural stone that has dark brown background with the black, golden and gray minerals inside. It has a unique texture that makes each granite slab unique and gives them a luxurious look.
+         <Link to="https://www.malanimarbles.com/marble-collection/indian-granite/adhunik-brown" className="text-blue-600 hover:underline">Adhunik Brown</Link>  Granite is the premium-quality natural stone that has dark brown background with the black, golden and gray minerals inside. It has a unique texture that makes each granite slab unique and gives them a luxurious look.
         </p>
         <p>
           Since it is the premium granite, it is characterized by durability and heat resistance.
@@ -11302,7 +11302,7 @@ const blogs = [
         <p>
 
 
-          While looking for imported marble for a project or a personal property, one requires more than just the availability of a visually appealing stone. One requires quality, variety, availability and expert assistance during the entire selection process.
+          While looking for <Link className="text-blue-600 hover:underline" to="https://www.malanimarbles.com/marble-collection/imported-marble">imported marble</Link>  for a project or a personal property, one requires more than just the availability of a visually appealing stone. One requires quality, variety, availability and expert assistance during the entire selection process.
 
         </p>
 
@@ -11312,9 +11312,7 @@ const blogs = [
 
         </p>
 
-
         <p>
-
           One more strength of Malani Marbles is its local infrastructure. Malani Marbles has their stockyards and warehouses located in Delhi, NCR, Chhatarpur and Kishangarh, with showrooms and stockyards in Chhatarpur, New Delhi.
 
         </p>
@@ -11699,6 +11697,8 @@ const blogs = [
 
     ),
   },
+
+
 
 ];
 
