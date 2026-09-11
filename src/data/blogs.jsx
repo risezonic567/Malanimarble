@@ -224,7 +224,7 @@ const blogs = [
       </div>
     ),
   },
-  // --- Blog 2  ---
+
   {
     id: 2,
     title: "Why Italian Marble Remains the First Choice for Architects in 2025",
@@ -452,7 +452,7 @@ const blogs = [
       </div>
     ),
   },
-  // blog 3
+
   {
     id: 3,
     title: "Onyx Marble: The Gemstone of Luxury Interiors",
@@ -726,6 +726,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 4,
     title:
@@ -1002,6 +1003,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 5,
     title:
@@ -1246,6 +1248,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 6,
     title:
@@ -1546,6 +1549,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 7,
     title:
@@ -1825,6 +1829,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 8,
     title:
@@ -2241,6 +2246,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 9,
     title:
@@ -2557,6 +2563,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 10,
     title:
@@ -2850,6 +2857,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 11,
     title: "The Best Marble Supplier in Delhi for Premium Home Interiors",
@@ -3108,6 +3116,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 12,
     title: "Why Malani Marbles is the Top Italian Marble Supplier in Delhi",
@@ -3430,6 +3439,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 13,
     title: "Statuario white Marble – A Classic Choice for Premium Interiors",
@@ -3640,6 +3650,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 14,
     title:
@@ -3931,6 +3942,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 15,
     title:
@@ -4176,6 +4188,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 16,
     title: "Imported White Marble Dealer in Delhi for Premium Interior Design",
@@ -4435,6 +4448,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 17,
     title:
@@ -4723,6 +4737,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 18,
     title:
@@ -5048,6 +5063,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 19,
     title:
@@ -5376,6 +5392,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 20,
     title:
@@ -5547,6 +5564,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 21,
     title: "Lasa White Marble: Italian White Marble for Elegant Luxury Flooring Solutions",
@@ -5729,6 +5747,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 22,
     title: "Marmara White Marble: Imported Turkish White Marble for Luxury Interior Spaces",
@@ -5839,6 +5858,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 23,
     title: "Swiss White Marble: Luxury Imported White Marble for Timeless Interior Flooring",
@@ -5978,6 +5998,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 24,
     title: "Dover White Marble: Imported Premium White Marble from Namibia for Elegant Spaces",
@@ -6128,6 +6149,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 25,
     title: "Vietnam White Marble: Premium Imported White Marble for Modern Luxury Homes",
@@ -6263,6 +6285,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 26,
     title: "Italian Marble Supplier in India",
@@ -6388,6 +6411,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 27,
     title: "Imported White Marble Supplier in Delhi: Premium Luxury Marble Collection for Pan India Projects",
@@ -6563,6 +6587,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 28,
     title: "IMPORTED MARBLE DEALERS IN DELHI: COMPLETE BUYING GUIDE",
@@ -6711,6 +6736,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 29,
     title: "Statuario Marble: Price, Uses & Design Ideas",
@@ -8025,6 +8051,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 35,
     title: "NSL Black Imported Marble: Price, Features and Luxury Interior Applications",
@@ -8298,6 +8325,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 36,
     title: "Best Marble Supplier in India: Premium Italian Marble Collection Including Statuario, and Lasa White marble",
@@ -8556,6 +8584,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 37,
     title: "Dyna Italian Marble: A Complete Guide to Luxury Marble for Homes and Commercial Spaces",
@@ -8776,6 +8805,7 @@ const blogs = [
 
     ),
   },
+
   {
     id: 38,
     title: " Grey William Italian Marble: Price, Flooring Designs & Interior Ideas",
@@ -8929,6 +8959,7 @@ const blogs = [
 
     ),
   },
+
   {
     id: 39,
     title: "Black Marquina Imported Marble: The Ultimate Guide to Luxury Black Marble",
@@ -9109,6 +9140,7 @@ const blogs = [
 
     ),
   },
+
   {
     id: 40,
     title: "Beige Travertino Marble: Complete Buying Guide for Luxury Interiors",
@@ -9233,6 +9265,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 41,
     title: "Moca cream limestone : Prices in India, Benefits ,Uses & Maintenance",
@@ -9464,6 +9497,7 @@ const blogs = [
       </div>
     ),
   },
+
   {
     id: 42,
     title: "Bianco Vogue White Marble: The Ultimate Guide to Luxury White Marble for Modern Homes",
@@ -9706,6 +9740,7 @@ const blogs = [
 
     ),
   },
+
   {
     id: 43,
     title: "Best Italian Marble Showroom, Best Prices Great Designs",
@@ -9818,6 +9853,7 @@ const blogs = [
 
     ),
   },
+
   {
     id: 44,
     title: "Thassos white marble: Advantages , Applications, characteristics,& Purchasing guide-",
@@ -10004,6 +10040,7 @@ const blogs = [
 
     ),
   },
+
   {
     id: 45,
     title: "Black Granite: A Complete Guide to Types, Uses & Maintenance",
@@ -10086,7 +10123,9 @@ const blogs = [
 
     ),
   },
+
   {
+
     id: 46,
     title: "Iceberg Grey marble: A perfect fit for your home.",
     slug: "iceberg-grey-marble-a-perfect-fit-for-your-home",
@@ -10345,6 +10384,7 @@ const blogs = [
 
     ),
   },
+  
   {
     id: 47,
     title: "Perlato Sicilia Italian Marble: Characteristics, Applications, and Purchasing Guide",

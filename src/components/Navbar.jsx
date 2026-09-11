@@ -135,12 +135,12 @@ export default function Navbar() {
               )
             )}
 
-              <NavLink
+              {/* <NavLink
     to="/download-catalogue"
-    className="rounded-full border bg-red-600 hover:bg-red-600 hover:shadow-2xl hover:translate-x-1 text-white font-normal hover:bg-transparent hover:text-white transition-all duration-300 px-2"
+    className="rounded-full border  hover:shadow-2xl hover:translate-x-1 text-white font-normal hover:bg-transparent hover:text-white transition-all duration-300 px-2"
   >
    Download Catalogue
-  </NavLink>
+  </NavLink> */}
           </div>
 
           {/* Mobile Menu Button */}
