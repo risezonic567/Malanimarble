@@ -71,11 +71,19 @@ export default function Navbar() {
           {/* Logo */}
           <NavLink to="/">
             {" "}
-            <img
+            {/* <img
               src="https://i.postimg.cc/0ysPBwWw/New-Logo-White.png"
               alt="logo"
               className="w-32"
+            /> */}
+
+             <img
+              src="/img/New Logo White.png"
+              alt="logo"
+              className="w-44 h-auto"
             />
+
+
           </NavLink>
 
           {/* Desktop Nav */}

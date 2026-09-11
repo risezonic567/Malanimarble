@@ -181,11 +181,17 @@ export default function Footer() {
            
             <div className="md:col-span-2">
               <NavLink to="/">
-                <img
+                {/* <img
                   src="https://i.postimg.cc/0ysPBwWw/New-Logo-White.png"
                   alt="logo"
                   className="sm:w-40 mb-4"
-                />
+                /> */}
+
+                <img
+  src="/img/New Logo White.png"
+  alt="logo"
+  className="w-52 h-auto"
+/>
               </NavLink>
               <p className="text-gray-300 mb-6 leading-relaxed max-w-lg">
                 Crafting timeless elegance with premium natural stone. Your
@@ -395,3 +401,6 @@ export default function Footer() {
     </div>
   );
 }
+
+
+
