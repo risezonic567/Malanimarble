@@ -8,6 +8,7 @@ export default function ContactUs() {
   const formRef = useRef();
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
+  
   useEffect(() => {
     window.scroll(0, 0)
   })
