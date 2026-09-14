@@ -169,7 +169,7 @@ export default function PrivacyPolicy() {
                             <div className="flex items-center text-lg">
                                 <FaPhone className="text-emerald-600 dark:text-emerald-400 mr-3 w-5 h-5 flex-shrink-0" />
                                 <span className="text-gray-900 dark:text-white">Phone:</span>
-                                <a href="tel:+919319685290" className="ml-2 text-emerald-600 dark:text-emerald-400 hover:underline">9810387297, 9811012011</a>
+                                <a href="tel:+919810387297" className="ml-2 text-emerald-600 dark:text-emerald-400 hover:underline">9810387297, 9811012011</a>
                             </div>
 
                             <div className="flex items-start text-lg">

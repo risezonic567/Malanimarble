@@ -12,8 +12,6 @@ import CTA from "./components/CTA";
 import MarbleSupplierDelhi from "./components/MarbleSupplierDelhi";
 import Downloadcatalogue from "./components/DownloadCatalogue";
 
-
-// Lazy load pages
 const Index = lazy(() => import("./page/Index"));
 const About = lazy(() => import("./page/About"));
 const Whyus = lazy(() => import("./page/Whyus"));

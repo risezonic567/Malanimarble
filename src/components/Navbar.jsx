@@ -39,7 +39,7 @@ export default function Navbar() {
         { label: "Indian Granites", href: "/marble-collection/indian-granite" },
         { label: "Brazilian Granites", href: "/marble-collection/brazilian-granite" },
         { label: "White", href: "/marble-collection/white-marble" },
-        { label: "Gray", href: "/marble-collection/gray-marble" },
+        { label: "Grey", href: "/marble-collection/grey-marble" },
         { label: "Imported Granites", href: "/marble-collection/imported-granites" },
         { label: "Semi Precious", href: "/marble-collection/semi-precious" },
         { label: "Exotic", href: "/marble-collection/exotic-marble" },
@@ -52,7 +52,7 @@ export default function Navbar() {
       dropdown: [
         { label: "White Tiles", href: "/tiles-collections/white-tiles"},
         { label: "Black Tiles", href: "/tiles-collections/black-tiles"},
-        { label: "Gray Tiles", href: "/tiles-collections/gray-tiles" },
+        { label: "Grey Tiles", href: "/tiles-collections/grey-tiles" },
       ],
     },
     { label: "Contact", href: "/contact" },
