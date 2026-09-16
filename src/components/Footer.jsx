@@ -283,6 +283,11 @@ export default function Footer() {
                   </NavLink>
                 </li>
                 <li>
+                  <NavLink to="/term-condition" className="hover:text-white transition-colors duration-300">
+                    Terms & Conditions
+                  </NavLink>
+                </li>
+                <li>
                   <NavLink to="/contact" className="hover:text-white transition-colors duration-300">
                     Contact
                   </NavLink>

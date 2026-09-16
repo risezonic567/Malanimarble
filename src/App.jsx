@@ -11,6 +11,7 @@ import MarbleProductDetail from "./page/MarbleProductDetail";
 import CTA from "./components/CTA";
 import MarbleSupplierDelhi from "./components/MarbleSupplierDelhi";
 import Downloadcatalogue from "./components/DownloadCatalogue";
+import TermsConditions from "./page/TermsConditions";
 
 const Index = lazy(() => import("./page/Index"));
 const About = lazy(() => import("./page/About"));
@@ -74,6 +75,8 @@ export default function App() {
           />
 
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/term-condition" element={<TermsConditions />} />
+
           <Route path="/blog" element={<BlogList />} />
           <Route path="/blog/:slug" element={<BlogDetail />} />
           <Route path="/*" element={<Navigate to="/" />} />
