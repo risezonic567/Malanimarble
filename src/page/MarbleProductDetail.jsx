@@ -9,6 +9,11 @@ export default function MarbleProductDetail() {
     const { categorySlug, productSlug } = useParams();
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
 
+    // const [quantity,setQuantity]= useState(1)
+
+    // const price = Number(product.price) ||0
+    // const totalPrice= price*quantity
+
     // Scroll to top and reset description toggle when switching products
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -81,7 +86,7 @@ export default function MarbleProductDetail() {
                 />
             </Helmet>
 
-            {/* Category Banner */}
+          
             {category.banner && (
                 <img src={category.banner} className="w-full object-cover " alt={category.name} />
             )}
@@ -112,8 +117,7 @@ export default function MarbleProductDetail() {
                         </div>
                         <p className="text-xs text-gray-400 mt-2 text-center">Click image to zoom</p>
                     </div>
-                    {/* 
-                    /* Right Column: Details & Specs */}
+ 
                     <div className="flex flex-col h-full">
                          
                          <span  className="text-xl md:text-2xl font-serif font-bold text-green-600 mb-4">
@@ -136,7 +140,6 @@ export default function MarbleProductDetail() {
                             )}
                         </div>
 
-                        {/* --- Description with Read More Toggle --- */}
                         {description ? (
                             <div className="mb-8">
                                 <p className="text-gray-600 leading-relaxed text-lg transition-all duration-300">
@@ -158,7 +161,6 @@ export default function MarbleProductDetail() {
                             </div>
                         )}
 
-                        {/* Specifications Grid */}
                         <div className="bg-gray-50 p-6 rounded-lg border border-gray-100 mb-8">
                             <h3 className="text-sm font-bold text-gray-900 uppercase tracking-wider mb-4">Specifications</h3>
                             <div className="grid grid-cols-2 gap-y-4 text-sm">
