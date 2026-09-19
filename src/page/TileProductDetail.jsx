@@ -1,4 +1,4 @@
-import { useParams, Link, Navigate } from "react-router-dom";
+import { useParams, Link, Navigate, useNavigate } from "react-router-dom";
 import TilesData from "../data/titelscollection.json"; // Kept your specific filename
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
@@ -8,8 +8,11 @@ import { useEffect, useState } from "react";
 export default function TileProductDetail() {
     const { categorySlug, productSlug } = useParams();
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
+    
+    const [quantity,setQuantity]= useState()
 
-    // 1. Scroll to top when switching between related tiles
+    const navigate= useNavigate()
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [productSlug]);
@@ -30,6 +33,10 @@ export default function TileProductDetail() {
     if (!category || !product) {
         return <Navigate to="/" replace />;
     }
+
+    const price = parseFloat(product.price) || 0;
+    const totalPrice = price * quantity;
+
     // --- Description Logic ---
     const description = product.description || "";
     const DESCRIPTION_CHAR_LIMIT = 150;
@@ -40,25 +47,24 @@ export default function TileProductDetail() {
         ? description
         : description.slice(0, DESCRIPTION_CHAR_LIMIT) + (isLongDescription ? "..." : "");
 
-         useEffect(() => {
-  window.scrollTo({
-    top: 0,
-    behavior: "instant",
-  });
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
 
-  
-  const timer2 = setTimeout(() => {
-    window.scrollTo({
-      top: 150,
-      behavior: "smooth",
-    });
-  }, 1000);
+        setIsDescriptionExpanded(false);
+        setQuantity(1);
 
-  return () => {
-  
-    clearTimeout(timer2);
-  };
-}, []);
+        const timer = setTimeout(() => {
+            window.scrollTo({
+                top: 150,
+                behavior: "smooth",
+            });
+        }, 1000);
+
+        return () => clearTimeout(timer);
+    }, [productSlug]);
 
     return (
         <section className="min-h-screen bg-white font-sans text-slate-800">
@@ -68,7 +74,7 @@ export default function TileProductDetail() {
                     name="description"
                     content={product.description || `Shop ${product.name} tiles from our ${category.name} collection.`}
                 />
-               
+
             </Helmet>
 
             {/* Category Banner */}
@@ -108,6 +114,63 @@ export default function TileProductDetail() {
                         <span className="text-xl md:text-2xl font-serif font-bold text-green-600 mb-4">
                             &#8377;{product.price}
                         </span>
+                         <div className="mb-6">
+                            {/* Unit Price */}
+                            {/* <span className="text-xl md:text-2xl font-serif font-bold text-green-600">
+                                ₹{price.toLocaleString("en-IN")}
+                            </span>
+
+                            <span className="text-sm text-gray-500">
+                                / Square Feet
+                            </span> */}
+
+                            {/* Quantity Selector */}
+                            <div className="flex items-center gap-3 mt-4">
+                                <span className="text-sm font-medium text-gray-600">
+                                    Quantity:
+                                </span>
+
+                                <div className="flex items-center border border-gray-300 rounded-lg overflow-hidden">
+                                    <button
+                                        type="button"
+                                        onClick={() =>
+                                            setQuantity((prev) => Math.max(1, prev - 1))
+                                        }
+                                        className="w-10 h-10 flex items-center justify-center text-xl hover:bg-gray-100"
+                                    >
+                                        −
+                                    </button>
+
+                                    <span className="w-12 h-10 flex items-center justify-center border-x border-gray-300 font-semibold">
+                                        {quantity}
+                                    </span>
+
+                                    <button
+                                        type="button"
+                                        onClick={() => setQuantity((prev) => prev + 1)}
+                                        className="w-10 h-10 flex items-center justify-center text-xl hover:bg-gray-100"
+                                    >
+                                        +
+                                    </button>
+                                </div>
+                            </div>
+
+                       
+                            <div className="mt-4 text-lg font-bold text-gray-900">
+                                Total: ₹{totalPrice.toLocaleString("en-IN")}
+
+                                 <button
+                                    onClick={()=>navigate("/checkout",{
+                                        state:{product,totalPrice,quantity,category}
+                                    })}
+                                className="flex-1 ml-5 bg-black text-white p-2 rounded-lg font-medium hover:bg-gray-800 transition shadow-lg"
+                            >
+                                Proceed to Checkout
+                            </button>
+                            </div>
+
+                           
+                        </div>
                         <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-4">
                             {product.name}
                         </h1>
@@ -116,17 +179,14 @@ export default function TileProductDetail() {
                             <span className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">
                                 {category.name} Series
                             </span>
-                            {/* Visual Color Indicator if you have hex codes, otherwise text */}
                             {product.color && (
                                 <div className="flex items-center gap-2 text-sm text-gray-600">
                                     <div className={`w-4 h-4 rounded-full border border-gray-300 bg-gray-200`} />
-                                    {/* Note: In a real app, you might map color names to hex codes */}
                                     {product.color}
                                 </div>
                             )}
                         </div>
 
-                        {/* --- Description with Read More Toggle --- */}
                         {description ? (
                             <div className="mb-8">
                                 <p className="text-gray-600 leading-relaxed text-lg transition-all duration-300">
@@ -182,7 +242,7 @@ export default function TileProductDetail() {
                         </div>
                     </div>
                 </div>
-                {/* --- RELATED TILES SECTION --- */}
+        
                 {relatedProducts && relatedProducts.length > 0 && (
                     <div className="mt-24 pt-10 border-t border-gray-200">
                         <div className="flex justify-between items-end mb-8">

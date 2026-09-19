@@ -1,4 +1,4 @@
-import { useParams, Link, Navigate } from "react-router-dom";
+import { useParams, Link, Navigate, useNavigate } from "react-router-dom";
 import marbleData from "../data/marblecollection.json";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
@@ -7,19 +7,13 @@ import { useEffect, useState } from "react";
 
 export default function MarbleProductDetail() {
     const { categorySlug, productSlug } = useParams();
+
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
+    const [quantity, setQuantity] = useState(1);
 
-    // const [quantity,setQuantity]= useState(1)
+    const navigate = useNavigate()
 
-    // const price = Number(product.price) ||0
-    // const totalPrice= price*quantity
-
-    // Scroll to top and reset description toggle when switching products
-    useEffect(() => {
-        window.scrollTo(0, 0);
-        setIsDescriptionExpanded(false);
-    }, [productSlug]);
-
+    // Find category first
     const category = marbleData.find(
         (c) => c.slug === categorySlug
     );
@@ -28,49 +22,47 @@ export default function MarbleProductDetail() {
         (p) => p.slug === productSlug
     );
 
-    // Filter for related products
-    const relatedProducts = category?.products
+    if (!category || !product) {
+        return <Navigate to="/" replace />;
+    }
+
+    const price = parseFloat(product.price) || 0;
+    const totalPrice = price * quantity;
+
+    // Related products
+    const relatedProducts = category.products
         .filter((p) => p.slug !== productSlug)
         .slice(0, 4);
 
-    if (!category || !product) return <Navigate to="/" replace />;
 
-    // --- Description Logic ---
     const description = product.description || "";
     const DESCRIPTION_CHAR_LIMIT = 150;
-    const isLongDescription = description.length > DESCRIPTION_CHAR_LIMIT;
+    const isLongDescription =
+        description.length > DESCRIPTION_CHAR_LIMIT;
 
-    // Determine what text to display based on state
     const displayDescription = isDescriptionExpanded
         ? description
-        : description.slice(0, DESCRIPTION_CHAR_LIMIT) + (isLongDescription ? "..." : "");
+        : description.slice(0, DESCRIPTION_CHAR_LIMIT) +
+        (isLongDescription ? "..." : "");
 
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
 
-        useEffect(() => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
+        setIsDescriptionExpanded(false);
+        setQuantity(1);
 
-  // const timer1 = setTimeout(() => {
-  //   window.scrollTo({
-  //     top: 250,
-  //     behavior: "smooth",
-  //   });
-  // }, 3000);
+        const timer = setTimeout(() => {
+            window.scrollTo({
+                top: 150,
+                behavior: "smooth",
+            });
+        }, 1000);
 
-  const timer2 = setTimeout(() => {
-    window.scrollTo({
-      top: 150,
-      behavior: "smooth",
-    });
-  }, 1000);
-
-  return () => {
-    // clearTimeout(timer1);
-    clearTimeout(timer2);
-  };
-}, []);
+        return () => clearTimeout(timer);
+    }, [productSlug]);
 
     return (
         <section className="min-h-screen bg-white font-sans text-slate-800">
@@ -86,13 +78,12 @@ export default function MarbleProductDetail() {
                 />
             </Helmet>
 
-          
+
             {category.banner && (
                 <img src={category.banner} className="w-full object-cover " alt={category.name} />
             )}
 
             <div className="max-w-7xl mx-auto px-6 py-10">
-                {/* Breadcrumb Navigation */}
                 <nav className="text-sm text-gray-500 mb-8 flex items-center gap-2">
                     <Link to="/" className="hover:text-black transition">Home</Link>
                     <span>/</span>
@@ -117,12 +108,70 @@ export default function MarbleProductDetail() {
                         </div>
                         <p className="text-xs text-gray-400 mt-2 text-center">Click image to zoom</p>
                     </div>
- 
+
                     <div className="flex flex-col h-full">
-                         
-                         <span  className="text-xl md:text-2xl font-serif font-bold text-green-600 mb-4">
+
+                        <span className="text-xl md:text-2xl font-serif font-bold text-green-600 mb-4">
                             &#8377;{product.price}
-                         </span>
+                        </span>
+
+                        <div className="mb-6">
+                            {/* Unit Price */}
+                            {/* <span className="text-xl md:text-2xl font-serif font-bold text-green-600">
+                                ₹{price.toLocaleString("en-IN")}
+                            </span>
+
+                            <span className="text-sm text-gray-500">
+                                / Square Feet
+                            </span> */}
+
+                            {/* Quantity Selector */}
+                            <div className="flex items-center gap-3 mt-4">
+                                <span className="text-sm font-medium text-gray-600">
+                                    Quantity:
+                                </span>
+
+                                <div className="flex items-center border border-gray-300 rounded-lg overflow-hidden">
+                                    <button
+                                        type="button"
+                                        onClick={() =>
+                                            setQuantity((prev) => Math.max(1, prev - 1))
+                                        }
+                                        className="w-10 h-10 flex items-center justify-center text-xl hover:bg-gray-100"
+                                    >
+                                        −
+                                    </button>
+
+                                    <span className="w-12 h-10 flex items-center justify-center border-x border-gray-300 font-semibold">
+                                        {quantity}
+                                    </span>
+
+                                    <button
+                                        type="button"
+                                        onClick={() => setQuantity((prev) => prev + 1)}
+                                        className="w-10 h-10 flex items-center justify-center text-xl hover:bg-gray-100"
+                                    >
+                                        +
+                                    </button>
+                                </div>
+                            </div>
+
+                            {/* Total Price */}
+                            <div className="mt-4 text-lg font-bold text-gray-900">
+                                Total: ₹{totalPrice.toLocaleString("en-IN")}
+
+                                 <button
+                                    onClick={()=>navigate("/checkout",{
+                                        state:{product,totalPrice,quantity,category}
+                                    })}
+                                className="flex-1 ml-5 bg-black text-white p-2 rounded-lg font-medium hover:bg-gray-800 transition shadow-lg"
+                            >
+                                Proceed to Checkout
+                            </button>
+                            </div>
+
+                           
+                        </div>
 
                         <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-4">
                             {product.name}

@@ -7,11 +7,11 @@ function FilterGrid() {
   const items = useMemo(
     () => [
       {
-        title: "Bottochino Classico",
+        title: "Bottichino Classico",
         img: "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Marble%20Collection/beige/BOTTICHINO%20CLASSICO.webp",
         type: "Popular Marble",
         category: "beige-marble",
-        slug: "bottochino-classico"
+        slug: "bottichino-classico"
       },
       {
         title: "Statuario Venatino",
