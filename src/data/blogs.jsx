@@ -11724,7 +11724,7 @@ const blogs = [
 
         <h2 className="text-2xl font-semibold">Italian Marble Price Per Sq Ft: Reasons for Lack of Fixed Pricing </h2>
         <p>
-       <Link to="https://www.malanimarbles.com/marble-collection/italian-marble" className="text-blue-600">Italian marble</Link>    is not just one type of stone. It comes under the wider range of stones that vary in terms of properties and pricing.
+          <Link to="https://www.malanimarbles.com/marble-collection/italian-marble" className="text-blue-600">Italian marble</Link>    is not just one type of stone. It comes under the wider range of stones that vary in terms of properties and pricing.
         </p>
 
         <p>For instance, the website, Malani Marbles, currently displays the pricing of Italian marble like Casa Nova at approximately ₹248 per sq ft, Dyna & Perlato Sicilia at approximately ₹250 per sq ft, and many other marble ranges at different pricing based on their unique qualities.
@@ -11836,69 +11836,208 @@ const blogs = [
 
         <h2 className="text-2xl font-semibold">How Much Marble Is Actually Required?</h2>
         <p>
-         One more cost that goes unnoticed is wastage.
+          One more cost that goes unnoticed is wastage.
         </p>
         <p>Marble slabs from nature require cuts depending on the measurements of the space available. Based on the space configuration, pattern, corners, columns, and other factors, some marble might be unusable.
         </p>
         <p>In the case of highly veined marble, there could be a need for matching of the pattern in the adjoining slab.
-</p>
+        </p>
         <p>This increases the quantity needed and impacts the overall cost.</p>
 
 
         <h2 className="text-2xl font-semibold">Italian Marble - How to Maximise the Value of Investment? </h2>
         <p>
-      Getting the best value for your money does not always require choosing cheap Italian marble.
+          Getting the best value for your money does not always require choosing cheap Italian marble.
         </p>
         <p>It is better  to pick a stone that is appropriate for the task at hand.</p>
         <p>In the case of big flooring surfaces, it is possible that you will get a marble which has elegant but not too distinctive patterns. In the case of a decorative wall, you might wish to have a marble that has dramatic patterns because the veins become the highlight of the wall.
-</p>
+        </p>
         <p>Likewise, you could go for expensive marble in areas of focus while choosing less costly materials in other rooms.</p>
 
-       
+
         <h2 className="text-2xl font-semibold">Why Choosing a Company with Experience is Crucial before purchasing? </h2>
         <p>Italian marble is a natural stone, and hence, the buying process can differ greatly from buying a regular tile of sorts .</p>
 
         <p>
-A company with experience will help you compare real slabs, learn about their features, calculate how many slabs you may need, discuss finishes and plan the usage of the material.
-</p>
+          A company with experience will help you compare real slabs, learn about their features, calculate how many slabs you may need, discuss finishes and plan the usage of the material.
+        </p>
 
-        <p>Malani Marbles provides a range of Italian marbles, including Casa Nova, Dyna and Perlato 
-Sicilia. Information about products includes its application and finishes.
-</p>
-<p>For buyers, seeing the slab is particularly crucial. Photos will give some general impression about it, but natural light, slab size and veining can be seen quite differently in reality.</p>
+        <p>Malani Marbles provides a range of Italian marbles, including Casa Nova, Dyna and Perlato
+          Sicilia. Information about products includes its application and finishes.
+        </p>
+        <p>For buyers, seeing the slab is particularly crucial. Photos will give some general impression about it, but natural light, slab size and veining can be seen quite differently in reality.</p>
 
-<h2 className="text-2xl font-semibold">Italian Marble in 2026: What Should be Considered When Making a Purchase?</h2>
-<p>In case you are planning to buy Italian marble in 2026, it would be better to pay more attention to experience and transparency from the supplier than just searching for the cheapest offer.</p>
-<h2 className="text-2xl font-semibold">Ask your supplier about these :</h2>
+        <h2 className="text-2xl font-semibold">Italian Marble in 2026: What Should be Considered When Making a Purchase?</h2>
+        <p>In case you are planning to buy Italian marble in 2026, it would be better to pay more attention to experience and transparency from the supplier than just searching for the cheapest offer.</p>
+        <h2 className="text-2xl font-semibold">Ask your supplier about these :</h2>
 
-<ul className="pl-6 list-disc">
-  <li>What exact variety of marble are you buying?</li>
-  <li>Where is it from?</li>
-  <li>What is the slab thickness and size?</li>
-  <li>Is the finish included in the price?</li>
-  <li>Are transportation and processing included in the price?</li>
-  <li>How much wastage do I have to plan?</li>
-  <li>These questions will help you understand the price better while making the purchase.</li>
-</ul>
+        <ul className="pl-6 list-disc">
+          <li>What exact variety of marble are you buying?</li>
+          <li>Where is it from?</li>
+          <li>What is the slab thickness and size?</li>
+          <li>Is the finish included in the price?</li>
+          <li>Are transportation and processing included in the price?</li>
+          <li>How much wastage do I have to plan?</li>
+          <li>These questions will help you understand the price better while making the purchase.</li>
+        </ul>
 
-<h2 className="text-2xl font-semibold">What Makes Malani Marbles the Right Choice?</h2>
-<p>In order for homeowners and architects and interior designers in need of high-quality natural stone, Malani Marbles has a unique selection of Italian and imported marbles collections.  </p>
-<p>Malani Marbles' collection of Italian marbles includes Casa Nova, Dyna, Perlato Sicilia and many more, which can be used for various applications like floors and countertops.</p>
-<p>Furthermore, Malani Marbles offers information on specific products and quotes, enabling the customer to compare marble based on his design needs and not based on prices only.</p>
-<p>This makes all the difference when you are working on a luxury project. You are not interested in buying Italian marbles at the cheapest rates possible.</p>
-<h2 className="text-2xl font-semibold">Final Thoughts </h2>
-<p>The knowledge about the cost of Italian marble per square foot should be just the beginning of planning your marble installation. The price depends on many factors including type, quality, veining, surface treatment, sizes of slabs, processing, shipping, taxes, and the cost of imports.
-</p>
-<p>While asking about the price, ask yourself another important question: "What do I get for my money?"</p>
-<p>A higher-end slab with amazing veining would be worth its money if you want an impressive living room, while the other option would be a more affordable Italian marble slab for a floor project.</p>
-<p>At Malani Marbles, clients can discover various collections of Italian marble and get expert advice regarding the selection of natural stones based on their project requirements and budget.</p>
-<p>Need Italian Marble In India? Discover the <Link to="https://www.malanimarbles.com/marble-collection/italian-marble" className="text-blue-600">Italian marble collection</Link>  at Malani Marbles and get a quotation for your project.</p>
+        <h2 className="text-2xl font-semibold">What Makes Malani Marbles the Right Choice?</h2>
+        <p>In order for homeowners and architects and interior designers in need of high-quality natural stone, Malani Marbles has a unique selection of Italian and imported marbles collections.  </p>
+        <p>Malani Marbles' collection of Italian marbles includes Casa Nova, Dyna, Perlato Sicilia and many more, which can be used for various applications like floors and countertops.</p>
+        <p>Furthermore, Malani Marbles offers information on specific products and quotes, enabling the customer to compare marble based on his design needs and not based on prices only.</p>
+        <p>This makes all the difference when you are working on a luxury project. You are not interested in buying Italian marbles at the cheapest rates possible.</p>
+        <h2 className="text-2xl font-semibold">Final Thoughts </h2>
+        <p>The knowledge about the cost of Italian marble per square foot should be just the beginning of planning your marble installation. The price depends on many factors including type, quality, veining, surface treatment, sizes of slabs, processing, shipping, taxes, and the cost of imports.
+        </p>
+        <p>While asking about the price, ask yourself another important question: "What do I get for my money?"</p>
+        <p>A higher-end slab with amazing veining would be worth its money if you want an impressive living room, while the other option would be a more affordable Italian marble slab for a floor project.</p>
+        <p>At Malani Marbles, clients can discover various collections of Italian marble and get expert advice regarding the selection of natural stones based on their project requirements and budget.</p>
+        <p>Need Italian Marble In India? Discover the <Link to="https://www.malanimarbles.com/marble-collection/italian-marble" className="text-blue-600">Italian marble collection</Link>  at Malani Marbles and get a quotation for your project.</p>
 
 
       </div>
 
     ),
   },
+
+//   {
+//     id: 56,
+//     title: "8 Varieties of Italian Marble You Should Know",
+//     slug: "8-varieties-of-italian-marble-you-should-know",
+//     author: "Malani Marbles Pvt. Ltd.",
+//     date: "September 2026",
+//     category: "Vietnam White Marble",
+//     thumbnail:
+//       "",
+
+//     canonical:
+//       "https://www.malanimarbles.com/blog/8-varieties-of-italian-marble-you-should-know",
+//     metaTitle: "8 Types of Italian Marble to Decorate Your Luxury Home | Malani Marbles",
+//     metaDescription:
+//       "Find out 8 most common types of Italian marble used in home décor, such as Calacatta, Botticino, Emperador, Statuario, Carrara & more with Malani Marbles.",
+//     content: (
+//       <div className="space-y-6">
+//         <p>
+//          There is something about Italian marble that simply pulls everyone in. Maybe it is the grey veins that dance across a pristine white stone or the soft hue of a cream‑colored slab or the deep tones of darker types. Whatever the reason, Italian marble has earned its reputation as one of the popular decorating materials.
+//         </p>
+//         <p>The important point to make here is that Italian marble is far from being the kind of marble. Many different varieties exist, each with its charm. </p>
+      
+//         <h2 className="text-2xl font-semibold">Here are 8 Italian marble types that you should know:</h2>
+//         <p>
+//         when choosing stone for your luxury house, renovation project or any other use.
+//         </p>
+
+//         <h2 className="text-2xl font-semibold">1. Calacatta Marble – A Bold and Luxurious choice </h2>
+//         <p>Calacatta distinguishes itself with a background and very striking veins. These veins appear in grey or even grey and gold. Because of this pattern Calacatta is an excellent choice for places where marble becomes the main attraction.</p>
+
+//         <p className="font-bold">When to Use Calacatta</p>
+//         <p>Calacatta is ideal for:</p>
+//         <p>* flooring<br/>
+
+// * Feature walls<br/>
+// <br/>
+// * Kitchen islands
+// <br/>
+// * Bathroom walls
+// <br/>
+// * Vanity
+// <br/>
+// * Staircases
+
+// </p>
+// <p>If you are looking for a marble that stands out and adds value to the space Calacatta is certainly a choice.</p>
+
+       
+
+//         <h2 className="text-2xl font-semibold">2. Botticino – Soft and Timeless</h2>
+//         <p>
+//         It is one of the brilliant white marbles. There is another alternative that is softer and more delicate.</p>
+
+//         <p>In terms of color Botticino is beige and creamy with veins. This makes it very easy to match with wood, metal and neutral furniture and decor of any kind.</p>
+
+//         <p>This marble will be ideal for homeowners who prefer stone but not the dramatic veins typical of some types of white marble.</p>
+
+       
+//         <p>Also due to its appearance Botticino can add warmth to large spaces.</p>
+
+        
+
+//         <h2 className="text-2xl font-semibold">3. Emperador – Deep, Luxurious and Dramatic</h2>
+//         <p>
+//         This marble gives collections a completely different feel.
+
+//         </p>
+
+//         <p>With its brown color and natural veining Emperador can add luxury and depth to your interior design especially when paired with light‑colored walls, neutral furniture, brass accents and warm lighting.</p>
+//         <p>If you need a luxurious interior design then Emperador is the marble you can use to create a contrasting design scheme.</p>
+
+    
+
+//         <h2 className="text-2xl font-semibold">How Much Marble Is Actually Required?</h2>
+//         <p>
+//           One more cost that goes unnoticed is wastage.
+//         </p>
+//         <p>Marble slabs from nature require cuts depending on the measurements of the space available. Based on the space configuration, pattern, corners, columns, and other factors, some marble might be unusable.
+//         </p>
+//         <p>In the case of highly veined marble, there could be a need for matching of the pattern in the adjoining slab.
+//         </p>
+//         <p>This increases the quantity needed and impacts the overall cost.</p>
+
+
+//         <h2 className="text-2xl font-semibold">Italian Marble - How to Maximise the Value of Investment? </h2>
+//         <p>
+//           Getting the best value for your money does not always require choosing cheap Italian marble.
+//         </p>
+//         <p>It is better  to pick a stone that is appropriate for the task at hand.</p>
+//         <p>In the case of big flooring surfaces, it is possible that you will get a marble which has elegant but not too distinctive patterns. In the case of a decorative wall, you might wish to have a marble that has dramatic patterns because the veins become the highlight of the wall.
+//         </p>
+//         <p>Likewise, you could go for expensive marble in areas of focus while choosing less costly materials in other rooms.</p>
+
+
+//         <h2 className="text-2xl font-semibold">Why Choosing a Company with Experience is Crucial before purchasing? </h2>
+//         <p>Italian marble is a natural stone, and hence, the buying process can differ greatly from buying a regular tile of sorts .</p>
+
+//         <p>
+//           A company with experience will help you compare real slabs, learn about their features, calculate how many slabs you may need, discuss finishes and plan the usage of the material.
+//         </p>
+
+//         <p>Malani Marbles provides a range of Italian marbles, including Casa Nova, Dyna and Perlato
+//           Sicilia. Information about products includes its application and finishes.
+//         </p>
+//         <p>For buyers, seeing the slab is particularly crucial. Photos will give some general impression about it, but natural light, slab size and veining can be seen quite differently in reality.</p>
+
+//         <h2 className="text-2xl font-semibold">Italian Marble in 2026: What Should be Considered When Making a Purchase?</h2>
+//         <p>In case you are planning to buy Italian marble in 2026, it would be better to pay more attention to experience and transparency from the supplier than just searching for the cheapest offer.</p>
+//         <h2 className="text-2xl font-semibold">Ask your supplier about these :</h2>
+
+//         <ul className="pl-6 list-disc">
+//           <li>What exact variety of marble are you buying?</li>
+//           <li>Where is it from?</li>
+//           <li>What is the slab thickness and size?</li>
+//           <li>Is the finish included in the price?</li>
+//           <li>Are transportation and processing included in the price?</li>
+//           <li>How much wastage do I have to plan?</li>
+//           <li>These questions will help you understand the price better while making the purchase.</li>
+//         </ul>
+
+//         <h2 className="text-2xl font-semibold">What Makes Malani Marbles the Right Choice?</h2>
+//         <p>In order for homeowners and architects and interior designers in need of high-quality natural stone, Malani Marbles has a unique selection of Italian and imported marbles collections.  </p>
+//         <p>Malani Marbles' collection of Italian marbles includes Casa Nova, Dyna, Perlato Sicilia and many more, which can be used for various applications like floors and countertops.</p>
+//         <p>Furthermore, Malani Marbles offers information on specific products and quotes, enabling the customer to compare marble based on his design needs and not based on prices only.</p>
+//         <p>This makes all the difference when you are working on a luxury project. You are not interested in buying Italian marbles at the cheapest rates possible.</p>
+//         <h2 className="text-2xl font-semibold">Final Thoughts </h2>
+//         <p>The knowledge about the cost of Italian marble per square foot should be just the beginning of planning your marble installation. The price depends on many factors including type, quality, veining, surface treatment, sizes of slabs, processing, shipping, taxes, and the cost of imports.
+//         </p>
+//         <p>While asking about the price, ask yourself another important question: "What do I get for my money?"</p>
+//         <p>A higher-end slab with amazing veining would be worth its money if you want an impressive living room, while the other option would be a more affordable Italian marble slab for a floor project.</p>
+//         <p>At Malani Marbles, clients can discover various collections of Italian marble and get expert advice regarding the selection of natural stones based on their project requirements and budget.</p>
+//         <p>Need Italian Marble In India? Discover the <Link to="https://www.malanimarbles.com/marble-collection/italian-marble" className="text-blue-600">Italian marble collection</Link>  at Malani Marbles and get a quotation for your project.</p>
+
+
+//       </div>
+
+//     ),
+//   },
 
 
 
