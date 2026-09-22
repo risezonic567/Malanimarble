@@ -25,6 +25,7 @@ export default function Navbar() {
         { label: "Clientele", href: "/clientele" },
       ],
     },
+    
     {
       label: "Marble Collection",
       href: "/marble-collection",
@@ -55,8 +56,9 @@ export default function Navbar() {
         { label: "Grey Tiles", href: "/tiles-collections/grey-tiles" },
       ],
     },
+    { label: "Italian Marble Suppliers In India", href: "/italian-marble-suppliers-in-india" },
     { label: "Contact", href: "/contact" },
-    // { label: "Catalogue Pdf", href: "/contact" }
+   
    
   ];
 
@@ -134,13 +136,7 @@ export default function Navbar() {
                 </NavLink>
               )
             )}
-{/* 
-              <NavLink
-    to="/download-catalogue"
-    className="rounded-full border  hover:shadow-2xl hover:translate-x-1 text-white font-normal hover:bg-transparent hover:text-white transition-all duration-300 px-2"
-  >
-   Download Catalogue
-  </NavLink> */}
+
           </div>
 
           {/* Mobile Menu Button */}

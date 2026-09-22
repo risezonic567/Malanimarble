@@ -13,6 +13,9 @@ import MarbleSupplierDelhi from "./components/MarbleSupplierDelhi";
 import Downloadcatalogue from "./components/DownloadCatalogue";
 import TermsConditions from "./page/TermsConditions";
 import CheckoutPage from "./components/CheckoutPage";
+// import ItalianMarbleCollection from "./page/ItalianMarbleCollection";
+// import ItalianMarbleDetail from "./page/ItalianMarbleDetail";
+import ItalianMarbleSupplierDelhi from "./page/ItalianMarbleSupplierDelhi";
 
 const Index = lazy(() => import("./page/Index"));
 const About = lazy(() => import("./page/About"));
@@ -65,6 +68,14 @@ export default function App() {
             element={<TileProductDetail />}
           />
 
+           <Route path="/italian-marble-suppliers-in-india" element={<ItalianMarbleSupplierDelhi />} />
+          
+          {/* <Route
+            path="/italian-marble/:slug"
+            element={<ItalianMarbleDetail />}
+          /> */}
+
+
           <Route
             path="/marble-supplier-in-delhi"
             element={<MarbleSupplierDelhi />}
@@ -84,11 +95,7 @@ export default function App() {
           <Route path="/checkout" element={<CheckoutPage/>}/>
 
           <Route path="/*" element={<Navigate to="/" />} />
-
-
-          {/* You can lazy load more pages here */}
-
-          
+   
         </Routes>
         
       </Suspense>
