@@ -11160,6 +11160,81 @@ const blogs = [
     category: "Vietnam White Marble",
     thumbnail:
       "/img/BlogImage/Malani Blog Why Homeowners Are Choosing Global Stone Over Local Options.jpg.jpeg",
+      schema:{
+        "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.malanimarbles.com/YOUR-ARTICLE-URL#article",
+      "headline": "Imported Marble in India: Types, Benefits, Price & How to Choose",
+      "description": "Learn about imported marble in India, its benefits, pricing factors, applications, selection tips, and how to choose a reliable imported marble supplier in Delhi NCR.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.malanimarbles.com/YOUR-IMAGE-URL.jpg"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.malanimarbles.com/#organization",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.malanimarbles.com/YOUR-LOGO-URL.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.malanimarbles.com/YOUR-ARTICLE-URL"
+      },
+      "inLanguage": "en-IN",
+      "articleSection": "Imported Marble",
+      "keywords": [
+        "imported marble",
+        "imported marble in India",
+        "imported marble suppliers",
+        "imported marble suppliers in Delhi",
+        "imported marble Delhi NCR",
+        "Italian marble",
+        "marble suppliers in India"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.malanimarbles.com/YOUR-ARTICLE-URL#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.malanimarbles.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Imported Marble",
+          "item": "https://www.malanimarbles.com/marble-collection/imported-marble"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Imported Marble in India: Types, Benefits, Price & How to Choose",
+          "item": "https://www.malanimarbles.com/YOUR-ARTICLE-URL"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.malanimarbles.com/#organization",
+      "name": "Malani Marbles",
+      "url": "https://www.malanimarbles.com/"
+    }
+  ]
+      },
 
     canonical:
       "https://www.malanimarbles.com/blog/imported-marbles-why-homeowners-are-choosing-global-stone-over-local-options",
@@ -11344,6 +11419,68 @@ const blogs = [
     category: "Vietnam White Marble",
     thumbnail:
       "/img/BlogImage/Malani Blog Top 7 imported marbles that instantly elevate your home's interior.jpg.jpeg",
+    schema:{
+        "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.malanimarbles.com/#imported-marble-article",
+      "headline": "Imported Marble Types for Luxury Home Interiors",
+      "description": "Explore popular imported marble options including Statuario White, Bottocchino Classico, Lasa White and Blue Roma, with tips for choosing marble for floors, walls, countertops and other interiors.",
+      "image": "https://www.malanimarbles.com/path-to-your-image.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.malanimarbles.com/path-to-your-logo.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.malanimarbles.com/YOUR-ARTICLE-URL"
+      },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.malanimarbles.com/YOUR-ARTICLE-URL#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.malanimarbles.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Imported Marble",
+          "item": "https://www.malanimarbles.com/imported-marble"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Imported Marble Types for Luxury Home Interiors",
+          "item": "https://www.malanimarbles.com/YOUR-ARTICLE-URL"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.malanimarbles.com/#organization",
+      "name": "Malani Marbles",
+      "url": "https://www.malanimarbles.com/"
+    }
+  ]
+
+    },
 
     canonical:
       "https://www.malanimarbles.com/blog/top-imported-marbles-that-instantly-elevate-your-homes-interior",
@@ -11483,6 +11620,147 @@ const blogs = [
     thumbnail:
       "/img/BlogImage/Malani Blog Imported Marbles vs Indian Marbles.jpg.jpeg",
 
+      schema:{
+          "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.malanimarbles.com/indian-marble-vs-imported-marble/#webpage",
+      "url": "https://www.malanimarbles.com/indian-marble-vs-imported-marble/",
+      "name": "Indian Marble vs Imported Marble: Which Is Better for Flooring?",
+      "description": "Compare Indian and imported marble for flooring based on cost, durability, aesthetics and maintenance to choose the right marble for your home.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/"
+      },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.malanimarbles.com/indian-marble-vs-imported-marble/#article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.malanimarbles.com/indian-marble-vs-imported-marble/#webpage"
+      },
+      "headline": "Indian Marble vs Imported Marble: Which Is Better for Flooring?",
+      "description": "A detailed comparison of Indian marble and imported marble for flooring, covering cost, durability, aesthetics, maintenance and suitability for different homes.",
+      "author": {
+        "@type": "Organization",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/"
+      },
+      "articleSection": [
+        "Indian Marble",
+        "Imported Marble",
+        "Marble Flooring",
+        "Marble Comparison",
+        "Home Interiors"
+      ],
+      "keywords": [
+        "Indian marble vs imported marble",
+        "Indian marble for flooring",
+        "imported marble for flooring",
+        "Indian marble",
+        "imported marble",
+        "Italian marble",
+        "marble flooring",
+        "best marble for flooring"
+      ],
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Indian Marble"
+        },
+        {
+          "@type": "Thing",
+          "name": "Imported Marble"
+        },
+        {
+          "@type": "Thing",
+          "name": "Marble Flooring"
+        }
+      ],
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.malanimarbles.com/indian-marble-vs-imported-marble/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which is better for flooring, Indian marble or imported marble?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The choice depends on your priorities. Indian marble can be suitable for buyers who prioritise affordability, durability and easier maintenance, while imported marble can be suitable for homeowners who prioritise premium aesthetics, luxury and distinctive designs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Indian marble cheaper than imported marble?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indian marble is generally more affordable than imported marble because it is sourced and processed domestically. Imported marble can have additional costs associated with transportation, customs and international sourcing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Indian marble durable for flooring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indian marble is widely used for residential flooring and is available in varieties known for durability. Suitability depends on the specific marble, installation quality, usage and maintenance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does imported marble require more maintenance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maintenance requirements vary according to the specific type of imported marble, its porosity, finish and usage. Some imported marbles may require sealing and careful cleaning to help prevent staining and preserve their appearance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which marble is better for a luxury interior?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Imported marble is often selected for luxury interiors because of its distinctive colours, veining and premium appearance. The right choice depends on the desired design, budget and maintenance requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are some popular Indian marble varieties?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Popular Indian marble varieties include Makrana, Ambaji and Kishangarh marble. Each variety has different colours, patterns and characteristics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are some popular imported marble varieties?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Examples of imported marble and natural stone varieties include Italian Carrara, Botticino and Turkish Travertine. Characteristics vary by material and source."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I choose the right marble for flooring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consider your budget, expected foot traffic, desired appearance, maintenance requirements, marble characteristics, installation quality and the specific area where the flooring will be installed before making a decision."
+          }
+        }
+      ],
+      "inLanguage": "en-IN"
+    }
+  ]
+      },
     canonical:
       "https://www.malanimarbles.com/blog/imported-marbles-vs-indian-marbles-which-one-deserves-your-floor",
     metaTitle: "Imported Marble vs Indian Marble: Which is Best, for Flooring?",
@@ -11588,6 +11866,185 @@ const blogs = [
     category: "Vietnam White Marble",
     thumbnail:
       "/img/BlogImage/Malani Blog Italian Marbles.jpg.jpeg",
+
+      schema:{
+          "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.malanimarbles.com/italian-marble-for-home/#article",
+      "headline": "Italian Marble for Home: Luxury Interior Ideas, Applications & Selection Guide",
+      "description": "Discover how Italian marble can be used in luxury home interiors, including flooring, walls, kitchens, bathrooms, staircases and entrance lobbies, along with key factors to consider when selecting Italian marble.",
+      "url": "https://www.malanimarbles.com/italian-marble-for-home/",
+      "author": {
+        "@type": "Organization",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.malanimarbles.com/italian-marble-for-home/"
+      },
+      "articleSection": [
+        "Italian Marble for Luxury Interiors",
+        "Italian Marble Applications",
+        "Luxury Marble Flooring",
+        "Italian Marble Price Factors",
+        "Italian Marble Selection Guide",
+        "Italian Marble for Homes"
+      ],
+      "keywords": [
+        "Italian marble for home",
+        "Italian marble for luxury interiors",
+        "Italian marble flooring",
+        "Italian marble for walls",
+        "Italian marble for kitchen",
+        "Italian marble for bathroom",
+        "luxury marble",
+        "Italian marble price",
+        "Italian marble supplier",
+        "Italian marble in India"
+      ],
+      "about": {
+        "@type": "Thing",
+        "name": "Italian Marble"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.malanimarbles.com/italian-marble-for-home/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why is Italian marble considered luxurious?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Italian marble is valued for its natural veining, colours, textures, finishing and the uniqueness of each natural stone slab. Unlike manufactured materials with repeating patterns, natural marble slabs can have individual variations in colour and veining."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can Italian marble be used in a home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Italian marble can be used in several areas of a home, including living room flooring, wall coverings, kitchen and dining areas, bathrooms, staircases and entrance lobbies. The appropriate application depends on the selected stone and the requirements of the space."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Italian marble suitable for living room flooring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Italian marble can be used for living room flooring and can create a bright and elegant appearance. Large-format slabs or pieces can also help create visual continuity, depending on the room layout and installation requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Italian marble be used for kitchen and dining areas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depending on the specific marble and intended application, Italian marble can be used for kitchen and dining counters, islands, backsplashes and other interior elements. The suitability of a particular stone should be evaluated for the intended use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Italian marble be used in bathrooms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Italian marble can be incorporated into bathroom interiors to create an elegant, spa-inspired appearance. The particular marble, finish, installation method and maintenance requirements should be considered before selection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What factors affect the price of Italian marble?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Italian marble pricing can vary according to its origin, rarity, colour, veining, slab quality, thickness, finish and processing requirements. Installation, shipping, cutting, finishing and material wastage can also contribute to the overall project cost."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should I choose Italian marble for my home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consider your home's colour palette, lighting, furniture, room size, desired design style and intended application. It is also important to inspect actual slabs because natural marble can vary significantly in colour and veining."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why should I view the actual Italian marble slab before buying?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Natural marble varies from slab to slab. Viewing the actual slab allows buyers to evaluate its background colour, veining, texture, dimensions and overall appearance rather than relying only on a small sample or photograph."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Malani Marbles offer Italian marble for luxury interiors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Malani Marbles offers a collection of Italian and imported natural stones for residential and commercial interiors, with different colours, patterns and applications."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.malanimarbles.com/italian-marble-for-home/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.malanimarbles.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Italian Marble",
+          "item": "https://www.malanimarbles.com/italian-marble/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Italian Marble for Home",
+          "item": "https://www.malanimarbles.com/italian-marble-for-home/"
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.malanimarbles.com/#localbusiness",
+      "name": "Malani Marbles",
+      "url": "https://www.malanimarbles.com/",
+      "description": "Malani Marbles provides Italian marble and imported natural stone collections for residential and commercial interior projects.",
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Delhi NCR"
+        }
+      ],
+      "knowsAbout": [
+        "Italian Marble",
+        "Imported Marble",
+        "Natural Stone",
+        "Luxury Marble",
+        "Marble Flooring",
+        "Marble Wall Cladding",
+        "Marble Countertops"
+      ]
+    }
+  ]
+      },
 
     canonical:
       "https://www.malanimarbles.com/blog/italian-marble-types-benefits-uses-design-ideas",
@@ -11706,6 +12163,189 @@ const blogs = [
     category: "Vietnam White Marble",
     thumbnail:
       "/img/BlogImage/Blog.jpg.jpeg",
+
+      schema:{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.malanimarbles.com/italian-marble-price-per-sq-ft/#article",
+      "headline": "Italian Marble Price Per Sq Ft in 2026: Factors, Cost & Buying Guide",
+      "description": "Learn about Italian marble price per sq ft in India in 2026, factors affecting the cost, slab dimensions, finishes, processing, GST, import costs, wastage and how to choose Italian marble.",
+      "url": "https://www.malanimarbles.com/italian-marble-price-per-sq-ft/",
+      "author": {
+        "@type": "Organization",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.malanimarbles.com/wp-content/uploads/logo.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.malanimarbles.com/italian-marble-price-per-sq-ft/"
+      },
+      "articleSection": [
+        "Italian Marble Price Per Sq Ft",
+        "Factors Affecting Italian Marble Price",
+        "Italian Marble Slab Cost",
+        "Italian Marble Wastage",
+        "Italian Marble Buying Guide",
+        "Italian Marble in 2026"
+      ],
+      "keywords": [
+        "Italian marble price per sq ft",
+        "Italian marble price",
+        "Italian marble price in India",
+        "Italian marble price per square foot",
+        "Italian marble cost",
+        "Italian marble slab price",
+        "Italian marble in India",
+        "Italian marble 2026",
+        "Casa Nova marble price",
+        "Dyna marble",
+        "Perlato Sicilia marble"
+      ],
+      "about": {
+        "@type": "Thing",
+        "name": "Italian Marble"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.malanimarbles.com/italian-marble-price-per-sq-ft/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Italian marble price per sq ft in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The price of Italian marble per sq ft varies considerably depending on the marble variety, grade, origin, slab quality, colour, veining, dimensions, thickness, finish, processing, transportation, taxes and import-related expenses. Malani Marbles currently displays some Italian marble varieties, such as Casa Nova at approximately ₹248 per sq ft and Dyna and Perlato Sicilia at approximately ₹250 per sq ft. These prices are indicative and the final quotation may vary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does Italian marble have different prices per square foot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Italian marble is available in different varieties, grades and qualities. Factors such as background colour, natural veining, rarity, origin, slab dimensions, thickness, finish, processing, transportation, taxes and import costs can affect the final price."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What factors affect the price of Italian marble?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Major factors include the type and grade of marble, colour and veining, finish, slab dimensions and thickness, import and landing costs, processing, applicable GST and transportation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does marble slab size affect the price?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Slab dimensions and thickness can affect the material and processing cost. Large slabs may also require additional handling and installation considerations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the finish affect Italian marble price?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Different finishes, including polished and honed finishes, can affect the overall cost depending on the marble variety and processing requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are transportation and processing included in the Italian marble price?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. Transportation, cutting, polishing, edge treatment, custom sizing, installation and other processing may be charged separately. Buyers should request a detailed quotation specifying what is included."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much Italian marble is required for a project?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The required quantity depends on the project area, slab dimensions, layout, corners, columns, cutting requirements and pattern matching. Additional material may be required to account for wastage and matching of natural veining."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I ask before buying Italian marble?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask the supplier for the exact marble variety, origin, slab thickness and dimensions, finish, whether transportation and processing are included, expected wastage and applicable taxes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Italian marble varieties does Malani Marbles offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Malani Marbles offers Italian marble varieties including Casa Nova, Dyna and Perlato Sicilia, along with other Italian and imported marble collections."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.malanimarbles.com/italian-marble-price-per-sq-ft/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.malanimarbles.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Italian Marble",
+          "item": "https://www.malanimarbles.com/italian-marble/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Italian Marble Price Per Sq Ft",
+          "item": "https://www.malanimarbles.com/italian-marble-price-per-sq-ft/"
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.malanimarbles.com/#localbusiness",
+      "name": "Malani Marbles",
+      "url": "https://www.malanimarbles.com/",
+      "description": "Malani Marbles is a supplier of Italian marble and imported natural stones in India.",
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Delhi NCR"
+        }
+      ],
+      "knowsAbout": [
+        "Italian Marble",
+        "Imported Marble",
+        "Natural Stone",
+        "Marble Slabs",
+        "Marble Flooring",
+        "Marble Countertops"
+      ]
+    }
+  ]
+      },
 
     canonical:
       "https://www.malanimarbles.com/blog/italian-marble-price-guide-2026-what-You're-really-paying-for",
