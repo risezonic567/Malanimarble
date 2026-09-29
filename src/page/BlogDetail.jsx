@@ -30,6 +30,12 @@ export default function BlogDetail() {
                 <meta name="description" content={blog.metaDescription} />
                 <meta name="keywords" content={blog.metaKeywords} />
                 <link rel="canonical" href={blog.canonical} />
+
+                {blog.schema && (
+                    <script type="application/ld+json">
+                        {JSON.stringify(blog.schema)}
+                    </script>
+                )}
             </Helmet>
             <div className="relative">
                 <div className="absolute inset-0 bg-black opacity-20 z-0"></div>

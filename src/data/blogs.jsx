@@ -11910,6 +11910,165 @@ const blogs = [
     thumbnail:
       "/img/BlogImage/Malani Blog Italian Marble.jpg.jpeg",
 
+      schema:{
+         "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.malanimarbles.com/italian-marble-price-in-delhi/#article",
+      "headline": "Italian Marble Price in Delhi Per Sq. Ft. – Types, Factors & Buying Guide",
+      "description": "Learn about Italian marble prices in Delhi per square foot, popular types such as Botticino, Dyna and Casa Nova, factors affecting pricing, and how to choose Italian marble dealers in Delhi NCR.",
+      "author": {
+        "@type": "Organization",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Malani Marbles",
+        "url": "https://www.malanimarbles.com/"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.malanimarbles.com/italian-marble-price-in-delhi/"
+      },
+      "articleSection": [
+        "Italian Marble Price in Delhi",
+        "Factors Affecting Italian Marble Price",
+        "Types of Italian Marble",
+        "Italian Marble in Chattarpur",
+        "Choosing a Marble Supplier in Delhi NCR"
+      ],
+      "keywords": [
+        "Italian marble price in Delhi",
+        "Italian marble price per sq ft",
+        "Italian marble in Delhi",
+        "Italian marble in Chattarpur",
+        "Italian marble dealers in Delhi",
+        "marble suppliers in Delhi NCR",
+        "Italian marble price",
+        "Italian marble types"
+      ],
+      "about": {
+        "@type": "Product",
+        "name": "Italian Marble",
+        "category": "Natural Stone / Marble"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.malanimarbles.com/italian-marble-price-in-delhi/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the price of Italian marble in Delhi per square foot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Italian marble in Delhi generally falls in the range of ₹200 to ₹1,500 or more per square foot, depending on the type, quality, origin, rarity, slab size, thickness, finish, processing and other factors. Rare varieties may cost more."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What factors affect the price of Italian marble?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The price of Italian marble can be affected by its type, quality and grade, origin, slab size, thickness, finish, rarity, cutting and polishing requirements, handling, transportation, taxes and import-related costs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are some popular types of Italian marble available in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Popular varieties and names available in the Indian market include Botticino, Dyna Italian Marble and Casa Nova, along with several other Italian and imported natural stones."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Italian marble worth the price?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Italian marble can be suitable for premium residential and commercial applications because of its natural variation, colors and veining. Whether it is worth the price depends on the project requirements, budget, intended application and selected marble."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I find Italian marble in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chattarpur and surrounding areas in Delhi NCR are known for marble and natural stone showrooms where buyers can view different varieties and inspect actual slabs before purchasing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I check before buying Italian marble?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Before purchasing, check the marble type and origin, slab size, thickness, finish, quality, availability, processing requirements, transportation, taxes and the total project quantity. It is also recommended to inspect the actual slabs before making a purchase."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I get an accurate Italian marble quotation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a realistic quotation, provide the supplier with the approximate area, intended application, preferred color and finish, and quantity required. Ask for a complete quotation covering marble, expected waste, processing, transportation, installation and applicable taxes."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.malanimarbles.com/italian-marble-price-in-delhi/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.malanimarbles.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Italian Marble",
+          "item": "https://www.malanimarbles.com/italian-marble/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Italian Marble Price in Delhi",
+          "item": "https://www.malanimarbles.com/italian-marble-price-in-delhi/"
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.malanimarbles.com/#localbusiness",
+      "name": "Malani Marbles",
+      "url": "https://www.malanimarbles.com/",
+      "description": "Malani Marbles is a marble supplier serving Delhi NCR, offering Italian marble and imported natural stones, with showrooms and stockyards in the Chattarpur region.",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Delhi"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Delhi NCR"
+        }
+      ],
+      "knowsAbout": [
+        "Italian Marble",
+        "Imported Marble",
+        "Natural Stone",
+        "Marble Flooring",
+        "Marble Suppliers",
+        "Marble Wholesalers"
+      ]
+    }
+  ]
+      },
+
     canonical:
       "https://www.malanimarbles.com/blog/what-is-the-price-of-italian-marble-in-delhi-per-square-foot",
     metaTitle: "Cost of Italian Marble Delhi Per Square Feet | Malani Marbles",
