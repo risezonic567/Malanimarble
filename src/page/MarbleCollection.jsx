@@ -4,31 +4,31 @@ import marbleData from "../data/marblecollection.json";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 export default function MarbleCollection() {
- useEffect(() => {
-  window.scrollTo({
-    top: 0,
-    behavior: "instant",
-  });
-
-  // const timer1 = setTimeout(() => {
-  //   window.scrollTo({
-  //     top: 250,
-  //     behavior: "smooth",
-  //   });
-  // }, 3000);
-
-  const timer2 = setTimeout(() => {
+  useEffect(() => {
     window.scrollTo({
-      top: 150,
-      behavior: "smooth",
+      top: 0,
+      behavior: "instant",
     });
-  }, 1000);
 
-  return () => {
-    // clearTimeout(timer1);
-    clearTimeout(timer2);
-  };
-}, []);
+    // const timer1 = setTimeout(() => {
+    //   window.scrollTo({
+    //     top: 250,
+    //     behavior: "smooth",
+    //   });
+    // }, 3000);
+
+    const timer2 = setTimeout(() => {
+      window.scrollTo({
+        top: 150,
+        behavior: "smooth",
+      });
+    }, 1000);
+
+    return () => {
+      // clearTimeout(timer1);
+      clearTimeout(timer2);
+    };
+  }, []);
   return (
     <section className="pb-20 bg-gradient-to-b from-white to-gray-100 min-h-screen">
       <Helmet>
