@@ -720,7 +720,7 @@ function ItalianMarbleLanding({ category }) {
         {category.trade && (
           <section className="rounded-3xl border border-sky-100 bg-sky-50 p-6 sm:p-8 mb-6">
             <h2 className="text-2xl font-semibold mb-3">
-              Bulk supply for dealers and wholesalers
+              Bulk supply for dealers and wholesaler
             </h2>
             <p className="text-slate-700 mb-5">{category.trade}</p>
             <div className="flex flex-wrap gap-3">

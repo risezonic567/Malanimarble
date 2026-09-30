@@ -188,7 +188,7 @@ export default function Footer() {
                 /> */}
 
                 <img
-  src="/img/New Logo White.png"
+  src="/img/whiteMarble/New Logo White.png"
   alt="logo"
   className="w-52 h-auto"
 />

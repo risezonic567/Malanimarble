@@ -80,7 +80,7 @@ export default function Navbar() {
             /> */}
 
              <img
-              src="/img/New Logo White.png"
+              src="/img/whiteMarble/New Logo White.png"
               alt="logo"
               className="w-44 h-auto"
             />
