@@ -699,7 +699,7 @@ function ItalianMarbleLanding({ category }) {
                   to="/marble-collection"
                   className="text-sm font-medium underline underline-offset-2"
                 >
-                   Marble collections
+                   Marble collection
                 </Link>
               </div>
             </div>
