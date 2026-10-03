@@ -21,7 +21,7 @@ export default function Index() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Best Marble & Granite Supplier in India | Malani Marbles</title>
+        <title>Malani Marbles | Premium Marble & Granite Supplier in India</title>
         <meta name="description" content="Explore premium Italian, imported and natural marble, granite and onyx from a trusted marble supplier in India for residential and commercial projects."></meta>
         <link rel="canonical" href="https://www.malanimarbles.com" />
         <script type="application/ld+json">
