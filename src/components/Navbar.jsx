@@ -70,7 +70,7 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
-          {/* Logo */}
+    
           <NavLink to="/">
             {" "}
             {/* <img
