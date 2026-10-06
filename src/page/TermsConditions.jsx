@@ -239,7 +239,7 @@ export default function TermsConditions() {
                                 <FaMapMarkerAlt className="text-emerald-600 dark:text-emerald-400 mr-3 w-5 h-5 mt-1 flex-shrink-0" />
                                 <span className="text-gray-900 dark:text-white">Address:</span>
                                 <p className="ml-2">A-11, Asola Farms, near Shanidham Mandir Road,
-                                    Chhatarpur, New Delhi - 110074, India
+                                    Chattarpur, New Delhi - 110074, India
                                 </p>
 
 

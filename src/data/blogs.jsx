@@ -11388,7 +11388,7 @@ const blogs = [
         </p>
 
         <p>
-          One more strength of Malani Marbles is its local infrastructure. Malani Marbles has their stockyards and warehouses located in Delhi, NCR, Chhatarpur and Kishangarh, with showrooms and stockyards in Chhatarpur, New Delhi.
+          One more strength of Malani Marbles is its local infrastructure. Malani Marbles has their stockyards and warehouses located in Delhi, NCR, Chattarpur and Kishangarh, with showrooms and stockyards in Chattarpur, New Delhi.
 
         </p>
 

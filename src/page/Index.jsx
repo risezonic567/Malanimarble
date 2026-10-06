@@ -9,6 +9,7 @@ import Testimonials from "../components/Testimonials";
 import ContactSection from "../components/ContactSection";
 import FAQ from "../components/FAQ";
 import { Helmet } from "react-helmet";
+
 import MarblesSection from "../components/MarbleSections";
 
 export default function Index() {

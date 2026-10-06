@@ -23,7 +23,7 @@ export default function BlogDetail() {
     const related = blogs.filter((b) => b.id !== blog.id).slice(0, 3);
 
     return (
-        <> {/* Banner Section */}
+        <> 
             
             <Helmet>
                 <title>{blog.metaTitle}</title>

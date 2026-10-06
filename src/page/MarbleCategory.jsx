@@ -360,7 +360,7 @@
 //                 </p>
 //                 <p>{showroom.timings}</p>
 //                 <a
-//                   href="https://www.google.com/maps/search/?api=1&query=Malani+Marbles+Chhatarpur"
+//                   href="https://www.google.com/maps/search/?api=1&query=Malani+Marbles+Chattarpur"
 //                   target="_blank"
 //                   rel="noopener noreferrer"
 //                   className="inline-block mt-2 text-sm font-medium underline"
@@ -768,7 +768,7 @@ function ItalianMarbleLanding({ category }) {
                 </p>
                 <p>{showroom.timings}</p>
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=Malani+Marbles+Chhatarpur"
+                  href="https://www.google.com/maps/search/?api=1&query=Malani+Marbles+Chattarpur"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block mt-2 text-sm font-medium underline"
