@@ -17,14 +17,15 @@ export default function Clientele() {
         <meta name="description" content="Trusted by leading builders, architects & designers across India – Malani Marbles delivers superior marble, granite & onyx solutions built on trust and excellence."></meta>
         <link rel="canonical" href="https://www.malanimarbles.com/clientele" />
       </Helmet>
-      <section
-        className="hero-bg h-screen flex items-center justify-center relative overflow-hidden"
-        style={{
-          backgroundImage: `url(
-                     "https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Clientel/Clientele.webp"
-                   )`,
-        }}
-      >
+
+      <section className="hero-bg h-screen flex items-center justify-center relative overflow-hidden">
+
+        <img
+          src="https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Clientel/Clientele.webp"
+          alt="Malani Marbles clientele and premium marble collection"
+          className="fixed inset-0 w-full h-full object-cover -z-10"
+        />
+
         <div className="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10"></div>
 
         <div
@@ -38,6 +39,7 @@ export default function Clientele() {
           <p className="md:text-xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
             Our products are loved by our clients and offered in a large range of sizes, colors, textures, and designs to fit any interior or exterior need at the best prices.
           </p>
+
           {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
                          <button
                            onclick="scrollToSection('products')"
@@ -58,47 +60,50 @@ export default function Clientele() {
           <ArrowBigDown size={40} />
         </div>
       </section>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div>
-          <div className="text-center">
-            <h1 className="text-5xl text-[#da373d] mb-4">
-              Step Into Luxury
+
+      <section className="w-full bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div>
+            <div className="text-center">
+              <h1 className="text-5xl text-[#da373d] mb-4">
+                Step Into Luxury
+                <br />
+                <span className="text-3xl text-gray-700">
+                  Explore Our Exclusive Marble Collection in Person
+                </span>
+              </h1>
+            </div>
+
+            <div className="flex justify-center mt-4 mb-10">
+              <div className="border-b-2 border-[#da373d] w-24"></div>
+            </div>
+
+            <div className="py-8 text-gray-700 leading-relaxed max-w-7xl mx-auto">
+              <p className="text-center">
+                Malani Marbles Pvt. Ltd. a renowned name in the stone industry, has been in business since 1997 and is in the top ten of marble suppliers in India. We deal, wholesale, supply, and export many varieties of marbles and granites, semi-precious stones, as well as all other natural stones. In addition, we also provide complete professional marble flooring services for residential and commercial jobs as a reliable natural stone supplier.
+              </p>
               <br />
-              <span className="text-3xl text-gray-700">
-                Explore Our Exclusive Marble Collection in Person
-              </span>
-            </h1>
-
-          </div>
-
-          <div className="flex justify-center mt-4 mb-10">
-            <div className="border-b-2 border-[#da373d] w-24"></div>
-          </div>
-
-          <div className="py-8 text-gray-700  leading-relaxed max-w-7xl mx-auto">
-            <p className="text-center ">
-              Malani Marbles Pvt. Ltd. a renowned name in the stone industry, has been in business since 1997 and is in the top ten of marble suppliers in India. We deal, wholesale, supply, and export many varieties of marbles and granites, semi-precious stones, as well as all other natural stones. In addition, we also provide complete professional marble flooring services for residential and commercial jobs as a reliable natural stone supplier.
-            </p>
-            <br />
-            <p className="text-center ">
-              All manufactured products are manufactured using the best quality materials using the most advanced methods under the care of our experienced professionals. Our products are loved by our clients and offered in a large range of sizes, colors, textures, and designs to fit any interior or exterior need at the best prices.
-            </p>
-            <br />
-            <p className="text-center ">
-              We employ a skilled and qualified team that works with purpose to achieve our company's vision and maintain our standing as one of the premier granite and marble wholesalers. They help us ensure that we keep people's trust in us and still remain relevant.
-            </p>
+              <p className="text-center">
+                All manufactured products are manufactured using the best quality materials using the most advanced methods under the care of our experienced professionals. Our products are loved by our clients and offered in a large range of sizes, colors, textures, and designs to fit any interior or exterior need at the best prices.
+              </p>
+              <br />
+              <p className="text-center">
+                We employ a skilled and qualified team that works with purpose to achieve our company's vision and maintain our standing as one of the premier granite and marble wholesalers. They help us ensure that we keep people's trust in us and still remain relevant.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <section className="bg-white py-16 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <img
             src="https://raw.githubusercontent.com/Ashish-Kaintura/malaniReact20205/Gallery/Clientel/28-years-banner.webp"
-            alt="Malani marble work with "
+            alt="Malani Marbles 28 years of experience in marble and natural stone"
           />
         </div>
       </section>
+
       <HappyCustomers />
     </>
   );

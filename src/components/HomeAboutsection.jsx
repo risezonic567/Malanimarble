@@ -8,9 +8,9 @@ export default function HomeAboutsection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Heading */}
         <div className="text-center mb-16" data-aos="fade-up">
-          <h1 className="text-4xl md:text-3xl font-bold font-display text-red-600 mb-4">
+          <h2 className="text-4xl md:text-3xl font-bold font-display text-red-600 mb-4">
             Malani Marbles Pvt. Ltd  <br /> <span className="text-3xl text-gray-900"> The Trusted Name for the Best Marble in India</span>
-          </h1>
+          </h2>
           {/* <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             For over three decades, we've been the trusted name in premium
             marble and natural stone, delivering excellence in every project.
@@ -24,15 +24,15 @@ export default function HomeAboutsection() {
               Our Legacy
             </h3> */}
             <p className=" text-gray-600 mb-6 leading-relaxed">
-              Welcome to Malani Marbles Pvt. Ltd., the leading supplier of marble dedicated to delivering the best natural stone in the world to your projects. With over 20 years of defining luxury marble, Malani is one of the top contenders for providing the best marble in India. In our passion to provide the best possible quality Malani Marbles Pvt. Ltd has dedicated professionals around the world who source the best marble and granite from the best quarries.
+              Malani Marbles Pvt. Ltd., the leading supplier of marble dedicated to delivering the best natural stone in the world to your projects. With over 28+ years of defining luxury marble, Malani is one of the top contenders for providing the best marble in India. In our passion to provide the best possible quality Malani Marbles0 has dedicated professionals around the world who source the best marble and granite from the best quarries.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              As a leading marble company, we are proud to offer a full range of rare imported premium slabs such as Statuario, Blue Roma, and world-class Indian granites to choose from. Our in-house finishing & logistics capabilities will provide a seamless process from selection to installation. Select Malani Marbles Pvt. Ltd for the best material, education and value to elevat e any space.
+              As a leading marble company, we are proud to offer a full range of rare imported premium slabs such as Statuario, Blue Roma, and world-class Indian granites to choose from. Our in-house finishing & logistics capabilities will provide a seamless process from selection to installation. Select Malani Marbles for the best material, expertise and value to elevate any space.
             </p>
 
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center p-6 marble-pattern rounded-lg card-hover">
-                <div className="text-4xl font-bold gradient-text mb-2">30+</div>
+                <div className="text-4xl font-bold gradient-text mb-2">28+</div>
                 <div className="text-gray-600 font-medium">
                   Years Experience
                 </div>

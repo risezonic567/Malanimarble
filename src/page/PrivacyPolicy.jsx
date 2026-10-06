@@ -237,7 +237,7 @@ export default function PrivacyPolicy() {
                                 <FaMapMarkerAlt className="text-emerald-600 dark:text-emerald-400 mr-3 w-5 h-5 mt-1 flex-shrink-0" />
                                 <span className="text-gray-900 dark:text-white">Address:</span>
                                 <p className="ml-2">Malani Marbles Pvt. Ltd.
-                                    Khasra No. 809-810 Chattarpur Mandir Road, Near Tivoli Garden New Delhi- 110074, India </p>
+                                    Khasra No. 809-810 chhatarpur Mandir Road, Near Tivoli Garden New Delhi- 110074, India </p>
 
 
                             </div>
@@ -246,7 +246,7 @@ export default function PrivacyPolicy() {
                                 <FaMapMarkerAlt className="text-emerald-600 dark:text-emerald-400 mr-3 w-5 h-5 mt-1 flex-shrink-0" />
                                 <span className="text-gray-900 dark:text-white">Address:</span>
                                 <p className="ml-2">A-11, Asola Farms, near Shanidham Mandir Road,
-                                    Chattarpur, New Delhi - 110074, India
+                                    chhatarpur, New Delhi - 110074, India
                                 </p>
 
 

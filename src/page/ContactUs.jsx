@@ -66,7 +66,7 @@ export default function ContactUs() {
           "telephone": "9810387297",
           "address": {
             "@type": "PostalAddress",
-          "streetAddress": "Khasra No. 809-810 Chattarpur Mandir Road, Near Tivoli Garden",
+          "streetAddress": "Khasra No. 809-810 chhatarpur Mandir Road, Near Tivoli Garden",
           "addressLocality": "New Delhi",
           "postalCode": "110074",
           "addressCountry": "IN"
@@ -129,7 +129,7 @@ export default function ContactUs() {
                   <h4 className="font-semibold text-gray-900">Address</h4>
                   <p className="text-gray-600 sm:max-w-sm mx-auto">
                     A 11 , Asola
-                     Farms. Near Shanidham Mandir Road, Chattarpur,<b> New Delhi</b> - 110074
+                     Farms. Near Shanidham Mandir Road, chhatarpur,<b> New Delhi</b> - 110074
                   </p>
                    <p className="text-gray-600 sm:max-w-sm mx-auto">Malani Marble Pvt. Ltd.
                     Khasra No.231/10,Village Kali Doongri <b className="text-dark-900">Kishangarh</b> 305801</p>

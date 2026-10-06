@@ -16,6 +16,7 @@ export default function Hero() {
       {/* Background video (replace src with your video file or url) */}
       <video
         className="absolute inset-0 w-full h-full object-cover z-0"
+        alt="Background Video"
         autoPlay
         muted
         loop
@@ -37,9 +38,9 @@ export default function Hero() {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <h2 className="text-5xl md:text-7xl font-bold font-display mb-6">
-          <span className="gradient-text">Malani Marble Pvt.Ltd.</span>
-        </h2>
+        <h1 className="text-5xl md:text-7xl font-bold font-display mb-6">
+          <span className="gradient-text">Premium Italian  Imported Marble Supplier in India</span>
+        </h1>
         <p className="md:text-xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
           Crafting Timeless Elegance with Premium Natural Stone for Over Three
           Decades

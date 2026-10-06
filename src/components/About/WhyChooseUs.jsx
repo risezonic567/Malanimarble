@@ -45,7 +45,7 @@ export default function WhyChooseUs() {
           viewport={{ once: true }}
           className="text-gray-600 max-w-6xl text-normal mx-auto mb-12"
         >
-          Over 26 years of excellence in the marble and natural stone industry, Malani Marbles Pvt. Ltd. has established itself as one of the Leading marble supplier companies in India. Our legacy is propelling from quality, trust and customer satisfaction, making us the preferred option for premium natural stone solutions all over the country
+          Over 28 years of excellence in the marble and natural stone industry, Malani Marbles Pvt. Ltd. has established itself as one of the Leading marble supplier companies in India. Our legacy is propelling from quality, trust and customer satisfaction, making us the preferred option for premium natural stone solutions all over the country
         </motion.p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

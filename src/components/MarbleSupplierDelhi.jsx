@@ -60,11 +60,11 @@ const MarbleSupplierDelhi = () => {
                         <div className="space-y-4 text-center">
 
                             <h2 className="text-xl font-display font-semibold text-gray-900 md:text-2xl">
-                                Premium Marble Supplier in Chattarpur
+                                Premium Marble Supplier in chhatarpur
                             </h2>
 
                             <p className=" text-start   leading-7 text-gray-600">
-                                Located in Chattarpur, Malani Marbles serves homeowners, architects, interior designers, builders and commercial projects looking for quality marble and natural stone. Our collection includes premium Indian, Italian and imported varieties in a wide range of colours, patterns, textures and finishes.<br />
+                                Located in chhatarpur, Malani Marbles serves homeowners, architects, interior designers, builders and commercial projects looking for quality marble and natural stone. Our collection includes premium Indian, Italian and imported varieties in a wide range of colours, patterns, textures and finishes.<br />
                                 Whether you are selecting marble for a new home, renovating an existing interior or sourcing materials for a large commercial project, our team can help you explore suitable options based on your design, application and project requirements.
 
                             </p>

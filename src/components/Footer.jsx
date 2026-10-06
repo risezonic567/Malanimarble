@@ -31,7 +31,7 @@
 //               </NavLink>
 //               <p className="text-gray-300 mb-6 leading-relaxed max-w-sm">
 //                 Crafting timeless elegance with premium natural stone. Your
-//                 trusted partner for luxury marble solutions since 1990.
+//                 trusted partner for luxury marble solutions since 1997.
 //               </p>
 //               <div className="flex space-x-5 mt-4">
 //                 <NavLink
@@ -195,7 +195,7 @@ export default function Footer() {
               </NavLink>
               <p className="text-gray-300 mb-6 leading-relaxed max-w-lg">
                 Crafting timeless elegance with premium natural stone. Your
-                trusted partner for luxury marble solutions since 1990.
+                trusted partner for luxury marble solutions since 1997.
               </p>
               <div className="flex space-x-5 mt-4">
                 <NavLink
@@ -243,7 +243,7 @@ export default function Footer() {
               {/* <div className="flex space-x-5">
                 <div className="text-gray-400 hover:text-white transition-colors duration-300 mt-4 w-auto h-40 flex items-center justify-center  bg-gray-800 hover:bg-gray-700">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1753.865390655176!2d77.18731253865703!3d28.457530893940223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sA%2011%2C%20Asola%20Farms%2C%20Near%20Shanidham%20Mandir%20Road%2C%20Chattarpur%2C%20New%20Delhi%20-%20110074!5e0!3m2!1sen!2sin!4v1788511973681!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1753.865390655176!2d77.18731253865703!3d28.457530893940223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sA%2011%2C%20Asola%20Farms%2C%20Near%20Shanidham%20Mandir%20Road%2C%20chhatarpur%2C%20New%20Delhi%20-%20110074!5e0!3m2!1sen!2sin!4v1788511973681!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -362,7 +362,7 @@ export default function Footer() {
                 <li className="flex items-start gap-3 mt-2">
                   <FaMapMarkerAlt className="text-red-600 mt-1 flex-shrink-0" />
                   <span>
-                    A 11, Asola Farms, Near Shanidham Mandir Road, Chattarpur, New Delhi - 110074
+                    A 11, Asola Farms, Near Shanidham Mandir Road, chhatarpur, New Delhi - 110074
                   </span>
                 </li>
 

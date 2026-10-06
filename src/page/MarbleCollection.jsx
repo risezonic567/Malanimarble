@@ -47,7 +47,7 @@ export default function MarbleCollection() {
           "telephone": "9810387297",
           "address": {
             "@type": "PostalAddress",
-          "streetAddress": "Khasra No. 809-810 Chattarpur Mandir Road, Near Tivoli Garden",
+          "streetAddress": "Khasra No. 809-810 chhatarpur Mandir Road, Near Tivoli Garden",
           "addressLocality": "New Delhi",
           "postalCode": "110074",
           "addressCountry": "IN"

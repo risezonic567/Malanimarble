@@ -28,7 +28,7 @@ const tabs = [
             />
             <div className="max-w-3xl">
               <h3 className="text-2xl font-bold mb-4 text-gray-900 ">
-                Delhi, NCR, Chattarpur and Kishangarh.
+                Delhi, NCR, chhatarpur and Kishangarh.
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 At Malani Marble's state-of-the-art processing center, we blend
@@ -52,7 +52,7 @@ const tabs = [
 
         </h2>
         <p className="text-center text-sm text-gray-700">
-          Our two marble showrooms in Chattarpur offer customers a hands-on experience to explore a wide range of imported and Indian marble options. Whether you're an architect, builder, or homeowner—you’ll find exactly what you need, all under one roof.
+          Our two marble showrooms in chhatarpur offer customers a hands-on experience to explore a wide range of imported and Indian marble options. Whether you're an architect, builder, or homeowner—you’ll find exactly what you need, all under one roof.
 
         </p>
         <div className="flex justify-center">
@@ -64,11 +64,11 @@ const tabs = [
             />
             <div className="max-w-3xl">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">
-                Delhi, NCR, Chattarpur
+                Delhi, NCR, chhatarpur
               </h2>
               <p className="text-gray-700 leading-relaxed">
                 Discover the epitome of elegance and natural beauty at Malani
-                Marble's exquisite showrooms in Chattarpur. With two
+                Marble's exquisite showrooms in chhatarpur. With two
                 conveniently located showrooms, we invite you to immerse
                 yourself in a world of premium marbles, granites, and natural
                 stones.
@@ -117,7 +117,7 @@ const tabs = [
             </div>
             <div className="max-w-3xl">
               <h2 className="text-2xl font-bold mb-4 text-gray-900">
-                Delhi, NCR, Chattarpur and Kishangarh.
+                Delhi, NCR, chhatarpur and Kishangarh.
               </h2>
               <p className="text-gray-700 leading-relaxed">
                 Malani Marbles boasts of having one of the largest stockyards in
@@ -143,10 +143,10 @@ const tabs = [
                 </div>
                 <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
                   <p className="text-sm">
-                    F2: A 11 , Asolo Farms. Near Shanidham Mandir Road, Chattarpur, New Delhi - 110074
+                    F2: A 11 , Asolo Farms. Near Shanidham Mandir Road, chhatarpur, New Delhi - 110074
                   </p>
                   <iframe
-                    src=" https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28057.981688806016!2d77.15508362295012!3d28.472085770176545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sA%2011%20%2C%20Asolo%20Farms.%20Near%20Shanidham%20Mandir%20Road%2C%20Chattarpur%2C%20New%20Delhi%20-%20110074!5e0!3m2!1sen!2sin!4v1765009440506!5m2!1sen!2sin"
+                    src=" https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28057.981688806016!2d77.15508362295012!3d28.472085770176545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sA%2011%20%2C%20Asolo%20Farms.%20Near%20Shanidham%20Mandir%20Road%2C%20chhatarpur%2C%20New%20Delhi%20-%20110074!5e0!3m2!1sen!2sin!4v1765009440506!5m2!1sen!2sin"
                     width="200"
                     height="120"
                     className="rounded-lg"
