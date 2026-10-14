@@ -31,6 +31,8 @@ const TilesCategory = lazy(() => import("./page/TilesCategory"));
 const BlogList = lazy(() => import("./page/BlogList"));
 const BlogDetail = lazy(() => import("./page/BlogDetail"));
 const Notfound = lazy(() => import("./page/Notfound"));
+const RefundPolicy = lazy(() => import("./page/RefundPolicy"));
+const PaymentShippingPolicy = lazy(() => import("./page/PaymentShippingPolicy"));
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -93,6 +95,9 @@ export default function App() {
           <Route path="/blog/:slug" element={<BlogDetail />} />
 
           <Route path="/checkout" element={<CheckoutPage/>}/>
+
+          <Route path="/refund-policy" element={<RefundPolicy />} />
+          <Route path="/payment-shipping-policy" element={<PaymentShippingPolicy />} />
 
           <Route path="/*" element={<Navigate to="/" />} />
    

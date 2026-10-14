@@ -287,6 +287,16 @@ export default function Footer() {
                     Terms & Conditions
                   </NavLink>
                 </li>
+                 <li>
+                  <NavLink to="/refund-policy" className="hover:text-white transition-colors duration-300">
+                    Refund & Returns Policy
+                  </NavLink>
+                </li>
+                 <li>
+                  <NavLink to="/payment-shipping-policy" className="hover:text-white transition-colors duration-300">
+                    Payment & Shipping Policy
+                  </NavLink>
+                </li>
                 <li>
                   <NavLink to="/contact" className="hover:text-white transition-colors duration-300">
                     Contact
