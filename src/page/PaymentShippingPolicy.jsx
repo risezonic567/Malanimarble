@@ -88,9 +88,7 @@ export default function PaymentShippingPolicy() {
           </p>
         </header>
 
-        {/* Content Container */}
         <div className="space-y-12 text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 p-6 sm:p-10 rounded-xl shadow-2xl">
-          {/* Introduction */}
           <section className={sectionClass}>
             <p className="leading-relaxed">
               Marble is a big purchase, and it’s heavy to move. So we like to
