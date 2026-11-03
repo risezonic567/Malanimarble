@@ -521,19 +521,50 @@ import marbleData from "../data/marblecollection.json";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
+import {
+  Layers,
+  Bath,
+  DoorOpen,
+  UtensilsCrossed,
+  Building2,
+  Eye,
+  Award,
+  MessageCircle,
+} from "lucide-react";
 
-function excerpt(text = "", wordLimit = 50) {
-  const words = String(text).replace(/\s+/g, " ").trim().split(" ");
-  if (words.length <= wordLimit) return words.join(" ");
-  return `${words.slice(0, wordLimit).join(" ")}…`;
-}
+const USE_ICONS = {
+  Floors: Layers,
+  "Walls and bathrooms": Bath,
+  "Staircases and entrances": DoorOpen,
+  Kitchens: UtensilsCrossed,
+  "Commercial spaces": Building2,
+};
+
+const WHY_ICONS = {
+  "Choose by seeing": Eye,
+  Experience: Award,
+  "Straight advice": MessageCircle,
+};
 
 function ItalianMarbleLanding({ category }) {
   const [openFaq, setOpenFaq] = useState(null);
   const showroom = category.showroom || {};
   const faqs = category.faqs || [];
+  const uses = category.uses || [];
+  const whyUs = category.whyUs || [];
+  const howToChoose = category.howToChoose || [];
+  const processSteps = category.process || [];
+  const buyers = category.buyers || null;
   const whatsapp = showroom.whatsapp || "919810387297";
   const phone = showroom.phone || "+91 9810387297";
+  const phoneAlt = showroom.phoneAlt || "+91 9811012011";
+  const email = showroom.email || "sales@malanimarbles.com";
+  const accent = "#9a6b3f";
+
+  const introParts = String(category.intro || "")
+    .split(/\n\n+/)
+    .map((p) => p.trim())
+    .filter(Boolean);
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -548,8 +579,13 @@ function ItalianMarbleLanding({ category }) {
     })),
   };
 
+  const btnPrimary =
+    "inline-flex items-center justify-center px-5 py-2.5 rounded-md text-sm font-semibold text-white transition hover:opacity-90";
+  const btnOutline =
+    "inline-flex items-center justify-center px-5 py-2.5 rounded-md text-sm font-semibold border transition hover:bg-white/10";
+
   return (
-    <section className="pb-20 bg-[#f7f6f3] min-h-screen text-slate-800">
+    <section className="pb-0 bg-[#f7f4ef] min-h-screen text-slate-800">
       <Helmet>
         <title>{category.metatitle}</title>
         <meta name="description" content={category.metades} />
@@ -562,198 +598,316 @@ function ItalianMarbleLanding({ category }) {
         )}
       </Helmet>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6 pb-12">
         <nav className="text-sm text-slate-500 mb-6" aria-label="Breadcrumb">
           <Link to="/" className="hover:text-slate-800">
             Home
           </Link>
-          <span className="mx-2">›</span>
+          <span className="mx-2">/</span>
           <Link to="/marble-collection" className="hover:text-slate-800">
-            Marble collection
+            Marble Collection
           </Link>
-          <span className="mx-2">›</span>
-          <span className="text-slate-800">Italian marble</span>
+          <span className="mx-2">/</span>
+          <span className="text-slate-800">Italian Marbles</span>
         </nav>
 
-        <div className="grid lg:grid-cols-2 gap-6 items-stretch mb-8">
-          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 flex flex-col justify-center">
-            <h1 className="text-3xl sm:text-4xl font-semibold text-slate-900 mb-4">
-              {category.title || category.name}
+        {/* Hero */}
+        <div className="grid lg:grid-cols-2 gap-8 items-center mb-14">
+          <div>
+            <h1 className="text-3xl sm:text-4xl lg:text-[2.6rem] font-semibold text-slate-900 leading-tight mb-5">
+              {category.title || "Italian Marbles at Malani Marbles"}
             </h1>
-            <p className="text-slate-600 leading-relaxed mb-6" dangerouslySetInnerHTML={{__html: category.intro}}/>
-            <div className="flex flex-wrap gap-3">
-              <Link
-                to="/contact"
-                className="px-5 py-2.5 rounded-full bg-slate-900 text-white text-sm font-medium hover:bg-black"
-              >
-                Get bulk quote
-              </Link>
-              <a
-                href={`tel:${phone.replace(/\s/g, "")}`}
-                className="px-5 py-2.5 rounded-full border border-slate-300 text-sm font-medium hover:border-slate-500"
-              >
-                Call now
-              </a>
-            </div>
-          </div>
-          <div className="rounded-3xl overflow-hidden border border-slate-200 bg-white min-h-[240px]">
-            <img
-              src={category.banner || category.img}
-              alt="Italian marbles showroom slab at Malani Marbles"
-              className="w-full h-full object-cover min-h-[240px] max-h-[360px]"
-            />
-          </div>
-        </div>
-
-        <section className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 mb-6">
-          <h2 className="text-2xl font-semibold mb-6">Types of Italian marble we offer</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {category.products.map((p) => (
-              <article
-                key={p.slug}
-                className="rounded-2xl border border-slate-200 overflow-hidden bg-[#fbfaf8]"
-              >
-                <Link to={`/marble-collection/${category.slug}/${p.slug}`}>
-                  <img
-                    src={p.img}
-                    alt={p.name}
-                    className="w-full h-40 object-cover"
-                  />
-                </Link>
-                <div className="p-4">
-                  <h3 className="font-semibold text-slate-900 mb-2">{p.name}</h3>
-                  <p className="text-sm text-slate-600 mb-3">
-                    {excerpt(p.description)}
-                  </p>
-                  <Link
-                    to="/contact"
-                    className="text-sm font-medium text-slate-900 underline underline-offset-2"
-                  >
-                    Get a quote
-                  </Link>
-                </div>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        {category.text && (
-          <section className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 mb-6">
-            <div
-              className="text-slate-600 leading-relaxed
-                [&_h2]:text-2xl [&_h2]:font-semibold [&_h2]:text-slate-900 [&_h2]:mt-8 [&_h2]:mb-3 [&_h2:first-child]:mt-0
-                [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:text-slate-900 [&_h3]:mt-6 [&_h3]:mb-2
-                [&_p]:mb-3 [&_strong]:text-slate-900"
-              dangerouslySetInnerHTML={{ __html: category.text }}
-            />
-          </section>
-        )}
-
-        {category.uses?.length > 0 && (
-          <section className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 mb-6">
-            <h2 className="text-2xl font-semibold mb-4">Where Italian marble is used</h2>
-            <div className="flex flex-wrap gap-2">
-              {category.uses.map((use) => (
-                <span
-                  key={use}
-                  className="px-4 py-2 rounded-full border border-slate-200 text-sm bg-[#f7f6f3]"
-                >
-                  {use}
-                </span>
+            <div className="space-y-4 text-slate-600 leading-relaxed mb-6">
+              {introParts.map((para) => (
+                <p key={para.slice(0, 40)}>{para}</p>
               ))}
             </div>
-          </section>
-        )}
-
-        {category.finishes?.length > 0 && (
-          <section className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 mb-6">
-            <h2 className="text-2xl font-semibold mb-4">Finishes and sizes</h2>
-            <div className="grid sm:grid-cols-3 gap-4">
-              {category.finishes.map((finish) => (
-                <div
-                  key={finish.title}
-                  className="rounded-2xl border border-slate-200 p-4"
-                >
-                  <h3 className="font-semibold mb-1">{finish.title}</h3>
-                  <p className="text-sm text-slate-600">{finish.line}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {category.compare && (
-          <section className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 mb-6">
-            <h2 className="text-2xl font-semibold mb-4">
-              Italian marble
-            </h2>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <div className="rounded-2xl border border-slate-200 p-4">
-                <h3 className="font-semibold mb-2">Italian</h3>
-                <p className="text-sm text-slate-600">{category.compare.italian}</p>
-              </div>
-              <div className="rounded-2xl border border-slate-200 p-4">
-                <h3 className="font-semibold mb-2">Indian</h3>
-                <p className="text-sm text-slate-600 mb-3">{category.compare.indian}</p>
-                <Link
-                  to="/marble-collection"
-                  className="text-sm font-medium underline underline-offset-2"
-                >
-                   Marble collection
-                </Link>
-              </div>
-            </div>
-          </section>
-        )}
-
-        {category.care?.length > 0 && (
-          <section className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 mb-6">
-            <h2 className="text-2xl font-semibold mb-4">Care and maintenance tips</h2>
-            <ul className="list-disc pl-5 space-y-2 text-slate-600">
-              {category.care.map((tip) => (
-                <li key={tip}>{tip}</li>
-              ))}
-            </ul>
-          </section>
-        )}
-
-        {category.trade && (
-          <section className="rounded-3xl border border-sky-100 bg-sky-50 p-6 sm:p-8 mb-6">
-            <h2 className="text-2xl font-semibold mb-3">
-              Bulk supply for dealers and wholesaler
-            </h2>
-            <p className="text-slate-700 mb-5">{category.trade}</p>
-            <div className="flex flex-wrap gap-3">
-              <Link
-                to="/contact"
-                className="px-5 py-2.5 rounded-full bg-slate-900 text-white text-sm font-medium hover:bg-black"
-              >
-                Get bulk quote
+            <div className="flex flex-wrap gap-3 mb-4">
+              <Link to="/contact" className={btnPrimary} style={{ backgroundColor: accent }}>
+                Get a Quote
               </Link>
               <a
                 href={`https://wa.me/${whatsapp}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-5 py-2.5 rounded-full bg-[#25D366] text-white text-sm font-medium"
+                className={btnOutline}
+                style={{ borderColor: accent, color: accent }}
               >
-                WhatsApp
+                WhatsApp Us
               </a>
+            </div>
+            <p className="text-xs text-slate-500">
+              Showroom open Mon–Sun, 10:00 AM – 8:00 PM · In the stone trade since 1997
+            </p>
+          </div>
+          <div className="rounded-2xl overflow-hidden border border-slate-200 bg-white min-h-[260px] shadow-sm">
+            <img
+              src={category.banner || category.img || showroom.image}
+              alt="Italian marbles at Malani Marbles Chhatarpur showroom"
+              className="w-full h-full object-cover min-h-[260px] max-h-[420px]"
+            />
+          </div>
+        </div>
+
+        {/* Popular varieties */}
+        <section className="mb-14">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-slate-900 mb-3">
+            Popular Varieties of Italian Marbles We Offer
+          </h2>
+          {category.varietiesNote && (
+            <p className="text-sm text-slate-600 mb-6 max-w-3xl">{category.varietiesNote}</p>
+          )}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-5">
+            {(category.products || []).map((p) => (
+              <Link
+                key={p.slug}
+                to={`/marble-collection/${category.slug}/${p.slug}`}
+                className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm flex flex-col h-full hover:shadow-md transition"
+              >
+                <img
+                  src={p.img}
+                  alt={p.name}
+                  className="w-full h-44 object-cover"
+                  loading="lazy"
+                />
+                <div className="p-4 flex flex-col flex-1">
+                  <h3 className="font-semibold text-slate-900 mb-2">{p.name}</h3>
+                  <p className="text-sm text-slate-600 flex-1">{p.description}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+          {category.varietiesCta && (
+            <p className="text-sm text-slate-600">{category.varietiesCta}</p>
+          )}
+        </section>
+
+        {/* Where it works */}
+        {uses.length > 0 && (
+          <section className="mb-14">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-slate-900 mb-6">
+              Where Italian Marbles Work Best
+            </h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 items-stretch">
+              {uses.map((use) => {
+                const title = typeof use === "string" ? use : use.title;
+                const body = typeof use === "string" ? "" : use.body;
+                const Icon = USE_ICONS[title] || Layers;
+                return (
+                  <div
+                    key={title}
+                    className="bg-white rounded-xl border border-slate-200 p-4 shadow-sm h-full flex flex-col"
+                  >
+                    <div
+                      className="w-10 h-10 rounded-full flex items-center justify-center mb-3"
+                      style={{ backgroundColor: `${accent}18`, color: accent }}
+                    >
+                      <Icon size={20} strokeWidth={1.75} />
+                    </div>
+                    <h3 className="font-semibold text-slate-900 mb-2">{title}</h3>
+                    {body && (
+                      <p className="text-sm text-slate-600 leading-relaxed flex-1">{body}</p>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </section>
         )}
 
+        {/* Home vs Project */}
+        {buyers && (
+          <section className="mb-14 rounded-2xl overflow-hidden bg-slate-900 text-white">
+            <div className="px-6 sm:px-8 pt-6">
+              <h2 className="text-xl sm:text-2xl font-semibold mb-2">{buyers.title}</h2>
+            </div>
+            <div className="grid md:grid-cols-2 gap-0 divide-y md:divide-y-0 md:divide-x divide-white/15 items-stretch">
+              <div className="p-6 sm:p-8 flex flex-col h-full">
+                <h3 className="font-semibold text-lg mb-3">{buyers.home?.title}</h3>
+                <p className="text-sm text-slate-300 leading-relaxed mb-4 flex-1">{buyers.home?.body}</p>
+                <Link
+                  to="/infrastructure"
+                  className="text-sm font-semibold underline underline-offset-2"
+                  style={{ color: "#d4a574" }}
+                >
+                  Visit our showroom
+                </Link>
+              </div>
+              <div className="p-6 sm:p-8 flex flex-col h-full">
+                <h3 className="font-semibold text-lg mb-3">{buyers.project?.title}</h3>
+                <p className="text-sm text-slate-300 leading-relaxed mb-4 flex-1">
+                  {(buyers.project?.body || "")
+                    .split("Italian marble wholesalers")
+                    .map((part, i, arr) => (
+                      <span key={i}>
+                        {part}
+                        {i < arr.length - 1 && (
+                          <Link
+                            to="/italian-marble-suppliers-in-india"
+                            className="underline underline-offset-2 font-medium"
+                            style={{ color: "#d4a574" }}
+                          >
+                            Italian marble wholesalers
+                          </Link>
+                        )}
+                      </span>
+                    ))}
+                </p>
+                <Link
+                  to="/marble-supplier-in-delhi"
+                  className="text-sm font-semibold underline underline-offset-2"
+                  style={{ color: "#d4a574" }}
+                >
+                  Read about our marble suppliers
+                </Link>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Why buy */}
+        {whyUs.length > 0 && (
+          <section className="mb-14">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-slate-900 mb-6">
+              Why Buy From Malani Marbles
+            </h2>
+            <div className="grid sm:grid-cols-3 gap-4 items-stretch">
+              {whyUs.map((item) => {
+                const Icon = WHY_ICONS[item.title] || Award;
+                return (
+                  <div
+                    key={item.title}
+                    className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm h-full flex flex-col"
+                  >
+                    <div
+                      className="w-10 h-10 rounded-full flex items-center justify-center mb-3"
+                      style={{ backgroundColor: `${accent}18`, color: accent }}
+                    >
+                      <Icon size={20} strokeWidth={1.75} />
+                    </div>
+                    <h3 className="font-semibold text-slate-900 mb-2">{item.title}</h3>
+                    <p className="text-sm text-slate-600 leading-relaxed flex-1">{item.body}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        )}
+
+        {/* Choose + Care */}
+        <section className="mb-14 grid lg:grid-cols-2 gap-5 items-center">
+          <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">
+              How to Choose the Right Slab
+            </h2>
+            <ul className="space-y-3 text-sm text-slate-600 leading-relaxed list-disc pl-5">
+              {howToChoose.map((tip) => (
+                <li key={tip}>{tip}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">
+              Caring for Your Marble
+            </h2>
+            <p className="text-sm text-slate-600 leading-relaxed">
+              {category.careText ||
+                "Seal after installation, wipe spills quickly, and use a pH-neutral stone cleaner."}
+            </p>
+          </div>
+        </section>
+
+        {/* Process */}
+        {processSteps.length > 0 && (
+          <section className="mb-14">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-slate-900 mb-6">
+              How Buying From Us Works
+            </h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {processSteps.map((item) => (
+                <div
+                  key={item.step}
+                  className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm"
+                >
+                  <div
+                    className="w-8 h-8 rounded-full text-white text-sm font-bold flex items-center justify-center mb-3"
+                    style={{ backgroundColor: accent }}
+                  >
+                    {item.step}
+                  </div>
+                  <h3 className="font-semibold text-slate-900 mb-2">{item.title}</h3>
+                  <p className="text-sm text-slate-600 leading-relaxed">{item.body}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* FAQ */}
+        {faqs.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-slate-900 mb-5">
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-3">
+              {faqs.map((item, index) => {
+                const open = openFaq === index;
+                return (
+                  <div
+                    key={item.q}
+                    className="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm"
+                  >
+                    <button
+                      type="button"
+                      className="w-full text-left px-5 py-4 flex justify-between gap-4 items-start"
+                      onClick={() => setOpenFaq(open ? null : index)}
+                      aria-expanded={open}
+                    >
+                      <h3 className="font-medium text-slate-900 pr-2">{item.q}</h3>
+                      <span className="text-slate-400 shrink-0 mt-0.5">{open ? "▴" : "▾"}</span>
+                    </button>
+                    {open && (
+                      <p className="px-5 pb-4 text-sm text-slate-600 leading-relaxed">{item.a}</p>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        )}
+
+        {/* Visit showroom — restored card layout */}
         {showroom.name && (
-          <section className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 mb-6">
-            <h2 className="text-2xl font-semibold mb-4">Visit our showroom in Delhi NCR</h2>
-            <div className="grid lg:grid-cols-2 gap-6">
+          <section className="mb-6 bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+            <h2 className="text-2xl font-semibold text-slate-900 mb-4">
+              Visit our showroom in Delhi NCR
+            </h2>
+            <div className="grid lg:grid-cols-2 gap-6 items-center">
               <div className="text-slate-600 space-y-2">
-                <p className="font-semibold text-slate-900">{showroom.name}</p>
+                <p className="font-semibold text-slate-900">
+                  <a
+                    href="https://www.malanimarbles.com/"
+                    className="underline underline-offset-2 hover:text-slate-900"
+                  >
+                    Malani Marbles
+                  </a>
+                  {" "}
+                  (Malani Marble Pvt. Ltd.)
+                </p>
                 <p>{showroom.address}</p>
                 <p>
                   Phone:{" "}
                   <a className="underline" href={`tel:${phone.replace(/\s/g, "")}`}>
                     {phone}
                   </a>
+                  {phoneAlt ? (
+                    <>
+                      ,{" "}
+                      <a className="underline" href={`tel:${phoneAlt.replace(/\s/g, "")}`}>
+                        {phoneAlt}
+                      </a>
+                    </>
+                  ) : null}
                 </p>
                 <p>
                   WhatsApp:{" "}
@@ -763,12 +917,18 @@ function ItalianMarbleLanding({ category }) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    +{whatsapp}
+                    +91 98103 87297
+                  </a>
+                </p>
+                <p>
+                  Email:{" "}
+                  <a className="underline" href={`mailto:${email}`}>
+                    {email}
                   </a>
                 </p>
                 <p>{showroom.timings}</p>
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=Malani+Marbles+chhatarpur"
+                  href="https://www.google.com/maps/search/?api=1&query=Malani+Marbles+Chhatarpur"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block mt-2 text-sm font-medium underline"
@@ -789,47 +949,6 @@ function ItalianMarbleLanding({ category }) {
             </div>
           </section>
         )}
-
-        {faqs.length > 0 && (
-          <section className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 mb-6">
-            <h2 className="text-2xl font-semibold mb-4">Frequently asked questions</h2>
-            <div className="divide-y divide-slate-200">
-              {faqs.map((item, index) => (
-                <div key={item.q}>
-                  <button
-                    type="button"
-                    className="w-full text-left py-4 flex justify-between gap-4"
-                    onClick={() => setOpenFaq(openFaq === index ? null : index)}
-                  >
-                    <h3 className="font-medium text-slate-900">{item.q}</h3>
-                    <span className="text-slate-400">{openFaq === index ? "−" : "+"}</span>
-                  </button>
-                  {openFaq === index && (
-                    <p className="pb-4 text-sm text-slate-600">{item.a}</p>
-                  )}
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
-        <nav className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-slate-600 px-1">
-          <Link className="underline underline-offset-2" to="/marble-collection/imported-marble">
-            Imported marble
-          </Link>
-          <Link className="underline underline-offset-2" to="/marble-collection">
-            Indian marble
-          </Link>
-          <Link className="underline underline-offset-2" to="/marble-collection/indian-granite">
-            Granite
-          </Link>
-          <Link className="underline underline-offset-2" to="/contact">
-            Contact
-          </Link>
-          <Link className="underline underline-offset-2" to="/">
-            Home
-          </Link>
-        </nav>
       </div>
     </section>
   );
