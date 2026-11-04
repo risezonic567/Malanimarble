@@ -22,7 +22,7 @@ jobs :
         uses: SamKirkland/FTP-Deploy-Action@v4.3.3
 
         with:
-         server:   132.148.180.212
+         server:   ftp.malanimarbles.com
          username: deploy@malanimarbles.com
          password: ${{secrets.FTP_PASSWORD}}
          protocols: ftps
