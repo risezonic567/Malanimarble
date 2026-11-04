@@ -22,10 +22,11 @@ jobs :
         uses: SamKirkland/FTP-Deploy-Action@v4.3.3
 
         with:
-         server:   ftp.malanimarbles.com
+         # ftp.malanimarbles.com has
+         server: p3plzcpnl507845.prod.phx3.secureserver.net
          username: deploy@malanimarbles.com
          password: ${{secrets.FTP_PASSWORD}}
-         protocols: ftps
+         protocol: ftps
          port: 21
          local-dir: dist/
          server-dir: /
