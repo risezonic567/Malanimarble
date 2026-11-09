@@ -562,6 +562,7 @@ function ItalianMarbleLanding({ category }) {
   const accent = "#9a6b3f";
 
   const introParts = String(category.intro || "")
+    .replace(/\\n/g, "\n")
     .split(/\n\n+/)
     .map((p) => p.trim())
     .filter(Boolean);

@@ -17,7 +17,7 @@ jobs :
 
       - name: BUILD REACT APP
         run: npm run build
-
+ 
       - name: deploy by ftp on godaddy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.3
 
